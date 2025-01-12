@@ -1,0 +1,71 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NETHERITE_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: ARMOR
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"起源"},{"italic":false,"color":"aqua","text":"胸甲"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"力量
+      II"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"生命提升
+      I"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"火焰抗性
+      I"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"蜜蜂毒针保护"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"更纯粹的力量"}],"text":""}'
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 25
+      THORNS: 15
+    Unbreakable: true
+    PublicBukkitValues:
+      slimefun:slimefun_item: INFINITY_CHESTPLATE
+    attribute-modifiers:
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.maxHealth
+        slot: CHEST
+        uuid: 00000011-0000-0012-0000-001300000014
+        operation: 0
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.04
+        name: generic.maxHealth
+        slot: CHEST
+        uuid: 00000015-0000-0016-0000-001700000018
+        operation: 1
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.2
+        name: generic.knockbackResistance
+        slot: CHEST
+        uuid: 00000019-0000-001a-0000-001b0000001c
+        operation: 0
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.attackDamage
+        slot: CHEST
+        uuid: 0000001d-0000-001e-0000-001f00000020
+        operation: 0
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.04
+        name: generic.attackDamage
+        slot: CHEST
+        uuid: 0000001e-0000-001e-0000-001f00000022
+        operation: 1
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 8.5
+        name: generic.armor
+        slot: CHEST
+        uuid: 2000003d-0000-003e-0000-003f00000040
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 3.5
+        name: generic.armorToughness
+        slot: CHEST
+        uuid: 20000045-0000-0046-0000-004700000048
+        operation: 0

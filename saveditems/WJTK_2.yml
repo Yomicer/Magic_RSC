@@ -1,0 +1,69 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NETHERITE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: ARMOR
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"起源"},{"italic":false,"color":"aqua","text":"头盔"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"夜视
+      I"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"潮涌能量
+      I"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"鞘翅动能免疫"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"更纯粹的力量"}],"text":""}'
+    enchants:
+      WATER_WORKER: 15
+      PROTECTION_ENVIRONMENTAL: 25
+    Unbreakable: true
+    PublicBukkitValues:
+      slimefun:slimefun_item: INFINITY_CROWN
+    attribute-modifiers:
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.maxHealth
+        slot: HEAD
+        uuid: 00000001-0000-0002-0000-000300000004
+        operation: 0
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.04
+        name: generic.maxHealth
+        slot: HEAD
+        uuid: 00000005-0000-0006-0000-000700000008
+        operation: 1
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.2
+        name: generic.knockbackResistance
+        slot: HEAD
+        uuid: 00000009-0000-000a-0000-000b0000000c
+        operation: 0
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.attackDamage
+        slot: HEAD
+        uuid: 0000000d-0000-000e-0000-000f00000010
+        operation: 0
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.04
+        name: generic.attackDamage
+        slot: HEAD
+        uuid: 00000003-0000-000e-0000-000f00000012
+        operation: 1
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 3.5
+        name: generic.armor
+        slot: HEAD
+        uuid: 1000003d-0000-003e-0000-003f00000040
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 3.5
+        name: generic.armorToughness
+        slot: HEAD
+        uuid: 10000045-0000-0046-0000-004700000048
+        operation: 0

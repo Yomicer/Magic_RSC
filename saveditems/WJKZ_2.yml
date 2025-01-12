@@ -1,0 +1,71 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NETHERITE_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: ARMOR
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"起源"},{"italic":false,"color":"aqua","text":"护腿"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"急迫
+      III"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"生命恢复
+      I"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"饱和
+      I"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"抗辐射"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"更纯粹的力量"}],"text":""}'
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 25
+      THORNS: 15
+    Unbreakable: true
+    PublicBukkitValues:
+      slimefun:slimefun_item: INFINITY_LEGGINGS
+    attribute-modifiers:
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.maxHealth
+        slot: LEGS
+        uuid: 00000021-0000-0022-0000-002300000024
+        operation: 0
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.04
+        name: generic.maxHealth
+        slot: LEGS
+        uuid: 00000025-0000-0026-0000-002700000028
+        operation: 1
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.2
+        name: generic.knockbackResistance
+        slot: LEGS
+        uuid: 00000029-0000-002a-0000-002b0000002c
+        operation: 0
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 2.0
+        name: generic.attackDamage
+        slot: LEGS
+        uuid: 0000002d-0000-002e-0000-002f00000030
+        operation: 0
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.04
+        name: generic.attackDamage
+        slot: LEGS
+        uuid: 00000023-0000-002e-0000-002f00000032
+        operation: 1
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 6.5
+        name: generic.armor
+        slot: LEGS
+        uuid: 3000003d-0000-003e-0000-003f00000040
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 3.5
+        name: generic.armorToughness
+        slot: LEGS
+        uuid: 30000045-0000-0046-0000-004700000048
+        operation: 0
