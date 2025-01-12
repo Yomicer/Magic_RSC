@@ -34,7 +34,7 @@
 
 2、检查前置是否安装齐全
 
-3、重启服务器生成文件夹，将下载好的Magic_RSC-master.zip文件拖入server\plugins\RykenSlimefunCustomizer\addons目录下，解压此压缩包并删除压缩包
+3、重启服务器生成文件夹，将下载好的Magic_RSC-Release-X.X.X.zip文件拖入server\plugins\RykenSlimefunCustomizer\addons目录下，解压此压缩包并删除压缩包
 
 4、安装完成
 
