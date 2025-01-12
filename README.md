@@ -29,7 +29,7 @@
   - GeneticChickengineering  -build 10
   - DynaTech  -build 79
 
-##### 如何安装正式版海曼科技院
+##### 如何安装魔法
 1、下载最新版RykenSlimefunCustomizer，将.jar拖入plugin文件里
 
 2、检查前置是否安装齐全
