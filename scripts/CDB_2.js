@@ -23,16 +23,6 @@ function onUse(event, itemStack) {
     return;
   }
     
-    var onUseItem = event.getItem();
-    var itemCharge = itemStack.getItemCharge(onUseItem);
-    var itemMaxCharge = itemStack.getMaxItemCharge(onUseItem);
-
-    if (itemCharge < itemMaxCharge*0.5){
-        sendMessage(player, "§b充电宝电量不足§c50%§b，无法进行充电！");  
-        sendMessage(player, "§b当前电量剩余：§c"+itemCharge+"J§a/"+ itemMaxCharge +"J §b。"); 
-        return;
-
-    }
 
 
     let slimefunItem = getSfItemByItem(player.getInventory().getItemInOffHand());
@@ -42,7 +32,6 @@ function onUse(event, itemStack) {
 
 
     if (slimefunItem == null) {
-        // 如果副手持有有效且可充电的物品，则继续执行其他逻辑
         sendMessage(player, "§b这个是个不可充电物品");
         return;
     }
@@ -71,11 +60,23 @@ function onUse(event, itemStack) {
     //     sendMessage(player, slimefunItem);
     // }
 
+    var Need_Charge = MAX_Charge - Now_Charge ;
+
+    var onUseItem = event.getItem();
+    var itemCharge = itemStack.getItemCharge(onUseItem);
+    var itemMaxCharge = itemStack.getMaxItemCharge(onUseItem);
+
+    if (itemCharge <= Need_Charge*2){
+        sendMessage(player, "§b充电宝电量不足，无法进行充电！");  
+        sendMessage(player, "§b当前电量剩余：§c"+itemCharge+"J§a/"+ itemMaxCharge +"J §b。"); 
+        return;
+
+    }
 
 
     if (Now_Charge < MAX_Charge){
 
-        var RemoveCharge = Math.floor(Math.random() * 500000);    //删除电量
+        var RemoveCharge = Need_Charge*2;    //删除电量
 
         itemStack.removeItemCharge(onUseItem, RemoveCharge);
 
