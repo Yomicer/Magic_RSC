@@ -1,0 +1,147 @@
+RSC_EXAMPLE_SOLAR_GENERATOR: 
+  item_group: magic_newplayer_machines
+  item:
+    name: "&c为爱发电机(旧版)"
+    material: daylight_detector
+    lore:
+      - ""
+      - "&6可以在夜间工作"
+      - ""
+      - "&c新手福利发电机"
+      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&8⇨&e ⚡ &750 J/tick"
+      - "&3(白天)"
+      - "&8⇨&e ⚡ &710 J/tick"
+      - "&1(黑夜)"
+      - "&a"
+      - "&b萌新专属机器"
+  capacity: 1000
+  dayEnergy: 50
+  nightEnergy: 10
+  lightLevel: 14
+  recipe_type: NULL
+
+MAGIC_NEWPLAYER_SOLAR_GENERATOR:
+  item_group: magic_newplayer_machines
+  item:
+    name: "&c为爱发电机"
+    material: daylight_detector
+    lore:
+      - ""
+      - "&6可以在夜间工作"
+      - ""
+      - "&c新手福利发电机"
+      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&8⇨&e ⚡ &750 J/tick"
+      - "&3(白天)"
+      - "&8⇨&e ⚡ &710 J/tick"
+      - "&1(黑夜)"
+      - "&a"
+      - "&b萌新专属机器"
+  capacity: 1000
+  dayEnergy: 50
+  nightEnergy: 10
+  lightLevel: 14
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: mc
+      material: glass
+    5:
+      material_type: slimefun
+      material: SOLAR_PANEL
+    8:
+      material: oak_planks
+
+MAGIC_SUPREME_SUPREME_GENERATOR:
+  item_group: magic_power
+  item:
+    name: "&f&l起源&e&l万用发电机"
+    material: WHITE_GLAZED_TERRACOTTA
+    lore:
+      - "&a"
+      - "&f起源 太阳能发电机"
+      - "&8⇨&e ⚡ &740,000,000.00 J 可存储"
+      - "&8⇨&b ⚡ &720,000,000.00 J/tick"
+      - "&a"
+      - "&c魔法机器"
+  capacity: 40000000
+  dayEnergy: 20000000
+  nightEnergy: 20000000
+  lightLevel: 0
+  recipe_type: ANCIENT_ALTAR
+  recipe:
+    1:
+      material_type: slimefun
+      material: SUPREME_SUPREME_GENERATOR
+    2:
+      material_type: slimefun
+      material: SUPREME_SUPREME_CAPACITOR
+    3:
+      material_type: slimefun
+      material: SUPREME_SUPREME_GENERATOR
+    4:
+      material_type: slimefun
+      material: SUPREME_SUPREME_GENERATOR
+    5:
+      material_type: slimefun
+      material: MAGIC_SUPREME_SUPREME_GENERATOR_UP
+    6:
+      material_type: slimefun
+      material: SUPREME_SUPREME_GENERATOR
+    7:
+      material_type: slimefun
+      material: SUPREME_SUPREME_GENERATOR
+    8:
+      material_type: slimefun
+      material: SUPREME_SUPREME_GENERATOR
+    9:
+      material_type: slimefun
+      material: SUPREME_SUPREME_GENERATOR
+
+MAGIC_INFINITE_PANEL:
+  item_group: magic_power
+  item:
+    name: "&f&l起源&e&l无尽发电机"
+    material: LIGHT_BLUE_GLAZED_TERRACOTTA
+    lore:
+      - "&a"
+      - "&f起源 太阳能发电机"
+      - "&7利用宇宙能量发电"
+      - "&8⇨&e ⚡ &71,000,000 J 可存储"
+      - "&8⇨&e ⚡ &7600,000 J/s"
+      - "&a"
+      - "&c魔法机器"
+  capacity: 1000000
+  dayEnergy: 300000
+  nightEnergy: 300000
+  lightLevel: 0
+  recipe_type: ANCIENT_ALTAR
+  recipe:
+    1:
+      material_type: slimefun
+      material: INFINITE_PANEL
+    2:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+    3:
+      material_type: slimefun
+      material: INFINITE_PANEL
+    4:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_PRESS
+    5:
+      material_type: slimefun
+      material: MAGIC_SUPREME_SUPREME_GENERATOR_UP
+    6:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_PRESS
+    7:
+      material_type: slimefun
+      material: INFINITE_PANEL
+    8:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_PRESS
+    9:
+      material_type: slimefun
+      material: INFINITE_PANEL

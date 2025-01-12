@@ -1,0 +1,50 @@
+# MAGIC_TEST:
+#   item_group: magic_infinite_machines
+#   item:
+#     name: "&c强配方机器"
+#     material: FURNACE
+#     lore:
+#       - "&a"
+#   recipe_type: ENHANCED_CRAFTING_TABLE
+#   recipe:
+#     1:
+#       material_type: slimefun
+#       material: INFINITY_DUST_EXTRACTOR
+#   capacity: 100
+#   input: [19,20,28,29]
+#   output: [24,25,33,34]
+#   energyPerCraft: 50
+#   speed: 6
+#   recipes:
+#     dust:
+#       seconds: 1
+#       input:
+#         1:
+#           material_type: slimefun
+#           material: IRON_DUST
+#           amount: 64
+#           slot: 19
+#         2: 
+#           material_type: slimefun
+#           material: GOLD_DUST
+#           amount: 64
+#           slot: 20
+#         3:
+#           material_type: slimefun
+#           material: IRON_DUST
+#           amount: 64
+#           slot: 28
+#         4: 
+#           material_type: slimefun
+#           material: GOLD_DUST
+#           amount: 64
+#           slot: 29
+#       output:
+#         1:
+#           material: COBBLESTONE
+#           amount: 64
+#           slot: 24
+#         2:
+#           material: COBBLESTONE
+#           amount: 64
+#           slot: 34

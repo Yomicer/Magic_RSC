@@ -1,0 +1,123 @@
+MAGIC_NEWPLAYER_ELECTRIC_FURNACE:
+  item_group: magic_newplayer_machines
+  item:
+    material: FURNACE
+    name: "&b萌新专属&7电炉"
+    lore:
+      - "&7适合萌新使用的电炉"
+      - ""
+      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&8⇨ &e⚡ &72 J/s"
+      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&a"
+      - "&b萌新专属机器"
+  type: ELECTRIC_FURNACE
+  settings:
+    capacity: 100
+    consumption: 1
+    speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    6:
+      material_type: slimefun
+      material: MAGIC_NEWPLAYER_COIN
+
+MAGIC_NEWPLAYER_ELECTRIC_SMELTERY:
+  item_group: magic_newplayer_machines
+  item:
+    material: FURNACE
+    name: "&b萌新专属&7冶炼炉"
+    lore:
+      - "&7适合萌新使用的冶炼炉"
+      - ""
+      - "&8⇨ &e⚡ &7速度: &b2x"
+      - "&8⇨ &e⚡ &72 J/s"
+      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&a"
+      - "&b萌新专属机器"
+  type: ELECTRIC_SMELTERY
+  settings:
+    capacity: 100
+    consumption: 1
+    speed: 2
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_NEWPLAYER_COIN
+    2:
+      material_type: slimefun
+      material: MAGIC_NEWPLAYER_COIN
+
+MAGIC_NEWPLAYER_ELECTRIC_GOLD_PAN:
+  item_group: magic_newplayer_machines
+  item:
+    material: SOUL_SAND
+    name: "&b萌新专属&7淘金机"
+    lore:
+      - "&7适合萌新使用的淘金机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&8⇨ &e⚡ &72 J/s"
+      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&a"
+      - "&b萌新专属机器"
+  type: ELECTRIC_GOLD_PAN
+  settings:
+    capacity: 100
+    consumption: 1
+    speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    7:
+      material_type: slimefun
+      material: MAGIC_NEWPLAYER_COIN
+
+MAGIC_NEWPLAYER_ELECTRIC_ORE_GRINDER:
+  item_group: magic_newplayer_machines
+  item:
+    material: RAW_GOLD_BLOCK
+    name: "&b萌新专属&7碎矿机"
+    lore:
+      - "&7适合萌新使用的碎矿机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&8⇨ &e⚡ &72 J/s"
+      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&a"
+      - "&b萌新专属机器"
+  type: ELECTRIC_ORE_GRINDER
+  settings:
+    capacity: 100
+    consumption: 1
+    speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    8:
+      material_type: slimefun
+      material: MAGIC_NEWPLAYER_COIN
+
+MAGIC_NEWPLAYER_ELECTRIC_DUST_WASHER:
+  item_group: magic_newplayer_machines
+  item:
+    material: LIGHT_BLUE_STAINED_GLASS
+    name: "&b萌新专属&7洗矿机"
+    lore:
+      - "&7适合萌新使用的洗矿机"
+      - ""
+      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&8⇨ &e⚡ &72 J/s"
+      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&a"
+      - "&b萌新专属机器"
+  type: ELECTRIC_DUST_WASHER
+  settings:
+    capacity: 100
+    consumption: 1
+    speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    9:
+      material_type: slimefun
+      material: MAGIC_NEWPLAYER_COIN
+

@@ -1,0 +1,377 @@
+magic:
+  type: nested
+  item:
+    name: "{#FFD9EC}&kl{#FFC1E0}魔{#ffaad5}法{#FF95CA}&kl"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkYjI1YWI5OTc2ZDg5ZDBiZDgxMThkNzJjMWMwNmJiOTA3MDYwYzFlMDJhNzI5YjY1MmQxZTg2YjFlYmJiYyJ9fX0=
+    glow: true
+  tier: 0
+
+magic_author:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l贡献"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIzZWJiN2Q0ZDY2ZmQyNjhhM2IzMjBkZjljMmU4NDRkODY0MzQwMTVmYzhmZmVjMzAzZDQxOTUyZDUifX19
+    glow: true
+
+magic_newplayer_machines:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l萌新福利机器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU2ZTM2OWFjOTI2OGUwOTcxM2RhNWVjMmJkM2Y2NjNmZGU2ZWFiYWIxN2Y0YzI2NzgxNTg3NjBlMjVhMDc4MCJ9fX0=
+    glow: true
+
+magic_interesting_items:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&a&l有&b&l趣&c&l的&d&l东&e&l西"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM2MmZkMGQ0MTIzZGVlZWI4MjRhMDBhMTViMDliOTYwMzllZDMzNTk5YzA3N2VmNjc4MjEyMjZhMThmMWYxMSJ9fX0=
+    glow: true
+
+magic_newplayer_items:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l杂项用品"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFlMDY0YTBlMzJhODA2MTEyNjc4ZDc4YjU2MTUzN2RmYTVjY2I2NWJhNDNjY2I4YmMzZGQ3YzVlNjc2ODUzYiJ9fX0=
+    glow: true
+
+magic_mob_machines:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l机器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODEwMDkyZjE5MTIwODBjMGQyYjY4MjgzMDgyNThlZTU2NmU5ZjA2YmNjNTU1ZDg5NTkxODBlMjM4OTkzNWVjOSJ9fX0=
+    glow: true
+
+magic_magic_items:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&d&l魔法物品"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYwYTY0ZGM3NmE2NTY3MDM3ZmQ5ZmUyZDQwYTk4MDNmMGZlYTg5MzFmMWM2NDI0ZWE0OGNhYjVmNjI5NTBlZSJ9fX0=
+    glow: true
+
+magic_resource:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l魔法材料"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjNjZmNWE0YjQwODAwNWIzMzZkYTY2NzZlOGY2YTJhNjdlZWEzMTVmYjdlOTEzNjBhY2MwNDc4MDJmYTMyMCJ9fX0=
+    glow: true
+
+magic_materials:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l材料"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmUzZjQ2ZmNjMThjN2VmMGEyZmVmMmY4OTYzZDFlNDc2MWYyMDUxZmRiMGM4YjE5YjdmODkyMzJjZWNlNTg3ZSJ9fX0=
+    glow: true
+
+magic_science_material:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l科技零件"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTE1ZGI4MmE2ODRlZTI1ZDEyMDM1NjM1M2I0NGVhMDEwYTNhY2NhNzc5ZjkxNTM5ZmQyYmVlYzg0OWZlODZjNCJ9fX0=
+    glow: true
+
+magic_animals:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l魔法动物"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYwNWQ1Yzk3NWJmNzg5OGEzNjFjNmU4NjAzOTI4ZWYwZTVmNWY4Yzk0N2YyNDQxOGI2NjQ0NGQ0MWYzMzlkYSJ9fX0=
+    glow: true
+
+magic_origin_resources: 
+  type: sub
+  parent: "magic"
+  item:
+    name: "&f&l起源矿物资源"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U1MDlmMDZiOGRjMzg0MzU4ZmYyNDcyYWI2MmNlNmZkYzJmNjQ2ZTMzOGVmZGMzYzlmYjA1ZGRjNDMxZjY0In19fQ==
+    glow: true
+
+magic_origin_basic: 
+  type: sub
+  parent: "magic"
+  item:
+    name: "&f&l基础起源机器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmY2MjRhNDRlNzdiOTVkYmUxY2M3MzU1MzY5NTNlODQwYmE2YzE5YjAxNTdjNTQ5ZDliODI1MzQ2NDhjOGNlNCJ9fX0=
+    glow: true
+
+magic_origin: 
+  type: sub
+  parent: "magic"
+  item:
+    name: "&f&l起源机器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU1N2M0YzYyYzYyYWEwZmU0NTg5ZTZiNDFjMDA0NzgzMmY1MDA4MzgyY2YyODIzZGQ5MGQzZTZiZmM5NDJhZiJ9fX0=
+    glow: true
+
+magic_gec:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l魔法基因机器"
+    material: blast_furnace
+    glow: true
+
+magic_gec_resource:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l魔法基因材料"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM3ODk4OTIyMjNjYjc2ZWExYWVmNTY4OWJlOTM4NmU1YjQyZjAxODFkYWM1YTUzYzU3YWUxZDM1NzhkMmYzMyJ9fX0=
+    glow: true
+
+magic_infinite_machines:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l附有魔法的无尽机器"
+    material: nether_star
+    glow: true
+
+magic_data_card:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l生物模拟"
+    material: beacon
+    glow: true
+
+magic_foods:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l食物"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmMwM2MzNWI1YzM0ZTU0Zjg0NjMzZDAzMWQwNDJjMGNkYjQ4MGIwZTZlNDhmOWU2YTQwOTAwZGQ3ODQxZTA3OSJ9fX0=
+    glow: true
+
+magic_generators: 
+  type: sub
+  parent: "magic"
+  item:
+    name: "&f&l一&e&l体&6&l化&a&l工&d&l艺"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlkYzQ4YmE1MzI2YTQwNzhkNzMxY2IwMDQ0MWU2MmJhOTQwMjQwMGMwZDE3NWI5YWM3MzRkMmQ1MmNmMjMyOSJ9fX0=
+    glow: true
+
+magic_beehive: 
+  type: sub
+  parent: "magic"
+  item:
+    name: "&a&l魔法蜂箱"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
+    glow: true
+
+magic_beehive_resource:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&a&l魔法蜂箱材料"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM5NGQ3NThlMDRiNDMyM2U2ZTdlZjM0ODlmZTRkMDA3OGMyZWZiYTg4NTFjMDNhN2RlYjZkNDE4MmM3ZWEzYSJ9fX0=
+    glow: true
+
+magic_armors:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&a&l魔法装备"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDgyNmNkNTNmOWZjMzA4MDkyZjIzNGY5NDk4NmVkMjQzN2QzYjFmZGY2ODFhM2VjNmNjYmI1YWZjMWQ0YmFkYyJ9fX0=
+    glow: true
+
+magic_power:
+  type: sub
+  parent: "magic"
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIxMGVkOTQwODBhMDc1NDZhMjQ1ZWM4MzdjZmM1ODE0Yzc2NThjN2VmMzM3YmUwMzVhMTFiMmUxZTAzYmExNiJ9fX0=
+    glow: true
+
+magic_cd_machines:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&a&l魔法卡片复制机"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM5ZjMzNjY3Y2U3YjI4M2I4ZmI5NmQ2MWIxZTlhYmQ0YjNiZjA3NjM2MGFmZTU5NDJhNzhjNmZiNTg4NDgxIn19fQ==
+    glow: true
+
+magic_cd:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&a&l魔法卡片"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk1NmFmOTQzMTdkMDE2YjY4OWM2NjNjNTBlOGIyYzBkMTA3NWI5MDhlYTA1ZTkyMmVjOGUwMzQ0ZTBlNjU5YyJ9fX0=
+    glow: true
+
+magic_genshin_impact:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&a&lGenshin Impact"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ5NzY5MzlhMmRjYjdhMGMwNGFmNTNmM2UxZDgyZTk1NTRlNWNjOWVmNjgxN2Y1OTdhMTMyOGYyN2UzY2JkNSJ9fX0=
+    glow: true
+
+magic_element_resources:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&a&l自然元素"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUxNzAyYTBiZDM4Nzc4M2E0ZjRlNDdjZmE0OGE3YTE3YzhiY2MyMzM2ZWI2MDg4YTE3ODgzNGQ3ODNkYTcwNyJ9fX0=
+    glow: true
+
+magic_spawn_egg:
+  type: sub
+  parent: "magic"
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZjMWM4ZThmYWRlMTg1MzdlZDkxYmZkMWJkOTIyYTU1ZTE3Y2RjM2U1MTUwNzgxYTc3NzY5NGY1ZjA5NzM2MyJ9fX0=
+    glow: true
+
+magic_snow:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l冬日限定"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRmNTAwZjBhM2MyYTgyYzkwZWRiMzdhZTJlZTI0NGQ4MDViMzI4Y2UzZmVmMjA1YmM5MGFlNmFjMmQ3YWQyYiJ9fX0=
+    glow: true
+
+magic_plant:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&e&l至尊魔法工艺"
+    material: OAK_SAPLING
+    glow: true
+
+magic_dlc_machines:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&a&l杂项机器"
+    material: BRUSH
+    glow: true
+
+magic_battery:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b&l可移动能源"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmZWVmYTI5YmZkYjMyMDIyMzhhMmM0YjhkY2I3NTA1MDZhMzBkMTIyNjAwZjg4NzI1ZTVhYTI0NzMzNTQ2MCJ9fX0=
+    glow: true
+
+magic_animal_house:
+  type: sub
+  parent: "magic"
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l物{#E9967A}&l种{#F08080}&l培{#FF69B4}&l育{#DB7093}"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg2ZTU4OGMxMmNlMjNkMjc0ODJjNmQ1YzFhMzMxYTcyOWJjZTQwNDI1NDYxMGIwMGYxOTUxYTQ1YTczM2FlNiJ9fX0=
+    glow: true
+
+magic_stacking_machines:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&e&l堆叠机器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc0MDBlYTE5ZGJkODRmNzVjMzlhZDY4MjNhYzRlZjc4NmYzOWY0OGZjNmY4NDYwMjM2NmFjMjliODM3NDIyIn19fQ==
+    glow: true
+
+magic_storage:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&a&l魔&b&l法&c&l抽&d&l屉&e&l"
+    material: CARTOGRAPHY_TABLE
+    glow: true
+
+magic_artificial_creature:
+  type: sub
+  parent: "magic"
+  item:
+    name: "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}-{#FA8072}人{#E9967A}造{#F08080}生{#FF69B4}物"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIxNjVmMWQ5MjJjMGIwMDNjN2Y1NjkzNDk0MjM5ODhhMWM0MTcwOWI0OGQ5OWYxNThkOWFkOWRmNTlhNDljOCJ9fX0=
+    glow: true
+
+magic_power_bank:
+  type: sub
+  parent: "magic"
+  item:
+    name: "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}-{#FA8072}充{#E9967A}电{#F08080}宝"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU2MjM5YzU3ODI1NGUxYzBlM2E2NzI1NzQ2Mzc3YTFiNDk0OWIwZmM1YzczMmE3ZmE4ZTMxNmYyYzc3YmEyNCJ9fX0=
+    glow: true
+
+magic_power_machine:
+  type: sub
+  parent: "magic"
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l电{#E9967A}&l力{#F08080}&l机{#FF69B4}&l器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQxZGRhNjhhMTA0ZDIxYTVhNDkyOTU0NzdjZjU0MDJhM2E0NWRlMTBjMzk3NGYwMmM5MThmZGE3YjA2ZGVlMCJ9fX0=
+    glow: true
+
+magic_attribute_up:
+  type: sub
+  parent: "magic"
+  item:
+    name: "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY0NDZlMzFjYjAzMGIxOWQ5ZDRmZmEyY2VlNDcxZjQ3NWQwMDAzZTUxNTY2NTdhNzE1ODgzZTgzZjkzMTNkOSJ9fX0=
+    glow: true
+
+magic_spawner:
+  type: sub
+  parent: "magic"
+  item:
+    name: "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
+    material: SPAWNER
+    glow: true
+
+magic_archaeology: 
+  type: sub
+  parent: "magic"
+  item:
+    name: "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l考{#FA8E99}&l古{#F97F8E}&l学{#F87083}&l&kl"
+    material: HEART_POTTERY_SHERD
+    glow: true
+
+magic_test:
+  type: sub
+  parent: "magic"
+  item:
+    name: "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l测{#FF9DA4}&l试{#FA8E99}&l企{#F97F8E}&l划{#F87083}&l&kl"
+    material: COMMAND_BLOCK
+    glow: true

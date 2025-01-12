@@ -1,0 +1,128 @@
+magic_armor_new1:
+  protection_types:
+    - 
+  fullSet: true
+  item_group: magic_armors
+  helmet:
+    id: MAGIC_EXAMPLE_HELMET
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDgyNmNkNTNmOWZjMzA4MDkyZjIzNGY5NDk4NmVkMjQzN2QzYjFmZGY2ODFhM2VjNmNjYmI1YWZjMWQ0YmFkYyJ9fX0=
+    name: "&d初阶法帽"
+    lore: 
+      - "&a" 
+      - "&f稀有度: ★"
+      - "&7历代法师的第一顶法帽"
+      - "&7有轻微的魔法痕迹"
+      - "&9让你能够在黑暗中洞察一切"
+      - "&a" 
+      - "&a魔法装备"
+    glow: true
+    recipe_type: ARMOR_FORGE
+    recipe:
+      1:
+        material: CHAIN
+      2:
+        material: CHAIN
+      3:
+        material: CHAIN
+      4:
+        material: CHAIN
+      5:
+        material_type: slimefun
+        material: MAGIC_REDSTONE
+      6:
+        material: CHAIN
+    potion_effects:
+      - NIGHT_VISION 1
+  chestplate:
+    id: MAGIC_EXAMPLE_CHESTPLATE
+    material: CHAINMAIL_CHESTPLATE
+    name: "&d初阶法袍"
+    lore: 
+      - "&a" 
+      - "&f稀有度: ★"
+      - "&7历代法师的第一件法袍"
+      - "&7有轻微的魔法痕迹"
+      - "&a" 
+      - "&a魔法装备"
+    glow: true
+    recipe_type: ARMOR_FORGE
+    recipe:
+      1:
+        material: CHAIN
+      2:
+        material_type: slimefun
+        material: MAGIC_REDSTONE
+      3:
+        material: CHAIN
+      4:
+        material: CHAIN
+      5:
+        material: CHAIN
+      6:
+        material: CHAIN
+      7:
+        material: CHAIN
+      8:
+        material: CHAIN
+      9:
+        material: CHAIN
+  leggings:
+    id: MAGIC_EXAMPLE_LEGGINGS
+    material: CHAINMAIL_LEGGINGS
+    name: "&d初阶护腿"
+    lore: 
+      - "&a" 
+      - "&f稀有度: ★"
+      - "&7历代法师的第一条护腿"
+      - "&7有轻微的魔法痕迹"
+      - "&a" 
+      - "&a魔法装备"
+    glow: true
+    recipe_type: ARMOR_FORGE
+    recipe:
+      1:
+        material: CHAIN
+      2:
+        material: CHAIN
+      3:
+        material: CHAIN
+      4:
+        material: CHAIN
+      5:
+        material_type: slimefun
+        material: MAGIC_REDSTONE
+      6:
+        material: CHAIN
+      7:
+        material: CHAIN
+      9:
+        material: CHAIN
+  boots:
+    id: MAGIC_EXAMPLE_BOOTS
+    material: CHAINMAIL_BOOTS
+    name: "&d初阶靴子"
+    lore: 
+      - "&a" 
+      - "&f稀有度: ★"
+      - "&7历代法师的第一双靴子"
+      - "&7有轻微的魔法痕迹"
+      - "&f使你的移动速度变快"
+      - "&a" 
+      - "&a魔法装备"
+    glow: true
+    recipe_type: ARMOR_FORGE
+    recipe:
+      4:
+        material: CHAIN
+      5:
+        material_type: slimefun
+        material: MAGIC_REDSTONE
+      6:
+        material: CHAIN
+      7:
+        material: CHAIN
+      9:
+        material: CHAIN
+    potion_effects:
+      - SPEED 0

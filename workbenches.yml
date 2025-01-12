@@ -1,0 +1,39 @@
+# MAGIC_TEST1:
+#   item_group: magic_test
+#   item:
+#     name: "&c工作台"
+#     material: FURNACE
+#     lore:
+#       - "&a"
+#   recipe_type: NULL
+#   recipe:
+#     1:
+#       material_type: slimefun
+#       material: INFINITY_DUST_EXTRACTOR
+#   input: [19,20,28,29,24,25,33,34]
+#   output: [19,20,28,29,24,25,33,34]
+#   capacity: 100
+#   energyPerCraft: 50
+#   click: 53
+#   recipes:
+#     "1":
+#       input:
+#         1:
+#           material_type: slimefun
+#           material: IRON_DUST
+#           amount: 1
+#           slot: 19
+#         2: 
+#           material_type: slimefun
+#           material: GOLD_DUST
+#           amount: 1
+#           slot: 20
+#       output:
+#         1:
+#           material: COBBLESTONE
+#           amount: 1
+#           slot: 24
+#         2:
+#           material: COBBLESTONE
+#           amount: 1
+#           slot: 34

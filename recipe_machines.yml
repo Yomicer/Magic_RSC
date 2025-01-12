@@ -1,0 +1,6375 @@
+MAGIC_INFINITY_DUST_EXTRACTOR:
+  item_group: magic_infinite_machines
+  item:
+    name: "&c魔法&8磨粉机"
+    material: FURNACE
+    lore:
+      - "&7将圆石变为矿粉"
+      - ""
+      - "&4终极 机器"
+      - "&8⇨&e ⚡ &7速度: &464x"
+      - "&8⇨&e ⚡ &757600 J/s"
+      - "&8⇨&e ⚡ &7115200 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ANCIENT_ALTAR
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_INFINITE_UP
+    2:
+      material_type: slimefun
+      material: INFINITY_DUST_EXTRACTOR
+    3:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+    4:
+      material_type: slimefun
+      material: MACHINE_PLATE
+    5:
+      material_type: slimefun
+      material: MAGIC_INFINITE_VOID_HARVESTER_UP
+    6:
+      material_type: slimefun
+      material: MACHINE_PLATE
+    7:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+    8:
+      material_type: slimefun
+      material: INFINITY_DUST_EXTRACTOR
+    9:
+      material_type: slimefun
+      material: MAGIC_INFINITE_UP
+  
+  capacity: 115200
+  input: [19,20]
+  output: [15,16,17,24,25,26,33,34,35]
+  energyPerCraft: 57600
+  speed: 6
+  recipes:
+    dust:
+      seconds: 1
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 64
+      output:
+        1:
+          chance: 22
+          material_type: slimefun
+          material: IRON_DUST
+          amount: 64
+        2:
+          chance: 22
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 64
+        3:
+          chance: 22
+          material_type: slimefun
+          material: COPPER_DUST
+          amount: 64
+        4:
+          chance: 22
+          material_type: slimefun
+          material: TIN_DUST
+          amount: 64
+        5:
+          chance: 22
+          material_type: slimefun
+          material: SILVER_DUST
+          amount: 64
+        6:
+          chance: 22
+          material_type: slimefun
+          material: LEAD_DUST
+          amount: 64
+        7:
+          chance: 22
+          material_type: slimefun
+          material: ALUMINUM_DUST
+          amount: 64
+        8:
+          chance: 22
+          material_type: slimefun
+          material: ZINC_DUST
+          amount: 64
+        9:
+          chance: 22
+          material_type: slimefun
+          material: MAGNESIUM_DUST
+          amount: 64
+
+MAGIC_NEWPLAYER_DUST_EXTRACTOR:
+  item_group: magic_newplayer_machines
+  item:
+    name: "&b萌新专属&7磨粉机"
+    material: FURNACE
+    lore:
+      - "&7将圆石变为矿粉"
+      - ""
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &72 J/s"
+      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&a"
+      - "&b萌新专属机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    3:
+      material_type: slimefun
+      material: MAGIC_NEWPLAYER_COIN
+  capacity: 100
+  input: [19,20]
+  output: [15,16,17,24,25,26,33,34,35]
+  energyPerCraft: 1
+  speed: 2
+  recipes:
+    dust:
+      seconds: 4
+      chooseOne: true
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: IRON_DUST
+          amount: 1
+        2:
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        3:
+          material_type: slimefun
+          material: COPPER_DUST
+          amount: 1
+        4:
+          material_type: slimefun
+          material: TIN_DUST
+          amount: 1
+        5:
+          material_type: slimefun
+          material: SILVER_DUST
+          amount: 1
+        6:
+          material_type: slimefun
+          material: LEAD_DUST
+          amount: 1
+        7:
+          material_type: slimefun
+          material: ALUMINUM_DUST
+          amount: 1
+        8:
+          material_type: slimefun
+          material: ZINC_DUST
+          amount: 1
+        9:
+          material_type: slimefun
+          material: MAGNESIUM_DUST
+          amount: 1
+
+MAGIC_NEWPLAYER_INGOT_FORMER:
+  item_group: magic_newplayer_machines
+  item:
+    name: "&b萌新专属&7铸锭机"
+    material: FURNACE
+    lore:
+      - "&7将矿粉铸成锭"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &72 J/s"
+      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&a"
+      - "&b萌新专属机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    4:
+      material_type: slimefun
+      material: MAGIC_NEWPLAYER_COIN
+  capacity: 100
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 1
+  status: 22
+  speed: 2
+  recipes:
+    '1':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: IRON_DUST
+          amount: 1
+      output:
+        1:
+          material: IRON_INGOT
+          amount: 1
+    '2':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: GOLD_4K
+          amount: 1
+    '3':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: COPPER_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COPPER_INGOT
+          amount: 1
+    '4':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: TIN_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: TIN_INGOT
+          amount: 1
+    '5':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: SILVER_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SILVER_INGOT
+          amount: 1
+    '6':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: LEAD_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: LEAD_INGOT
+          amount: 1
+    '7':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_INGOT
+          amount: 1
+    '8':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: ZINC_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ZINC_INGOT
+          amount: 1
+    '9':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_INGOT
+          amount: 1
+
+MAGIC_NEWPLAYER_GOLD_PAN2:
+  item_group: magic_newplayer_machines
+  item:
+    name: "&e&l淘金厂"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFkODFlYzFlNDg5YWU4ZjIwMGZkYWNiNTg5ZDA2NDc1ZTc2YTdhOTg4NmVjN2NiYzNhMzk4Mzc5ZmIxZDQ3OSJ9fX0=
+    lore:
+      - "&a"
+      - "&8&o在很久很久以前"
+      - "&8&o一场淘金热席卷了汪汪天堂"
+      - "&8&o这座淘金厂或许早已被人们忘记了吧"
+      - "&8&o将沙子送入淘金厂"
+      - "&8&o有概率淘出各种稀有矿物"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &72 J/s"  
+      - "&8⇨&e ⚡ &758 J 可存储"
+      - "&a"
+      - "&b萌新专属机器"
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    2:
+      material_type: slimefun
+      material: MAGIC_NEWPLAYER_COIN
+  capacity: 100
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+  energyPerCraft: 1
+  speed: 2
+  recipes:
+    dust:
+      seconds: 2
+      input:
+        1:
+          material: SAND
+          amount: 1
+      output:
+        1:
+          chance: 1
+          material: DIAMOND
+          amount: 1
+        2:
+          chance: 1
+          material: AMETHYST_SHARD
+          amount: 1
+        3:
+          chance: 5
+          material: COPPER_INGOT
+          amount: 1
+        4:
+          chance: 2
+          material: GOLD_INGOT
+          amount: 1
+        5:
+          chance: 3
+          material: LAPIS_LAZULI
+          amount: 1
+        6:
+          chance: 10
+          material: GOLD_NUGGET
+          amount: 1
+        7:
+          chance: 10
+          material: IRON_NUGGET
+          amount: 1
+        8:
+          chance: 4
+          material: REDSTONE
+          amount: 1
+        9:
+          chance: 2
+          material: RAW_GOLD
+          amount: 1
+        10:
+          chance: 1
+          material: RAW_COPPER
+          amount: 1
+        11:
+          chance: 3
+          material: RAW_IRON
+          amount: 1
+        12:
+          chance: 2
+          material: EMERALD
+          amount: 1
+
+MAGIC_INFINITY_INGOT_FORMER:
+  item_group: magic_infinite_machines
+  item:
+    name: "&c魔法&8铸锭机"
+    material: FURNACE
+    lore:
+      - "&7将矿粉变为锭"
+      - ""
+      - "&4终极 机器"
+      - "&8⇨&e ⚡ &7速度: &464x"
+      - "&8⇨&e ⚡ &757600 J/s"
+      - "&8⇨&e ⚡ &7115200 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ANCIENT_ALTAR
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_INFINITE_UP
+    2:
+      material_type: slimefun
+      material: INFINITY_INGOT_FORMER
+    3:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+    4:
+      material_type: slimefun
+      material: MACHINE_PLATE
+    5:
+      material_type: slimefun
+      material: MAGIC_INFINITE_VOID_HARVESTER_UP
+    6:
+      material_type: slimefun
+      material: MACHINE_PLATE
+    7:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+    8:
+      material_type: slimefun
+      material: INFINITY_INGOT_FORMER
+    9:
+      material_type: slimefun
+      material: MAGIC_INFINITE_UP
+  capacity: 115200
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 57600
+  speed: 6
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: IRON_DUST
+          amount: 64
+      output:
+        1:
+          material: IRON_INGOT
+          amount: 64
+        2:
+          material: IRON_INGOT
+          amount: 64
+    '2':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: GOLD_4K
+          amount: 64
+        2:
+          material_type: slimefun
+          material: GOLD_4K
+          amount: 64
+    '3':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: COPPER_DUST
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: COPPER_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: COPPER_INGOT
+          amount: 64
+    '4':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: TIN_DUST
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: TIN_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: TIN_INGOT
+          amount: 64
+    '5':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: SILVER_DUST
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: SILVER_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: SILVER_INGOT
+          amount: 64
+    '6':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: LEAD_DUST
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: LEAD_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: LEAD_INGOT
+          amount: 64
+    '7':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_DUST
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: ALUMINUM_INGOT
+          amount: 64
+    '8':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: ZINC_DUST
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: ZINC_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: ZINC_INGOT
+          amount: 64
+    '9':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_DUST
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_INGOT
+          amount: 64
+        2:
+          material_type: slimefun
+          material: MAGNESIUM_INGOT
+          amount: 64
+
+MAGIC_ENERGY_PRESS:
+  item_group: magic_mob_machines
+  item:
+    name: "&c魔法&8能量压缩仓"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDYwMGYwZDJiMmFiNTI0YjIxOWUwZmE4MDhjODBiMjZlNzIzNjc4MDY4MTg2N2EwNjE3ZjczY2UzNjcxY2QyZiJ9fX0=
+    lore:
+      - "&a"
+      - "&7对材料进行压缩"
+      - "&a" 
+      - "&6中级 机器"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &72048 J/per"
+      - "&8⇨&e ⚡ &74096 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_LUMP_3
+    2:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+    3:
+      material_type: slimefun
+      material: ENDER_LUMP_3
+    4:
+      material_type: slimefun
+      material: COBBLE_PRESS
+    5:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+    6:
+      material_type: slimefun
+      material: COBBLE_PRESS
+    7:
+      material_type: slimefun
+      material: ENDER_LUMP_3
+    8:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+    9:
+      material_type: slimefun
+      material: MAGIC_LUMP_3
+  capacity: 4096
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 2048
+  speed: 2
+  recipes:
+    '压缩魔法红石':
+      seconds: 8
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_REDSTONE
+          amount: 16
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_REDSTONE_PRESS
+          amount: 1
+    '压缩无尽奇点':
+      seconds: 8
+      input:
+        1:
+          material_type: slimefun
+          material: INFINITY_SINGULARITY
+          amount: 32
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ENDLESS_PRESS
+          amount: 1
+    '压缩虚空粉尘':
+      seconds: 8
+      input:
+        1:
+          material_type: slimefun
+          material: VOID_DUST
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_VOID_DUST
+          amount: 1
+    '压缩虚空锭':
+      seconds: 8
+      input:
+        1:
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 32
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_VOID_INGOT
+          amount: 1
+    '压缩无尽锭':
+      seconds: 8
+      input:
+        1:
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 32
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_INFINITE_INGOT
+          amount: 1
+    '压缩冷却剂':
+      seconds: 8
+      input:
+        1:
+          material_type: slimefun
+          material: REACTOR_COLLANT_CELL
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_REACTOR_COLLANT_CELL_PRESS
+          amount: 1
+    '压缩下届冷却剂':
+      seconds: 8
+      input:
+        1:
+          material_type: slimefun
+          material: NETHER_ICE_COOLANT_CELL
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_NETHER_ICE_COOLANT_CELL_PRESS
+          amount: 1
+      
+MAGIC_IMPACT:
+  item_group: magic_mob_machines
+  item:
+    name: "&c魔法红石&8对撞机"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThiODk3NzlmNjBjYjE1MDA4MDgxN2QwNDQ0MjY0NDcxYWM3ZTM0NmI4OTAwZDc5ZThjY2M4Yzg5YjgyZGMzNyJ9fX0=
+    lore:
+      - "&a"
+      - "&7使用现代技术"
+      - "&7强行使红石变为魔法红石"
+      - "&6这个过程损耗极大"
+      - "&a" 
+      - "&d高级 机器"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7512 J/per"
+      - "&8⇨&e ⚡ &72048J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_LUMP_5
+    2:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+    3:
+      material_type: slimefun
+      material: MAGIC_LUMP_5
+    4:
+      material_type: slimefun
+      material: MAGIC_ENERGY_PRESS
+    5:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+    6:
+      material_type: slimefun
+      material: MAGIC_ENERGY_PRESS
+    7:
+      material_type: slimefun
+      material: MAGIC_LUMP_5
+    8:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+    9:
+      material_type: slimefun
+      material: MAGIC_LUMP_5
+  capacity: 2048
+  input: [10,16]
+  output: [40]
+  energyPerCraft: 512
+  speed: 2
+  recipes:
+    '1':
+      seconds: 8
+      input:
+        1:
+          material: REDSTONE
+          amount: 64
+        2:
+          material_type: slimefun
+          material: MAGIC_SINGULARITY
+          amount: 1
+      output:
+        1:
+          chance: 88
+          material_type: slimefun
+          material: MAGIC_REDSTONE
+          amount: 8
+    '2':
+      seconds: 8
+      input:
+        1:
+          material: REDSTONE
+          amount: 8
+        2:
+          material_type: slimefun
+          material: MAGIC_LUMP_5
+          amount: 1
+      output:
+        1:
+          chance: 15
+          material_type: slimefun
+          material: MAGIC_REDSTONE
+          amount: 1
+    '3':
+      seconds: 8
+      input:
+        1:
+          material: REDSTONE
+          amount: 8
+        2:
+          material_type: slimefun
+          material: MAGIC_LUMP_4
+          amount: 1
+      output:
+        1:
+          chance: 4
+          material_type: slimefun
+          material: MAGIC_REDSTONE
+          amount: 1
+
+MAGIC_NEW_CONVERT:
+  item_group: magic_newplayer_machines
+  item:
+    name: "&b萌新机器转换机"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM5ZjMzNjY3Y2U3YjI4M2I4ZmI5NmQ2MWIxZTlhYmQ0YjNiZjA3NjM2MGFmZTU5NDJhNzhjNmZiNTg4NDgxIn19fQ==
+    lore:
+      - "&a"
+      - "&7可以把异常的新手机器"
+      - "&7放入该机器"
+      - "&7就会转变为随机相似属性的机器"
+      - "&a" 
+      - "&a初级 机器"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &750 J/per"
+      - "&8⇨&e ⚡ &71024 J 可存储"
+      - "&a"
+      - "&b萌新专属机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material: STICK
+    2:
+      material: CRAFTING_TABLE
+    3:
+      material: STICK
+  capacity: 1024
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 25
+  speed: 2
+  recipes:
+    '冶炼炉':
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_NEWPLAYER_ELECTRIC_SMELTERY
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ELECTRIC_SMELTERY_2
+          amount: 1
+    '洗矿机':
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_NEWPLAYER_ELECTRIC_DUST_WASHER
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ELECTRIC_DUST_WASHER
+          amount: 1
+    '电炉':
+      seconds: 4
+      chooseOne: true
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_NEWPLAYER_ELECTRIC_FURNACE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ELECTRIC_FURNACE_2
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ELECTRIC_FURNACE_3
+          amount: 1
+    '淘金机':
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_NEWPLAYER_ELECTRIC_GOLD_PAN
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ELECTRIC_GOLD_PAN_2
+          amount: 1
+    '碎矿机':
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_NEWPLAYER_ELECTRIC_ORE_GRINDER
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ELECTRIC_ORE_GRINDER_3
+          amount: 1
+
+MAGIC_CD_MACHINES_1:
+  item_group: magic_cd_machines
+  item:
+    name: "&b魔法卡片复制机(废弃，请使用转换机转换为新的)"
+    material: LOOM
+    lore:
+      - "&a"
+      - "&f使用&4魔法卡片&f生产各种物品"
+      - "&a" 
+      - "&6终极 机器"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &720480 J/per"
+      - "&8⇨&e ⚡ &740960 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: MAGIC_NONE
+  capacity: 40960
+  input: [10]
+  output: [4,5,6,7,8,13,14,15,16,17,22,23,24,25,26,31,32,33,34,35,40,41,42,43,44,49,50,51,52,53]
+  energyPerCraft: 20480
+  speed: 2
+  recipes:
+    '1':
+      seconds: 7200
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_BLISTERING_INGOT_3
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: BLISTERING_INGOT_3
+          amount: 64
+        2: 
+          material_type: slimefun
+          material: MAGIC_CD_BLISTERING_INGOT_3
+          amount: 1
+
+MAGIC_GENSHIN_IMPACT_MACHINES:
+  item_group: magic_mob_machines
+  item:
+    name: "&b盲盒拆解机"
+    lore:
+    - "&a"
+    - "&f初级 机器"
+    - "&f用于打开各种盲盒"
+    - "&8⇨ &7速度: &b每 4 粘液刻拆解一次"
+    - "&8⇨ &e⚡&7 8800 J 可存储"
+    - "&8⇨ &e⚡&7 100 J/s"
+    - "&a" 
+    - "&a盲盒机器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZiYjQ1ZjRlYTFlNTRmODhlN2UwMDg1OWU4ZWM5YTU5ODI4MjNkODg4YjZlMWY2YWUxZDY5YTQxNGZmZjcwZiJ9fX0=
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_LUMP_1
+      amount: 1
+    2:
+      material: LEVER
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_LUMP_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: LUCKY_BLOCK
+      amount: 1
+    5:
+      material: DISPENSER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: LUCKY_BLOCK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_LUMP_1
+      amount: 1
+    8:
+      material_type: slimefun
+      material: LUCKY_BLOCK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_LUMP_1
+      amount: 1
+  capacity: 800
+  input: [0]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
+  energyPerCraft: 100
+  speed: 2
+  recipes:
+    '1':
+      seconds: 8
+      chooseOne: true
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_RADDOM
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_1
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_2
+          amount: 1
+        3: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_3
+          amount: 1
+        4: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_4
+          amount: 1
+        5: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_5
+          amount: 1
+        6: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_6
+          amount: 1
+        7: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_7
+          amount: 1
+        8: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_8
+          amount: 1
+        9: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_9
+          amount: 1
+        10: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_10
+          amount: 1
+        11: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_11
+          amount: 1
+        12: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_12
+          amount: 1
+        13: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_13
+          amount: 1
+        14: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_14
+          amount: 1
+        15: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_15
+          amount: 1
+        16: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_16
+          amount: 1
+        17: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_17
+          amount: 1
+        18: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_18
+          amount: 1
+        19: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_19
+          amount: 1
+        20: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_20
+          amount: 1
+        21: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_21
+          amount: 1
+        22: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_22
+          amount: 1
+        23: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_23
+          amount: 1
+        24: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_24
+          amount: 1
+        25: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_25
+          amount: 1
+        26: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_26
+          amount: 1
+        27: 
+          material_type: slimefun
+          material: MAGIC_GENSHIN_IMPACT_27
+          amount: 1
+
+MAGIC_WAR_MACHINES_NUMERATOR:
+  item_group: magic_mob_machines
+  item:
+    name: "&b分子互作仪"
+    lore:
+    - "&a"
+    - "&6高级 机器"
+    - "&f将物质转化为对应自然元素"
+    - "&8⇨ &7速度: &b每 4 粘液刻互作一次"
+    - "&8⇨ &e⚡&7 6400 J 可存储"
+    - "&8⇨ &e⚡&7 800 J/per"
+    - "&a" 
+    - "&a魔法机器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ5YmM3MGM4ZmQyYzJlYzI3NzA1Y2Y4NTBlMmI0ODkyMzllYTc5NjI0NWQ0NzI3ZjBkNzc0YTFmZWI2Y2ZhZSJ9fX0=
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_NETHER_STAR_REACTOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: VOID_CAPACITOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_NETHER_STAR_REACTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: DUST_EXTRACTOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MASS_FABRICATOR_MACHINE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: DUST_EXTRACTOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SCRAP_MACHINE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: SCRAP_MACHINE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SCRAP_MACHINE
+      amount: 1
+  capacity: 6400
+  input: [0]
+  output: [10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
+  energyPerCraft: 800
+  speed: 2
+  recipes:
+    '1':
+      chooseOne: true 
+      seconds: 8
+      input:
+        1:
+          material: MAGMA_BLOCK
+          amount: 1
+      output:
+        1:
+          chance: 20
+          material_type: slimefun
+          material: MAGIC_ZR
+          amount: 1
+        2:
+          chance: 20
+          material_type: slimefun
+          material: MAGIC_SI
+          amount: 1
+        3: 
+          chance: 20
+          material_type: slimefun
+          material: MAGIC_AL
+          amount: 1
+        4:
+          chance: 20
+          material_type: slimefun
+          material: MAGIC_TI
+          amount: 1
+        5:
+          chance: 20
+          material_type: slimefun
+          material: MAGIC_FE
+          amount: 1
+
+MAGIC_WAR_MACHINES_CREATING_TABLE:
+  item_group: magic_mob_machines
+  item:
+    name: "&b元素嬗变器"
+    lore:
+    - "&a"
+    - "&6高级 机器"
+    - "&f将元素物质重组成对应自然资源"
+    - "&8⇨ &7速度: &b每 4 粘液刻重组一次"
+    - "&8⇨ &e⚡&7 9600 J 可存储"
+    - "&8⇨ &e⚡&7 1600 J/per"
+    - "&a" 
+    - "&a魔法机器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTUyOGJlNmQ0MjYzZGFkY2U2MTNhN2JiYzA0MjNhYTc2YTM5Yzc0ODQ2NzAyZmE4NWMyNzg3YTdmNTNjNCJ9fX0=
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_NETHER_STAR_REACTOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: VOID_CAPACITOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_NETHER_STAR_REACTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: INGOT_FORMER
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SCRAP_MACHINE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: INGOT_FORMER
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MASS_FABRICATOR_MACHINE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MASS_FABRICATOR_MACHINE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MASS_FABRICATOR_MACHINE
+      amount: 1
+  capacity: 6400
+  input: [0,1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+  output: [53]
+  energyPerCraft: 1600
+  speed: 2
+  recipes:
+    '1':
+      chooseOne: true 
+      seconds: 8
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ZR
+          amount: 1
+        2:
+          material_type: slimefun
+          material: MAGIC_SI
+          amount: 1
+        3: 
+          material_type: slimefun
+          material: MAGIC_AL
+          amount: 1
+        4:
+          material_type: slimefun
+          material: MAGIC_TI
+        5:
+          material_type: slimefun
+          material: MAGIC_FE
+      output:
+        1:
+          material_type: slimefun
+          material: MONAZITE
+          amount: 1
+
+
+MAGIC_AUTHOR_MACHINE_BASIC:
+  item_group: magic_mob_machines
+  item:
+    name: "&a&l简陋的{#FDB7D4}&l起{#FD8EB7}&l源{#FA6CA5}&l工{#E84C8A}&l厂"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ0M2ZkNWVkN2M3Y2I1NTQ3Njg1YTQ5MGFkYzE4ZGM0N2NiYjJkYTE2OGQzYmYyYjczMWZjNWMxOTM0MmViNyJ9fX0=
+    lore:
+      - "&a"
+      - "&4终极 机器"
+      - "&7用于制造一些"
+      - "&7起源物品"
+      - "&8⇨&e ⚡ &7速度: &b16x"
+      - "&8⇨&e ⚡ &7166666 J/s"  
+      - "&8⇨&e ⚡ &710000000 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: slimefun
+      material: METAL_SINGULARITY
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_SINGULARITY
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SUPREME_AURUM_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FORTUNE_SINGULARITY
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: EARTH_SINGULARITY
+      amount: 1
+  capacity: 10000000
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+  energyPerCraft: 166666
+  speed: 4
+  recipes:
+    author:
+      seconds: 240
+      input:
+        1:
+          material: WITHER_SKELETON_SKULL
+          amount: 4
+        2:
+          material: ZOMBIE_HEAD
+          amount: 4
+        3:
+          material: CREEPER_HEAD
+          amount: 4
+        4:
+          material: PIGLIN_HEAD
+          amount: 4
+        5:
+          material: SKELETON_SKULL
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_AUTHOR
+          amount: 1
+    '起源钻矿':
+      seconds: 240
+      input:
+        1:
+          material: DIAMOND_ORE
+          amount: 4
+        2:
+          material: SMALL_AMETHYST_BUD
+          amount: 1
+        4:
+          material: MEDIUM_AMETHYST_BUD
+          amount: 1
+        5:
+          material: TORCHFLOWER
+          amount: 1
+        6:
+          material: LARGE_AMETHYST_BUD
+          amount: 1
+        8:
+          material: AMETHYST_CLUSTER
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT_1_1
+          amount: 1
+    '起源金矿':
+      seconds: 240
+      input:
+        1:
+          material: GOLD_ORE
+          amount: 4
+        2:
+          material: SMALL_AMETHYST_BUD
+          amount: 1
+        4:
+          material: MEDIUM_AMETHYST_BUD
+          amount: 1
+        5:
+          material: TORCHFLOWER
+          amount: 1
+        6:
+          material: LARGE_AMETHYST_BUD
+          amount: 1
+        8:
+          material: AMETHYST_CLUSTER
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT_1_2
+          amount: 1
+    '起源青金矿':
+      seconds: 240
+      input:
+        1:
+          material: LAPIS_ORE
+          amount: 4
+        2:
+          material: SMALL_AMETHYST_BUD
+          amount: 1
+        4:
+          material: MEDIUM_AMETHYST_BUD
+          amount: 1
+        5:
+          material: TORCHFLOWER
+          amount: 1
+        6:
+          material: LARGE_AMETHYST_BUD
+          amount: 1
+        8:
+          material: AMETHYST_CLUSTER
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT_1_3
+          amount: 1
+    '起源绿宝石矿':
+      seconds: 240
+      input:
+        1:
+          material: EMERALD_ORE
+          amount: 4
+        2:
+          material: SMALL_AMETHYST_BUD
+          amount: 1
+        4:
+          material: MEDIUM_AMETHYST_BUD
+          amount: 1
+        5:
+          material: TORCHFLOWER
+          amount: 1
+        6:
+          material: LARGE_AMETHYST_BUD
+          amount: 1
+        8:
+          material: AMETHYST_CLUSTER
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT_1_4
+          amount: 1
+    '宇宙尘':
+      seconds: 240
+      chooseOne: true
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_RESOURCES_STAR
+          amount: 1
+        2:
+          material: nether_star
+          amount: 1
+      output:
+        1: 
+          chance: 100
+          material_type: slimefun
+          material: MAGIC_COSMIC_DUST
+          amount: 1
+        2: 
+          chance: 100
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT_1
+          amount: 1
+
+
+MAGIC_AUTHOR_MACHINE:
+  item_group: magic_mob_machines
+  item:
+    name: "{#FFD9EC}&l终{#FDB7D4}&l极{#FD8EB7}&l起{#FA6CA5}&l源{#E84C8A}&l工{#D02C71}&l厂"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4NTBjYjhkNWYzMDg5Mzk5YWVhYzgxOTFmZWY5NmFkYmRlMWRiNWVjYjgyYmNmZTc0YzEzMjg2MmRkZTczZiJ9fX0=
+    lore:
+      - "&a"
+      - "&4终极 机器"
+      - "&7用于制造一些"
+      - "&7起源物品"
+      - "&8⇨&e ⚡ &7速度: &c1024x"
+      - "&8⇨&e ⚡ &710000000 J/per"  
+      - "&8⇨&e ⚡ &710000000 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ANCIENT_ALTAR
+  recipe:
+    1:
+      material_type: slimefun
+      material: SUPREME_ATTRIBUTE_IMPETUS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SUPREME_SUPREME
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SUPREME_ATTRIBUTE_FORTUNE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SUPREME_CORE_OF_COLOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SUPREME_CETRUS_LUMIUM
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SUPREME_ATTRIBUTE_BOMB
+      amount: 1
+    8:
+      material_type: slimefun
+      material: SUPREME_SUPREME
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SUPREME_ATTRIBUTE_MAGIC
+      amount: 1
+  capacity: 10000000
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+  energyPerCraft: 10000000
+  speed: 4
+  recipes:
+    author:
+      seconds: 1
+      input:
+        1:
+          material: WITHER_SKELETON_SKULL
+          amount: 4
+        2:
+          material: ZOMBIE_HEAD
+          amount: 4
+        3:
+          material: CREEPER_HEAD
+          amount: 4
+        4:
+          material: PIGLIN_HEAD
+          amount: 4
+        5:
+          material: SKELETON_SKULL
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_AUTHOR
+          amount: 1
+    '起源钻矿':
+      seconds: 1
+      input:
+        1:
+          material: DIAMOND_ORE
+          amount: 4
+        2:
+          material: SMALL_AMETHYST_BUD
+          amount: 1
+        4:
+          material: MEDIUM_AMETHYST_BUD
+          amount: 1
+        5:
+          material: TORCHFLOWER
+          amount: 1
+        6:
+          material: LARGE_AMETHYST_BUD
+          amount: 1
+        8:
+          material: AMETHYST_CLUSTER
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT_1_1
+          amount: 1
+    '起源金矿':
+      seconds: 1
+      input:
+        1:
+          material: GOLD_ORE
+          amount: 4
+        2:
+          material: SMALL_AMETHYST_BUD
+          amount: 1
+        4:
+          material: MEDIUM_AMETHYST_BUD
+          amount: 1
+        5:
+          material: TORCHFLOWER
+          amount: 1
+        6:
+          material: LARGE_AMETHYST_BUD
+          amount: 1
+        8:
+          material: AMETHYST_CLUSTER
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT_1_2
+          amount: 1
+    '起源青金矿':
+      seconds: 1
+      input:
+        1:
+          material: LAPIS_ORE
+          amount: 4
+        2:
+          material: SMALL_AMETHYST_BUD
+          amount: 1
+        4:
+          material: MEDIUM_AMETHYST_BUD
+          amount: 1
+        5:
+          material: TORCHFLOWER
+          amount: 1
+        6:
+          material: LARGE_AMETHYST_BUD
+          amount: 1
+        8:
+          material: AMETHYST_CLUSTER
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT_1_3
+          amount: 1
+    '起源绿宝石矿':
+      seconds: 1
+      input:
+        1:
+          material: EMERALD_ORE
+          amount: 4
+        2:
+          material: SMALL_AMETHYST_BUD
+          amount: 1
+        4:
+          material: MEDIUM_AMETHYST_BUD
+          amount: 1
+        5:
+          material: TORCHFLOWER
+          amount: 1
+        6:
+          material: LARGE_AMETHYST_BUD
+          amount: 1
+        8:
+          material: AMETHYST_CLUSTER
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT_1_4
+          amount: 1
+    '宇宙尘':
+      seconds: 1
+      chooseOne: true
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_RESOURCES_STAR
+          amount: 1
+        2:
+          material: nether_star
+          amount: 1
+      output:
+        1: 
+          chance: 100
+          material_type: slimefun
+          material: MAGIC_COSMIC_DUST
+          amount: 1
+        2: 
+          chance: 100
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT_1
+          amount: 1
+
+MAGIC_CD_MACHINES_UPUP:
+  item_group: magic_cd_machines
+  item:
+    name: "&b魔法卡片复制机转换器"
+    material: SMOKER
+    lore:
+      - "&a"
+      - "&7用于转换魔法卡片复制机"
+      - "&a每次转换1024J"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_CD_MACHINES_1
+      amount: 1
+    2: 
+      material: CRAFTING_TABLE
+      amount: 1
+  capacity: 1024
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 1024
+  speed: 2
+  recipes:
+    '1':
+      seconds: 7200
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_MACHINES_1
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_MACHINE_1
+          amount: 1
+
+MAGIC_DATA_CARD_INSERT:
+  item_group: magic_data_card
+  item:
+    name: "&8魔法生物芯片注入器"
+    lore:
+    - "&7将魔法注入到生物芯片"
+    - "&a"
+    - "&8⇨ &e⚡&7 80,000 J 可存储"
+    - "&8⇨ &e⚡&7 20,000 J/s"
+    - "&a" 
+    - "&c魔法机器"
+    material: lodestone
+  recipe_type: ANCIENT_ALTAR
+  recipe:
+    1:
+      material_type: slimefun
+      material: AUTO_ANCIENT_ALTAR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: AUTO_ANCIENT_ALTAR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: AUTO_ANCIENT_ALTAR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: AUTO_ANCIENT_ALTAR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: DATA_INFUSER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: AUTO_ANCIENT_ALTAR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: AUTO_ANCIENT_ALTAR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: AUTO_ANCIENT_ALTAR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: AUTO_ANCIENT_ALTAR
+      amount: 1
+  capacity: 80000
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 20000
+  speed: 2
+  recipes:
+    '1':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: ZOMBIE_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ZOMBIE_DATA_CARD_MAGIC
+          amount: 1
+    '2':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: SLIME_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SLIME_DATA_CARD_MAGIC
+          amount: 1
+    '3':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: MAGMA_CUBE_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGMA_CUBE_DATA_CARD_MAGIC
+          amount: 1
+    '4':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: COW_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COW_DATA_CARD_MAGIC
+          amount: 1
+    '5':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: SHEEP_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SHEEP_DATA_CARD_MAGIC
+          amount: 1
+    '6':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: SPIDER_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SPIDER_DATA_CARD_MAGIC
+          amount: 1
+    '7':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: SKELETON_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SKELETON_DATA_CARD_MAGIC
+          amount: 1
+    '8':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: WITHER_SKELETON_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: WITHER_SKELETON_DATA_CARD_MAGIC
+          amount: 1
+    '9':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: ENDERMEN_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ENDERMEN_DATA_CARD_MAGIC
+          amount: 1
+    '10':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: CREEPER_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CREEPER_DATA_CARD_MAGIC
+          amount: 1
+    '11':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: GUARDIAN_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: GUARDIAN_DATA_CARD_MAGIC
+          amount: 1
+    '12':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: CHICKEN_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CHICKEN_DATA_CARD_MAGIC
+          amount: 1
+    '13':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: IRON_GOLEM_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: IRON_GOLEM_DATA_CARD_MAGIC
+          amount: 1
+    '14':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: BLAZE_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: BLAZE_DATA_CARD_MAGIC
+          amount: 1
+    '15':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: WITHER_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: WITHER_DATA_CARD_MAGIC
+          amount: 1
+    '16':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: BEE_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: BEE_DATA_CARD_MAGIC
+          amount: 1
+    '17':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: VILLAGER_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: VILLAGER_DATA_CARD_MAGIC
+          amount: 1
+    '18':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: WITCH_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: WITCH_DATA_CARD_MAGIC
+          amount: 1
+    '19':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: VEX_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: VEX_DATA_CARD_MAGIC
+          amount: 1
+    '20':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: PHANTOM_DATA_CARD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: PHANTOM_DATA_CARD_MAGIC
+          amount: 1
+
+MAGIC_ITEMX64_MACHINE:
+  item_group: magic_mob_machines
+  item:
+    name: "&b堆叠机"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ1Y2Y5MmJjNzllYzE5ZjQxMDY0NDFhZmZmZjE0MDZhMTM2NzAxMGRjYWZiMTk3ZGQ5NGNmY2ExYTZkZTBmYyJ9fX0=
+    lore:
+      - "&7可以将非堆叠物进行堆叠"
+      - ""
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &71280 J/s"
+      - "&8⇨&e ⚡ &72560 J 可存储"
+      - "&a"
+      - "&b魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: piston
+    2:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_PRESS
+    3:
+      material: piston
+    4:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_PRESS
+    5:
+      material_type: slimefun
+      material: CARBON_PRESS_3
+    6:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_PRESS
+    7:
+      material: piston
+    8:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_PRESS
+    9:
+      material: piston
+  capacity: 2560
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 1280
+  status: 22
+  speed: 2
+  recipes:
+    '1':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: SUPREME_CORE_OAK_LOG
+          amount: 1
+      output:
+        1:
+          material: FISHING_ROD
+          amount: 64
+
+
+MAGIC_CD_SINGULARITY: 
+  item_group: magic_cd_machines
+  item:
+    name: "&b奇点卡片压缩机"
+    material: MAGENTA_GLAZED_TERRACOTTA
+    lore:
+      - "&a" 
+      - "&6高级 机器"
+      - "&7将资源压缩成奇点"
+      - "&7并结合卡片制作成魔法卡片"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7512 J/s"
+      - "&8⇨&e ⚡ &71024 J 可存储"
+      - "&a"
+      - "&b魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HEATED_PRESSURE_CHAMBER
+    2:
+      material_type: slimefun
+      material: CARBON_PRESS_3
+    3:
+      material_type: slimefun
+      material: HEATED_PRESSURE_CHAMBER
+    4:
+      material_type: slimefun
+      material: CARBON_PRESS_3
+    5:
+      material_type: slimefun
+      material: SINGULARITY_CONSTRUCTOR
+    6:
+      material_type: slimefun
+      material: CARBON_PRESS_3
+    7:
+      material_type: slimefun
+      material: HEATED_PRESSURE_CHAMBER
+    8:
+      material_type: slimefun
+      material: CARBON_PRESS_3
+    9:
+      material_type: slimefun
+      material: HEATED_PRESSURE_CHAMBER
+  capacity: 1024
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 512
+  status: 22
+  speed: 2
+  recipes:
+    '魔法强化合金锭卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_2
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: REINFORCED_ALLOY_INGOT
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_REINFORCED_ALLOY_INGOT
+          amount: 1
+    '魔法硬化金属卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_2
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: HARDENED_METAL_INGOT
+          amount: 64
+      output:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_HARDENED_METAL_INGOT
+          amount: 1
+    '魔法人造蓝宝石卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_2
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: SYNTHETIC_SAPPHIRE
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_SYNTHETIC_SAPPHIRE
+          amount: 1
+    '魔法人造钻石卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_2
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: SYNTHETIC_DIAMOND
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_SYNTHETIC_DIAMOND
+          amount: 1
+    '魔法人造绿宝石卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_2
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: SYNTHETIC_EMERALD
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_SYNTHETIC_EMERALD
+          amount: 1
+    'REDSTONE_ALLOY':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_2
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: REDSTONE_ALLOY
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_REDSTONE_ALLOY
+          amount: 1
+    '魔法基础电路板卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_2
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: BASIC_CIRCUIT_BOARD
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_BASIC_CIRCUIT_BOARD
+          amount: 1
+    '魔法光伏电池卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_2
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: SOLAR_PANEL
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_SOLAR_PANEL
+          amount: 1
+    '魔法电磁铁卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_2
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: ELECTRO_MAGNET
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_ELECTRO_MAGNET
+          amount: 1
+    '魔法电动马达卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_2
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: ELECTRIC_MOTOR
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_ELECTRIC_MOTOR
+          amount: 1
+    '魔法加热线圈卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_2
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: HEATING_COIL
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_HEATING_COIL
+          amount: 1
+    '魔法机器人内存核心卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_3
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: ANDROID_MEMORY_CORE
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_ANDROID_MEMORY_CORE
+          amount: 1
+    '魔法充能太阳能发电机卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_4
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: SOLAR_GENERATOR_4
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_SOLAR_GENERATOR_4
+          amount: 1
+    '魔法高级电路板卡片':
+      seconds: 16
+      input:
+        1: 
+          material_type: slimefun
+          material: MAGIC_CD_NEW_3
+          amount: 1
+        2: 
+          material_type: slimefun
+          material: ADVANCED_CIRCUIT_BOARD
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_CD_ADVANCED_CIRCUIT_BOARD
+          amount: 1
+
+MAGIC_URANIUM_EXTRACTOR:
+  item_group: magic_infinite_machines
+  item:
+    name: "&b无尽&a铀提取器"
+    material: LIME_CONCRETE
+    lore:
+      - "&7将圆石变为铀"
+      - ""
+      - "&8⇨&e ⚡ &71024 J/s"
+      - "&8⇨&e ⚡ &72048 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: URANIUM_EXTRACTOR
+    2:
+      material_type: slimefun
+      material: INFINITE_MACHINE_CORE
+    3:
+      material_type: slimefun
+      material: URANIUM_EXTRACTOR
+    4:
+      material_type: slimefun
+      material: INFINITE_MACHINE_CIRCUIT
+    5:
+      material_type: slimefun
+      material: MAGIC_INFINITE_INGOT
+    6:
+      material_type: slimefun
+      material: INFINITE_MACHINE_CIRCUIT
+    7:
+      material_type: slimefun
+      material: URANIUM_EXTRACTOR
+    8:
+      material_type: slimefun
+      material: INFINITE_MACHINE_CORE
+    9:
+      material_type: slimefun
+      material: URANIUM_EXTRACTOR
+  capacity: 2048
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 1024
+  speed: 4
+  recipes:
+    dust:
+      seconds: 1
+      chooseOne: true
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 32
+      output:
+        1:
+          material_type: slimefun
+          material: SMALL_URANIUM
+          amount: 8
+
+MAGIC_BEE_MACHINE:
+  item_group: magic_mob_machines
+  item:
+    name: "&e魔法蜂巢"
+    material: BEE_NEST
+    lore:
+      - "&a"
+      - "&6中级 机器"
+      - "&7蜜蜂学习魔法的巢穴"
+      - "&4某些蜜蜂承受不住强大的魔法力"
+      - "&4便会再进化途中死去"
+      - "&8⇨&e ⚡ &7速度: &c1x"
+      - "&8⇨&e ⚡ &7100 J/per"  
+      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ANCIENT_ALTAR
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    5:
+      material: BEE_NEST
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+  capacity: 1000
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+  energyPerCraft: 100
+  speed: 2
+  recipes:
+    '魔法蜜蜂':
+      seconds: 8
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_EGG_BEE
+          amount: 8
+        2:
+          material_type: slimefun
+          material: MAGIC_REDSTONE
+          amount: 1
+      output:
+        1: 
+          chance: 8
+          material_type: slimefun
+          material: MAGIC_BEE_1
+          amount: 8
+    '八只魔法蜜蜂':
+      seconds: 8
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_BEE_1
+          amount: 8
+        2:
+          material_type: slimefun
+          material: MAGIC_REDSTONE
+          amount: 1
+      output:
+        1: 
+          chance: 100
+          material_type: slimefun
+          material: MAGIC_BEE_SPAWN_EGG8
+          amount: 1
+
+MAGIC_DUST_WASHER:
+  item_group: magic_newplayer_machines
+  item:
+    name: "&b矿尘洗涤机"
+    material: BLUE_STAINED_GLASS
+    lore:
+      - "&a"
+      - "&e基础 机器"
+      - "&8⇨&e ⚡ &7速度: &c1x"
+      - "&8⇨&e ⚡ &710 J/s"  
+      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&a"
+      - "&b萌新福利机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material: WATER_BUCKET
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    7:
+      material_type: slimefun
+      material: COPPER_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COPPER_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: COPPER_INGOT
+      amount: 1
+  capacity: 100
+  input: [0,1,2,3,9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39,45,46,47,48]
+  output: [5,6,7,8,14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44,50,51,52,53]
+  energyPerCraft: 10
+  speed: 2
+  recipes:
+    '粉尘':
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SIFTED_ORE
+          amount: 1
+      output:
+        1:
+          chance: 5
+          material_type: slimefun
+          material: IRON_DUST
+          amount: 1
+        2:
+          chance: 5
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        3:
+          chance: 5
+          material_type: slimefun
+          material: COPPER_DUST
+          amount: 1
+        4:
+          chance: 5
+          material_type: slimefun
+          material: TIN_DUST
+          amount: 1
+        5:
+          chance: 5
+          material_type: slimefun
+          material: SILVER_DUST
+          amount: 1
+        6:
+          chance: 5
+          material_type: slimefun
+          material: LEAD_DUST
+          amount: 1
+        7:
+          chance: 5
+          material_type: slimefun
+          material: ALUMINUM_DUST
+          amount: 1
+        8:
+          chance: 5
+          material_type: slimefun
+          material: ZINC_DUST
+          amount: 1
+        9:
+          chance: 5
+          material_type: slimefun
+          material: MAGNESIUM_DUST
+          amount: 1
+        10:
+          chance: 3
+          material_type: slimefun
+          material: TINY_URANIUM
+          amount: 1
+        11:
+          chance: 2
+          material_type: slimefun
+          material: SMALL_URANIUM
+          amount: 1
+        12:
+          chance: 1
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        13:
+          chance: 10
+          material_type: slimefun
+          material: STONE_CHUNK
+          amount: 1
+
+MAGIC_RANDOM_ITEM_MACHINE:
+  item_group: magic_origin
+  item:
+    name: "{#FF0000}起{#FF7F00}源{#FFFF00}演{#00FF00}化{#0000FF}机"
+    material: QUARTZ_BLOCK
+    lore:
+      - "&a"
+      - "&f起源 机器"
+      - "&f&l运用电力模拟宇宙规则演化"
+      - "&8⇨&e ⚡ &7速度: &c1x"
+      - "&8⇨&e ⚡ &71200000000 J/s"  
+      - "&8⇨&e ⚡ &72000000000 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+    glow: true
+  recipe_type: ANCIENT_ALTAR
+  recipe:
+    1:  
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGIC_INFINITE_ORIGINIUM
+      amount: 1
+    3:  
+      material_type: slimefun
+      material: MAGIC_MAGIC_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MAGIC_INFINITE_ORIGINIUM
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGIC_INFINITE_PANEL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MAGIC_INFINITE_ORIGINIUM
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_MAGIC_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_INFINITE_ORIGINIUM
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+  capacity: 2000000000
+  input: [0]
+  output: [10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
+  energyPerCraft: 1200000000
+  speed: 2
+  recipes:
+    '圆石':
+      seconds: 120
+      chooseOne: true
+      input:
+        1:
+          material: COBBLESTONE
+          amount: 1
+      output:
+        1:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_CORE_OF_BLOCK
+          amount: 1
+        2:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_CORE_OF_COLOR
+          amount: 1
+        3:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_CORE_OF_ALLOY
+          amount: 1
+        4:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_CORE_OF_NATURE
+          amount: 1
+        5:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_CORE_OF_LIFE
+          amount: 1
+        6:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_CETRUS_LUMIUM
+          amount: 1
+        7:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_CETRUS_LUX
+          amount: 1
+        8:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_CETRUS_VENTUS
+          amount: 1
+        9:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_CETRUS_AQUA
+          amount: 1
+        10:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_CETRUS_IGNIS
+          amount: 1
+        11:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_SUPREME_NUGGET
+          amount: 1
+        12:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_THORNERITE
+          amount: 1
+        13:
+          chance: 80
+          material_type: slimefun
+          material: METAL_SINGULARITY
+          amount: 1
+        14:
+          chance: 80
+          material_type: slimefun
+          material: EARTH_SINGULARITY
+          amount: 1
+        15:
+          chance: 80
+          material_type: slimefun
+          material: FORTUNE_SINGULARITY
+          amount: 1
+        16:
+          chance: 80
+          material_type: slimefun
+          material: MAGIC_SINGULARITY
+          amount: 1
+        17:
+          chance: 30
+          material_type: slimefun
+          material: INFINITE_INGOT
+          amount: 1
+        18:
+          chance: 30
+          material_type: slimefun
+          material: VOID_INGOT
+          amount: 1
+        19:
+          chance: 50
+          material_type: slimefun
+          material: BUCKET_OF_FUEL
+          amount: 1
+        20:
+          chance: 50
+          material_type: slimefun
+          material: BUCKET_OF_OIL
+          amount: 1
+        21:
+          chance: 10
+          material_type: slimefun
+          material: PLUTONIUM
+          amount: 1
+        22:
+          chance: 5
+          material_type: slimefun
+          material: BOOSTED_URANIUM
+          amount: 1
+        23:
+          chance: 10
+          material_type: slimefun
+          material: NEPTUNIUM
+          amount: 1
+        24:
+          chance: 2
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT_1
+          amount: 1
+        25:
+          chance: 2
+          material_type: slimefun
+          material: MAGIC_REDSTONE_PRESS
+          amount: 1
+        26:
+          chance: 1
+          material_type: slimefun
+          material: SUPREME_CORE_OF_DEATH
+          amount: 1
+
+MAGIC_IMPROVEMENT_FORGE:
+  item_group: magic_dlc_machines
+  item:
+    name: "&b改进锻造台-镐"
+    material: SMITHING_TABLE
+    lore:
+      - "&a"
+      - "&a自动化机器"
+      - "&7用于提升原版镐的品质"
+      - "&7需要&a改进核心"
+      - "&a"
+      - "&7工具: 木 > 石 > 铁 > 金 > 钻石 > 下界合金"
+      - "&7防具: 皮革 > 锁链 > 铁 > 金 > 钻石 > 下界合金"
+      - "&a"
+      - "&4终极 机器"
+      - "&8⇨&e ⚡ &7128 J/s"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: NETHERITE_PICKAXE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: IMPROVEMENT_FORGE
+      amount: 1
+    3:
+      material: DIAMOND_PICKAXE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: AQUATIC_NETHERITE_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: IMPROVEMENT_FORGE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: SWEETENED_SWEET_INGOT
+      amount: 1
+    7:
+      material: GOLDEN_PICKAXE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: IMPROVEMENT_FORGE
+      amount: 1
+    9:
+      material: IRON_PICKAXE
+      amount: 1
+  capacity: 1024
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 128
+  status: 22
+  speed: 2
+  recipes:
+    '石镐':
+      seconds: 70
+      input:
+        1:
+          material: WOODEN_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: IMPROVEMENT_CORE
+          amount: 1
+      output:
+        1:
+          material: STONE_PICKAXE
+          amount: 1
+    '铁镐':
+      seconds: 70
+      input:
+        1:
+          material: STONE_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: IMPROVEMENT_CORE
+          amount: 1
+      output:
+        1:
+          material: IRON_PICKAXE
+          amount: 1
+    '金镐':
+      seconds: 70
+      input:
+        1:
+          material: IRON_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: IMPROVEMENT_CORE
+          amount: 1
+      output:
+        1:
+          material: GOLDEN_PICKAXE
+          amount: 1
+    '钻石镐':
+      seconds: 70
+      input:
+        1:
+          material: GOLDEN_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: IMPROVEMENT_CORE
+          amount: 1
+      output:
+        1:
+          material: DIAMOND_PICKAXE
+          amount: 1
+    '下界合金镐':
+      seconds: 70
+      input:
+        1:
+          material: DIAMOND_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: IMPROVEMENT_CORE
+          amount: 1
+      output:
+        1:
+          material: NETHERITE_PICKAXE
+          amount: 1
+
+
+MAGIC_ORE_SMELTERY:
+  item_group: magic_dlc_machines
+  item:
+    name: "&b矿石冶炼厂"
+    material: FURNACE
+    lore:
+      - "&a"
+      - "&e基础 机器"
+      - "&7对矿石块进行冶炼提纯"
+      - "&8⇨&e ⚡ &7速度: &c1x"
+      - "&8⇨&e ⚡ &7100 J/s"  
+      - "&8⇨&e ⚡ &72000 J 可存储"
+      - "&a"
+      - "&c杂项机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ELECTRIC_INGOT_FACTORY
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: COPPER_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COPPER_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: COPPER_INGOT
+      amount: 1
+  capacity: 2000
+  input: [0,1,2,3,9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39,45,46,47,48]
+  output: [5,6,7,8,14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44,50,51,52,53]  
+  energyPerCraft: 100
+  speed: 2
+  recipes:
+    '小块铅矿石':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SMALL_LEAD_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: LEAD_INGOT
+          amount: 1
+    '大块铅矿石':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LARGE_LEAD_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: LEAD_INGOT
+          amount: 5
+    '小块镁矿石':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SMALL_MAGNESIUM_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_INGOT
+          amount: 1
+    '大块镁矿石':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LARGE_MAGNESIUM_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_INGOT
+          amount: 5
+    '小块锌矿石':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SMALL_ZINC_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ZINC_INGOT
+          amount: 1
+    '大块锌矿石':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LARGE_ZINC_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ZINC_INGOT
+          amount: 5
+    '小块铁矿石':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SMALL_IRON_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material: IRON_INGOT
+          amount: 1
+    '大块铁矿石':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LARGE_IRON_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material: IRON_INGOT
+          amount: 5
+    '小块金矿石':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SMALL_GOLD_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: GOLD_4K
+          amount: 1
+    '大块金矿石':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LARGE_GOLD_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: GOLD_24K
+          amount: 1
+    '小块铜矿石':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SMALL_COPPER_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COPPER_INGOT
+          amount: 1
+    '大块铜矿石':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LARGE_COPPER_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COPPER_INGOT
+          amount: 5
+    '小块锡矿石':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SMALL_TIN_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: TIN_INGOT
+          amount: 1
+    '大块锡矿石':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LARGE_TIN_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: TIN_INGOT
+          amount: 5
+    '小块银矿石':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SMALL_SILVER_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SILVER_INGOT
+          amount: 1
+    '大块银矿石':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LARGE_SILVER_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SILVER_INGOT
+          amount: 5
+    '小块铝矿石':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SMALL_ALUMINUM_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_INGOT
+          amount: 1
+    '大块铝矿石':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LARGE_ALUMINUM_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_INGOT
+          amount: 5
+    '小块镍矿石':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SMALL_NICKEL_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: NICKEL_INGOT
+          amount: 1
+    '大块镍矿石':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LARGE_NICKEL_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: NICKEL_INGOT
+          amount: 5
+    '小块钴矿石':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_SMALL_COBALT_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COBALT_INGOT
+          amount: 1
+    '大块钴矿石':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LARGE_COBALT_ORE_CHUNK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COBALT_INGOT
+          amount: 5
+
+MAGIC_BATTERY_MACHINE_IN_1:
+  item_group: magic_battery
+  item:
+    name: "&b电荷装载厂&7(魔法红石)"
+    material_type: slimefun
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNlZDRjZTIzOTMzZTY2ZTA0ZGYxNjA3MDY0NGY3NTk5ZWViNTUzMDdmN2VhZmU4ZDkyZjQwZmIzNTIwODYzYyJ9fX0=
+    lore:
+      - "&4终极 机器"
+      - "&7用于对&b魔法红石存储单元进行充电"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: &b999x"
+      - "&8⇨&e ⚡ &72000 J/s"  
+      - "&8⇨&e ⚡ &72000 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+  capacity: 2000
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 1000
+  status: 22
+  speed: 2
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_BATTERY_LI_1_EMPTY
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_BATTERY_LI_1_FULL
+          amount: 1
+
+MAGIC_SKIN_CONVERT:
+  item_group: magic_mob_machines
+  item:
+    name: "&e&l机器皮肤转换机"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkYjI1YWI5OTc2ZDg5ZDBiZDgxMThkNzJjMWMwNmJiOTA3MDYwYzFlMDJhNzI5YjY1MmQxZTg2YjFlYmJiYyJ9fX0=
+    lore:
+      - "&a"
+      - "&4终极 机器"
+      - "&7选取自己喜欢的皮肤吧~"
+      - "&a"
+      - "&8⇨&e ⚡ &71000 J/per"  
+      - "&8⇨&e ⚡ &710000 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ANCIENT_ALTAR
+  recipe:
+    1:
+      material_type: slimefun
+      material: RAINBOW_GLASS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: UNBREAKABLE_RUNE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: RAINBOW_GLAZED_TERRACOTTA
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANCIENT_RUNE_ENCHANTMENT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGIC_AUTHOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANCIENT_RUNE_SOULBOUND
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ANCIENT_RUNE_RAINBOW
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ANCIENT_RUNE_LIGHTNING
+      amount: 1
+  capacity: 10000
+  input: [0,1,2,3,9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39,45,46,47,48]
+  output: [5,6,7,8,14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44,50,51,52,53]
+  energyPerCraft: 1000
+  speed: 2
+  recipes:
+    '网桥（透明）':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: NTW_BRIDGE
+          amount: 8
+        2:
+          material: GLASS
+          amount: 1
+      output:
+        1:
+          material_type: saveditem
+          material: wq_tm
+          amount: 1
+    '网桥（遮光）':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: NTW_BRIDGE
+          amount: 8
+        2:
+          material: TINTED_GLASS
+          amount: 1
+      output:
+        1:
+          material_type: saveditem
+          material: wq_zg
+          amount: 8
+    '网桥（铁栅栏）':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: NTW_BRIDGE
+          amount: 8
+        2:
+          material: IRON_BARS
+          amount: 1
+      output:
+        1:
+          material_type: saveditem
+          material: wq_tzl
+          amount: 8
+    '网络单元（箱子）':
+      seconds: 2
+      input:
+        1:
+          material_type: slimefun
+          material: NTW_CELL
+          amount: 1
+        2:
+          material: CHEST
+          amount: 1
+      output:
+        1:
+          material_type: saveditem
+          material: wldy
+          amount: 1
+
+MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR:
+  item_group: magic_origin_basic
+  item:
+    name: "{#FFFFFF}起{#FFDD73}源{#FFBB4C}磨{#FF9926}粉{#FFA500}机"
+    material: FURNACE
+    glow: true
+    lore:
+      - "&f将起源圆石变为起源矿粉"
+      - ""
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &714,400 J/s"
+      - "&a"
+      - "&f起源机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITE_PANEL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_ENDLESS_PRESS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: INFINITY_PICKAXE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: INFINITY_PICKAXE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_ENDLESS_PRESS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+  capacity: 28800
+  input: [19,20]
+  output: [15,16,17,24,25,26,33,34,35]
+  energyPerCraft: 14400
+  speed: 4
+  recipes:
+    dust:
+      seconds: 1
+      chooseOne: true
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_COBBLESTONE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_IRON_DUST
+          amount: 1
+        2:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_GOLD_DUST
+          amount: 1
+        3:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_COPPER_DUST
+          amount: 1
+        4:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_TIN_DUST
+          amount: 1
+        5:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_SILVER_DUST
+          amount: 1
+        6:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_LEAD_DUST
+          amount: 1
+        7:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ALUMINUM_DUST
+          amount: 1
+        8:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ZINC_DUST
+          amount: 1
+        9:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_MAGNESIUM_DUST
+          amount: 1
+
+MAGIC_ORIGIN_BASIC_INGOT_FORMER:
+  item_group: magic_origin_basic
+  item:
+    name: "{#FFFFFF}起{#B3B3FF}源{#6666FF}铸{#1919E6}锭{#0000FF}机"
+    material: FURNACE
+    glow: true
+    lore:
+      - "&f将起源矿粉铸成起源矿锭"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &714,400 J/s"
+      - "&a"
+      - "&f起源机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: INFINITE_PANEL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_ENDLESS_PRESS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FN_FAL_CONDENSER_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: INFINITY_INGOT_FORMER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FN_FAL_CONDENSER_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_ENDLESS_PRESS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+  capacity: 28800
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 14400
+  status: 22
+  speed: 4
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_IRON_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_IRON_INGOT
+          amount: 1
+    '2':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_GOLD_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_GOLD_INGOT
+          amount: 1
+    '3':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_COPPER_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_COPPER_INGOT
+          amount: 1
+    '4':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_TIN_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_TIN_INGOT
+          amount: 1
+    '5':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_SILVER_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_SILVER_INGOT
+          amount: 1
+    '6':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_LEAD_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_LEAD_INGOT
+          amount: 1
+    '7':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ALUMINUM_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ALUMINUM_INGOT
+          amount: 1
+    '8':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ZINC_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ZINC_INGOT
+          amount: 1
+    '9':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_MAGNESIUM_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_MAGNESIUM_INGOT
+          amount: 1
+
+MAGIC_ORIGIN_MINERAL_DECOMPRESSOR:
+  item_group: magic_origin_basic
+  item:
+    name: "{#FFFFFF}起{#B3B3FF}源{#6666FF}分{#1919E6}解{#0000FF}机"
+    material: TARGET
+    glow: true
+    lore:
+      - "&f将起源矿物资源还原成基础矿物资源"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &71280 J/s"
+      - "&a"
+      - "&f起源机器"
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ELECTRIC_PRESS_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGIC_ORIGIN_PRESS
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ELECTRIC_PRESS_2
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+  capacity: 2560
+  input: [0,1,2,3,9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39,45,46,47,48]
+  output: [5,6,7,8,14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44,50,51,52,53]  
+  energyPerCraft: 1280
+  status: 22
+  speed: 4
+  recipes:
+    '铁粉':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_IRON_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: IRON_DUST
+          amount: 64
+    '金粉':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_GOLD_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 64
+    '铜粉':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_COPPER_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COPPER_DUST
+          amount: 64
+    '锡粉':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_TIN_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: TIN_DUST
+          amount: 64
+    '银粉':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_SILVER_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SILVER_DUST
+          amount: 64
+    '铅粉':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_LEAD_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: LEAD_DUST
+          amount: 64
+    '铝粉':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ALUMINUM_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_DUST
+          amount: 64
+    '锌粉':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ZINC_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ZINC_DUST
+          amount: 64
+    '镁粉':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_MAGNESIUM_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_DUST
+          amount: 64
+    '铁锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_IRON_INGOT
+          amount: 1
+      output:
+        1:
+          material: IRON_INGOT
+          amount: 64
+    '金锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_GOLD_INGOT
+          amount: 1
+      output:
+        1:
+          material: GOLD_INGOT
+          amount: 64
+    '铜锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_COPPER_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COPPER_INGOT
+          amount: 64
+    '锡锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_TIN_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: TIN_INGOT
+          amount: 64
+    '银锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_SILVER_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SILVER_INGOT
+          amount: 64
+    '铅锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_LEAD_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: LEAD_INGOT
+          amount: 64
+    '铝锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ALUMINUM_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_INGOT
+          amount: 64
+    '锌锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ZINC_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ZINC_INGOT
+          amount: 64
+    '镁锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_MAGNESIUM_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_INGOT
+          amount: 64
+    '强化合金锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_REINFORCED_ALLOY_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: REINFORCED_ALLOY_INGOT
+          amount: 64
+    '硬化金属':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_HARDENED_METAL_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: HARDENED_METAL_INGOT
+          amount: 64
+    '大马士革钢锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_DAMASCUS_STEEL_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: DAMASCUS_STEEL_INGOT
+          amount: 64
+    '钢锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_STEEL_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: STEEL_INGOT
+          amount: 64
+    '青铜锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_BRONZE_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: BRONZE_INGOT
+          amount: 64
+    '硬铝锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_DURALUMIN_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: DURALUMIN_INGOT
+          amount: 64
+    '银铜合金锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_BILLON_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: BILLON_INGOT
+          amount: 64
+    '黄铜锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_BRASS_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: BRASS_INGOT
+          amount: 64
+    '铝黄铜锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ALUMINUM_BRASS_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_BRASS_INGOT
+          amount: 64
+    '铝青铜锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ALUMINUM_BRONZE_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_BRONZE_INGOT
+          amount: 64
+    '科林斯青铜锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_CORINTHIAN_BRONZE_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: CORINTHIAN_BRONZE_INGOT
+          amount: 64
+    '焊锡锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_SOLDER_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: SOLDER_INGOT
+          amount: 64
+    '镍锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_NICKEL_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: NICKEL_INGOT
+          amount: 64
+    '钴锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_COBALT_INGOT
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: COBALT_INGOT
+          amount: 64
+    '硅铁':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_FERROSILICON
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: FERROSILICON
+          amount: 64
+    '镀金铁铁':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_GILDED_IRON
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: GILDED_IRON
+          amount: 64
+    '红石合金锭':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_REDSTONE_ALLOY
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: REDSTONE_ALLOY
+          amount: 64
+
+
+
+MAGIC_ORIGIN_PRESS:
+  item_group: magic_origin_basic
+  item:
+    name: "{#FFFFFF}起{#FFE6B3}源{#FFD480}压{#FFC14D}缩{#FFAE19}机"
+    material: PISTON
+    glow: true
+    lore:
+      - "&f将自然矿物压缩成起源矿物"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &71280 J/s"
+      - "&a"
+      - "&f起源机器"
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_ENDLESS_PRESS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FN_FAL_COMPRESSOR_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: INFINITY_CONSTRUCTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FN_FAL_COMPRESSOR_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_ENDLESS_PRESS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+  capacity: 2560
+  input: [0,1,2,3,9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39,45,46,47,48]
+  output: [5,6,7,8,14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44,50,51,52,53]  
+  energyPerCraft: 1280
+  status: 22
+  speed: 4
+  recipes:
+    '起源碳':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: CARBON
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_CARBON
+          amount: 1
+    '起源压缩碳':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_CARBON
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_COMPRESSED_CARBON
+          amount: 1
+    '起源硅':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: SILICON
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_SILICON
+          amount: 1
+
+MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
+  item_group: magic_origin
+  item:
+    name: "{#FF0000}起{#FF7F00}源{#FFFF00}奇{#00FF00}点{#00FF7F}构{#00FFFF}造{#007FFF}机"
+    material: CHISELED_QUARTZ_BLOCK
+    glow: true
+    lore:
+      - "&a"
+      - "&f起源 机器"
+      - "&f&l快速凝聚大量资源"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: &c3000x"
+      - "&8⇨&e ⚡ &7128000 J/s"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_MAGIC_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGIC_INFINITE_PANEL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: INFINITY_CONSTRUCTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_ENDLESS_PRESS
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_MAGIC_INGOT
+      amount: 1
+  capacity: 256000
+  input: [0,1,2,3,9,10,11,12,18,19,20,21,27,28,29,30,36,37,38,39,45,46,47,48]
+  output: [5,6,7,8,14,15,16,17,23,24,25,26,32,33,34,35,41,42,43,44,50,51,52,53]  
+  energyPerCraft: 128000
+  status: 22
+  speed: 4
+  recipes:
+    '铜奇点':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_COPPER_INGOT
+          amount: 48
+      output:
+        1:
+          material_type: slimefun
+          material: COPPER_SINGULARITY
+          amount: 1
+    '锌奇点':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ZINC_INGOT
+          amount: 48
+      output:
+        1:
+          material_type: slimefun
+          material: ZINC_SINGULARITY
+          amount: 1
+    '锡奇点':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_TIN_INGOT
+          amount: 48
+      output:
+        1:
+          material_type: slimefun
+          material: TIN_SINGULARITY
+          amount: 1
+    '铝奇点':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_ALUMINUM_INGOT
+          amount: 48
+      output:
+        1:
+          material_type: slimefun
+          material: ALUMINUM_SINGULARITY
+          amount: 1
+    '银奇点':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_SILVER_INGOT
+          amount: 48
+      output:
+        1:
+          material_type: slimefun
+          material: SILVER_SINGULARITY
+          amount: 1
+    '镁奇点':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_MAGNESIUM_INGOT
+          amount: 48
+      output:
+        1:
+          material_type: slimefun
+          material: MAGNESIUM_SINGULARITY
+          amount: 1
+    '铅奇点':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_LEAD_INGOT
+          amount: 48
+      output:
+        1:
+          material_type: slimefun
+          material: LEAD_SINGULARITY
+          amount: 1
+    '金奇点':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_GOLD_INGOT
+          amount: 32
+      output:
+        1:
+          material_type: slimefun
+          material: GOLD_SINGULARITY
+          amount: 1
+    '铁奇点':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_ORIGIN_IRON_INGOT
+          amount: 32
+      output:
+        1:
+          material_type: slimefun
+          material: IRON_SINGULARITY
+          amount: 1
+
+
+MAGIC_MATERIAL_COPY:
+  item_group: magic_power_machine
+  item:
+    name: "{#FFC0CB}建{#FFB6C1}筑{#FFA07A}材{#FA8072}料{#E9967A}复{#F08080}制{#FF69B4}机"
+    material_type: slimefun
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNkYjYzNWNhMjUwYTA4YjgzNzEzNjUwM2Q0OWNjYmFiZjkwNzg5NzVlY2YxZDI4YjRhZDI0NWFkMGVkMjEzNiJ9fX0=
+    glow: true
+    lore:
+      - "{#FDB7D4}可以复制原版建筑材料"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: {#FDB7D4}1x"
+      - "&8⇨&e ⚡ &7128 J/s"
+      - "&a"
+      - "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}-{#FA8072}电{#E9967A}力{#F08080}机{#FF69B4}器"
+  recipe_type: MAGIC_NONE
+  recipe:
+
+  capacity: 1024
+  input: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52]
+  output: [52,51,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0] 
+  energyPerCraft: 128
+  status: 53
+  speed: 4
+  recipes:
+    '深板岩':
+      seconds: 4
+      input:
+        1:
+          material: DEEPSLATE
+          amount: 0
+      output:
+        1:
+          material: DEEPSLATE
+          amount: 1
+    '深板岩原石':
+      seconds: 4
+      input:
+        1:
+          material: COBBLED_DEEPSLATE
+          amount: 0
+      output:
+        1:
+          material: COBBLED_DEEPSLATE
+          amount: 1
+    '深板岩砖':
+      seconds: 4
+      input:
+        1:
+          material: DEEPSLATE_BRICKS
+          amount: 0
+      output:
+        1:
+          material: DEEPSLATE_BRICKS
+          amount: 1
+    '深板岩瓦':
+      seconds: 4
+      input:
+        1:
+          material: DEEPSLATE_TILES
+          amount: 0
+      output:
+        1:
+          material: DEEPSLATE_TILES
+          amount: 1
+    '泥胚':
+      seconds: 4
+      input:
+        1:
+          material: PACKED_MUD
+          amount: 0
+      output:
+        1:
+          material: PACKED_MUD
+          amount: 1
+    '泥砖':
+      seconds: 4
+      input:
+        1:
+          material: MUD_BRICKS
+          amount: 0
+      output:
+        1:
+          material: MUD_BRICKS
+          amount: 1
+    '海晶石':
+      seconds: 4
+      input:
+        1:
+          material: PRISMARINE
+          amount: 0
+      output:
+        1:
+          material: PRISMARINE
+          amount: 1
+    '海晶石砖':
+      seconds: 4
+      input:
+        1:
+          material: PRISMARINE_BRICKS
+          amount: 0
+      output:
+        1:
+          material: PRISMARINE_BRICKS
+          amount: 1
+    '暗海晶石':
+      seconds: 4
+      input:
+        1:
+          material: DARK_PRISMARINE
+          amount: 0
+      output:
+        1:
+          material: DARK_PRISMARINE
+          amount: 1
+    '海晶灯':
+      seconds: 4
+      input:
+        1:
+          material: SEA_LANTERN
+          amount: 0
+      output:
+        1:
+          material: SEA_LANTERN
+          amount: 1
+    '黑石':
+      seconds: 4
+      input:
+        1:
+          material: BLACKSTONE
+          amount: 0
+      output:
+        1:
+          material: BLACKSTONE
+          amount: 1
+    '镶金黑石':
+      seconds: 4
+      input:
+        1:
+          material: GILDED_BLACKSTONE
+          amount: 0
+      output:
+        1:
+          material: GILDED_BLACKSTONE
+          amount: 1
+    '紫水晶块':
+      seconds: 4
+      input:
+        1:
+          material: AMETHYST_BLOCK
+          amount: 0
+      output:
+        1:
+          material: AMETHYST_BLOCK
+          amount: 1
+    '铜块':
+      seconds: 4
+      input:
+        1:
+          material: COPPER_BLOCK
+          amount: 0
+      output:
+        1:
+          material: COPPER_BLOCK
+          amount: 1
+    '荧石':
+      seconds: 4
+      input:
+        1:
+          material: GLOWSTONE
+          amount: 0
+      output:
+        1:
+          material: GLOWSTONE
+          amount: 1
+    '赭黄蛙明灯':
+      seconds: 4
+      input:
+        1:
+          material: OCHRE_FROGLIGHT
+          amount: 0
+      output:
+        1:
+          material: OCHRE_FROGLIGHT
+          amount: 1
+    '青翠蛙明灯':
+      seconds: 4
+      input:
+        1:
+          material: VERDANT_FROGLIGHT
+          amount: 0
+      output:
+        1:
+          material: VERDANT_FROGLIGHT
+          amount: 1
+    '珠光蛙明灯':
+      seconds: 4
+      input:
+        1:
+          material: PEARLESCENT_FROGLIGHT
+          amount: 0
+      output:
+        1:
+          material: PEARLESCENT_FROGLIGHT
+          amount: 1
+    '黏液块':
+      seconds: 4
+      input:
+        1:
+          material: SLIME_BLOCK
+          amount: 0
+      output:
+        1:
+          material: SLIME_BLOCK
+          amount: 1
+    '蜂蜜块':
+      seconds: 4
+      input:
+        1:
+          material: HONEY_BLOCK
+          amount: 0
+      output:
+        1:
+          material: HONEY_BLOCK
+          amount: 1
+
+
+
+
+
+
+
+MAGIC_ATTRIBUTE_CHAOS_FORGE:
+  item_group: magic_attribute_up
+  item:
+    name: "{#FFC0CB}混{#FFB6C1}沌{#FFA07A}锻{#FA8072}造{#E9967A}炉"
+    material: FURNACE
+    glow: true
+    lore:
+      - "{#FDB7D4}锻造装备强化材料"
+      - "{#FDB7D4}可以对锻造材料进行提纯"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: {#FDB7D4}1x"
+      - "&8⇨&e ⚡ &7512 J/s"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_DNF_STONE_2
+      amount: 1
+    2:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_DNF_STONE_2
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST_1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGIC_CAPACITOR_SMALL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_DNF_STONE_2
+      amount: 1
+    8:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_DNF_STONE_2
+      amount: 1
+  capacity: 1024
+  input: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52]
+  output: [52,51,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0] 
+  energyPerCraft: 256
+  status: 53
+  speed: 2
+  recipes:
+    '炉岩碳':
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_DNF_COAL_PACKAGE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_DNF_COAL_1
+          amount: 8
+    '无色晶体':
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_DNF_STONE_PACKAGE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_DNF_STONE_1
+          amount: 8
+    '炉岩碳-附魔':
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_DNF_COAL_1
+          amount: 8
+        2: 
+          material: EXPERIENCE_BOTTLE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ENCHANT_UP_1
+          amount: 1
+    '矛盾-附魔':
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_DNF_STONE_1
+          amount: 12
+        2: 
+          material: EXPERIENCE_BOTTLE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ENCHANT_UPUP_1
+          amount: 1
+    '矛盾-属性':
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_DNF_STONE_1
+          amount: 12
+        2: 
+          material_type: slimefun
+          material: MAGIC_REDSTONE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ATTRIBUTE_UPUP_1
+          amount: 1
+    
+
+
+MAGIC_MFCT_ITEM_GET:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l展{#FFB6C1}&l示{#FFA07A}&l物{#FA8072}&l品{#E9967A}&l制{#F08080}&l造{#FF69B4}&l机"
+    material: CARTOGRAPHY_TABLE
+    glow: true
+    lore:
+      - "{#FDB7D4}创造获取成品魔法抽屉"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: {#FDB7D4}1x"
+      - "&8⇨&e ⚡ &7256 J/s"
+      - "&a"
+      - "{#FDB7D4}实验性机器"
+      - "&a&l魔&b&l法&c&l抽&d&l屉&e&l"
+  recipe_type: MAGIC_NONE
+  capacity: 512
+  energyPerCraft: 128
+  status: 53
+  speed: 2
+  input: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50,51,52]
+  output: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50,51,52] 
+  recipes:
+    '魔法抽屉':
+      seconds: 4
+      input:
+        1:
+          material: STONE
+          amount: 1
+      output:
+        1:
+          material_type: saveditem
+          material: MFCT_1
+          amount: 1
+        2:
+          material_type: saveditem
+          material: MFCT_2
+          amount: 1
+        3:
+          material_type: saveditem
+          material: MFCT_3
+          amount: 1
+        4:
+          material_type: saveditem
+          material: MFCT_4
+          amount: 1
+        5:
+          material_type: saveditem
+          material: MFCT_5
+          amount: 1
+        6:
+          material_type: saveditem
+          material: MFCT_6
+          amount: 1
+        7:
+          material_type: saveditem
+          material: MFCT_7
+          amount: 1
+        8:
+          material_type: saveditem
+          material: MFCT_8
+          amount: 1
+        9:
+          material_type: saveditem
+          material: MFCT_9
+          amount: 1
+        10:
+          material_type: saveditem
+          material: MFCT_10
+          amount: 1
+        11:
+          material_type: saveditem
+          material: MFCT_11
+          amount: 1
+        12:
+          material_type: saveditem
+          material: MFCT_12
+          amount: 1
+        13:
+          material_type: saveditem
+          material: MFCT_13
+          amount: 1
+    '起源装备':
+      seconds: 4
+      input:
+        1:
+          material: STICK
+          amount: 1
+      output:
+        1:
+          material_type: saveditem
+          material: WJTK_1
+          amount: 1
+        2:
+          material_type: saveditem
+          material: WJXJ_1
+          amount: 1
+        3:
+          material_type: saveditem
+          material: WJKZ_1
+          amount: 1
+        4:
+          material_type: saveditem
+          material: WJXZ_1
+          amount: 1
+        5:
+          material_type: saveditem
+          material: QYZJ_1
+          amount: 1
+        6:
+          material_type: saveditem
+          material: WJTK_2
+          amount: 1
+        7:
+          material_type: saveditem
+          material: WJXJ_2
+          amount: 1
+        8:
+          material_type: saveditem
+          material: WJKZ_2
+          amount: 1
+        9:
+          material_type: saveditem
+          material: WJXZ_2
+          amount: 1
+
+MAGIC_PEIYUSHI_1:
+  item_group: magic_power_machine
+  item:
+    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}培{#FFA8AF}育{#FF9DA4}室{#FA8E99}-{#F97F8E}I{#F87083}"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU4YzQ0OWYxZGM1YzNiNTg1YzA1ZjhmZTg2NzFiMzYzYzA0NjZhYTIyM2Y5NzI4Nzg1NjRhYWFjNjYwNTQyMiJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}让植物自动生长"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: {#FDB7D4}1x"
+      - "&8⇨&e ⚡ &7512 J/s"
+      - "&a"
+      - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l电{#E9967A}&l力{#F08080}&l机{#FF69B4}&l器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe: 
+    1: 
+      material_type: slimefun
+      material: MAGIC_ADVANCE_CIRCUIT_BOARD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGIC_ALLOY_STEEL_WARM
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_ADVANCE_CIRCUIT_BOARD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FOOD_COMPOSTER_2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGIC_ANIMALS_WARM_CORE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: CROP_GROWTH_ACCELERATOR_2
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK_MIX
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_MACHINE_CORE_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK_MIX
+      amount: 1
+  capacity: 512
+  energyPerCraft: 256
+  status: 13
+  speed: 1
+  input: [1,2,3,4,5,6,7]
+  output: [28,29,30,31,32,33,34,37,38,39,40,41,42,43,46,47,48,49,50,51,52] 
+  recipes:
+    '可可豆':
+      seconds: 6
+      input:
+        1:
+          material: COCOA_BEANS
+          amount: 1
+      output:
+        1:
+          material: COCOA_BEANS
+          amount: 9
+    '西瓜':
+      seconds: 6
+      input:
+        1:
+          material: MELON_SEEDS
+          amount: 1
+      output:
+        1:
+          material: MELON_SEEDS
+          amount: 3
+        2: 
+          material: MELON
+          amount: 3
+    '南瓜':
+      seconds: 6
+      input:
+        1:
+          material: PUMPKIN_SEEDS
+          amount: 1
+      output:
+        1:
+          material: PUMPKIN_SEEDS
+          amount: 3
+        2: 
+          material: PUMPKIN
+          amount: 3
+    '甜菜':
+      seconds: 6
+      input:
+        1:
+          material: BEETROOT_SEEDS
+          amount: 1
+      output:
+        1:
+          material: BEETROOT_SEEDS
+          amount: 6
+        2: 
+          material: BEETROOT
+          amount: 9
+    '棕色蘑菇':
+      seconds: 6
+      input:
+        1:
+          material: BROWN_MUSHROOM
+          amount: 1
+      output:
+        1:
+          material: BROWN_MUSHROOM
+          amount: 6
+        2: 
+          material: BROWN_MUSHROOM_BLOCK
+          amount: 9
+    '红色蘑菇':
+      seconds: 6
+      input:
+        1:
+          material: RED_MUSHROOM
+          amount: 1
+      output:
+        1:
+          material: RED_MUSHROOM
+          amount: 6
+        2: 
+          material: RED_MUSHROOM_BLOCK
+          amount: 9
+    '小麦':
+      seconds: 6
+      input:
+        1:
+          material: WHEAT_SEEDS
+          amount: 1
+      output:
+        1:
+          material: WHEAT_SEEDS
+          amount: 6
+        2: 
+          material: WHEAT
+          amount: 9
+    '苹果':
+      seconds: 6
+      input:
+        1:
+          material: APPLE
+          amount: 1
+      output:
+        1:
+          material: APPLE
+          amount: 9
+    '枯死的灌木':
+      seconds: 6
+      input:
+        1:
+          material: DEAD_BUSH
+          amount: 1
+      output:
+        1:
+          material: DEAD_BUSH
+          amount: 9
+        2: 
+          material: STICK 
+          amount: 6
+    '草':
+      seconds: 6
+      input:
+        1:
+          material: GRASS
+          amount: 1
+      output:
+        1:
+          material: GRASS
+          amount: 9
+    '蕨':
+      seconds: 6
+      input:
+        1:
+          material: FERN
+          amount: 1
+      output:
+        1:
+          material: FERN
+          amount: 9
+    '高丛草':
+      seconds: 6
+      input:
+        1:
+          material: TALL_GRASS
+          amount: 1
+      output:
+        1:
+          material: TALL_GRASS
+          amount: 9
+    '大型蕨':
+      seconds: 6
+      input:
+        1:
+          material: LARGE_FERN
+          amount: 1
+      output:
+        1:
+          material: LARGE_FERN
+          amount: 9
+    '藤蔓':
+      seconds: 6
+      input:
+        1:
+          material: VINE
+          amount: 1
+      output:
+        1:
+          material: VINE
+          amount: 9
+    '仙人掌':
+      seconds: 6
+      input:
+        1:
+          material: CACTUS
+          amount: 1
+      output:
+        1:
+          material: CACTUS
+          amount: 9
+    '绯红菌索':
+      seconds: 6
+      input:
+        1:
+          material: CRIMSON_ROOTS
+          amount: 1
+      output:
+        1:
+          material: CRIMSON_ROOTS
+          amount: 12
+    '诡异菌索':
+      seconds: 6
+      input:
+        1:
+          material: WARPED_ROOTS
+          amount: 1
+      output:
+        1:
+          material: WARPED_ROOTS
+          amount: 12
+    '下界苗':
+      seconds: 6
+      input:
+        1:
+          material: NETHER_SPROUTS
+          amount: 1
+      output:
+        1:
+          material: NETHER_SPROUTS
+          amount: 12
+    '垂泪藤':
+      seconds: 6
+      input:
+        1:
+          material: WEEPING_VINES
+          amount: 1
+      output:
+        1:
+          material: WEEPING_VINES
+          amount: 12
+    '缠怨藤':
+      seconds: 6
+      input:
+        1:
+          material: TWISTING_VINES
+          amount: 1
+      output:
+        1:
+          material: TWISTING_VINES
+          amount: 12
+    '向日葵':
+      seconds: 6
+      input:
+        1:
+          material: SUNFLOWER
+          amount: 1
+      output:
+        1:
+          material: SUNFLOWER
+          amount: 9
+    '丁香':
+      seconds: 6
+      input:
+        1:
+          material: LILAC
+          amount: 1
+      output:
+        1:
+          material: LILAC
+          amount: 9
+    '玫瑰丛':
+      seconds: 6
+      input:
+        1:
+          material: ROSE_BUSH
+          amount: 1
+      output:
+        1:
+          material: ROSE_BUSH
+          amount: 9
+    '牡丹':
+      seconds: 6
+      input:
+        1:
+          material: PEONY
+          amount: 1
+      output:
+        1:
+          material: PEONY
+          amount: 9
+    '大型垂滴叶':
+      seconds: 6
+      input:
+        1:
+          material: BIG_DRIPLEAF
+          amount: 1
+      output:
+        1:
+          material: BIG_DRIPLEAF
+          amount: 9
+    '小型垂滴叶':
+      seconds: 6
+      input:
+        1:
+          material: SMALL_DRIPLEAF
+          amount: 1
+      output:
+        1:
+          material: SMALL_DRIPLEAF
+          amount: 9
+    '紫颂花':
+      seconds: 6
+      input:
+        1:
+          material: CHORUS_FLOWER
+          amount: 1
+      output:
+        1:
+          material: CHORUS_FLOWER
+          amount: 6
+        2:
+          material: CHORUS_FRUIT
+          amount: 24
+    '发光地衣':
+      seconds: 6
+      input:
+        1:
+          material: GLOW_LICHEN
+          amount: 1
+      output:
+        1:
+          material: GLOW_LICHEN
+          amount: 9
+    '火把花':
+      seconds: 6
+      input:
+        1:
+          material: TORCHFLOWER_SEEDS
+          amount: 1
+      output:
+        1:
+          material: TORCHFLOWER_SEEDS
+          amount: 3
+        2:
+          material: TORCHFLOWER
+          amount: 3
+    '瓶子草':
+      seconds: 6
+      input:
+        1:
+          material: PITCHER_POD
+          amount: 1
+      output:
+        1:
+          material: PITCHER_POD
+          amount: 3
+        2:
+          material: PITCHER_PLANT
+          amount: 3
+    '甜浆果':
+      seconds: 6
+      input:
+        1:
+          material: SWEET_BERRIES
+          amount: 1
+      output:
+        1:
+          material: SWEET_BERRIES
+          amount: 9
+    '下界疣':
+      seconds: 6
+      input:
+        1:
+          material: NETHER_WART
+          amount: 1
+      output:
+        1:
+          material: NETHER_WART
+          amount: 12
+    '绯红菌':
+      seconds: 6
+      input:
+        1:
+          material: CRIMSON_FUNGUS
+          amount: 1
+      output:
+        1:
+          material: CRIMSON_FUNGUS
+          amount: 2
+        2:
+          material: CRIMSON_STEM
+          amount: 6
+        3: 
+          material: SHROOMLIGHT
+          amount: 4
+        4: 
+          material: NETHER_WART_BLOCK
+          amount: 4
+    '诡异菌':
+      seconds: 6
+      input:
+        1:
+          material: WARPED_FUNGUS
+          amount: 1
+      output:
+        1:
+          material: WARPED_FUNGUS
+          amount: 6
+        2:
+          material: WARPED_STEM
+          amount: 3
+        3: 
+          material: WARPED_WART_BLOCK
+          amount: 3
+    '睡莲':
+      seconds: 6
+      input:
+        1:
+          material: LILY_PAD
+          amount: 1
+      output:
+        1:
+          material: LILY_PAD
+          amount: 9
+    '海泡菜':
+      seconds: 6
+      input:
+        1:
+          material: SEA_PICKLE
+          amount: 1
+      output:
+        1:
+          material: SEA_PICKLE
+          amount: 9
+    '海草':
+      seconds: 6
+      input:
+        1:
+          material: SEAGRASS
+          amount: 1
+      output:
+        1:
+          material: SEAGRASS
+          amount: 9
+    '海带':
+      seconds: 6
+      input:
+        1:
+          material: KELP
+          amount: 1
+      output:
+        1:
+          material: KELP
+          amount: 9
+    '蒲公英':
+      seconds: 6
+      input:
+        1:
+          material: DANDELION
+          amount: 1
+      output:
+        1:
+          material: DANDELION
+          amount: 9
+    '虞美人':
+      seconds: 6
+      input:
+        1:
+          material: POPPY
+          amount: 1
+      output:
+        1:
+          material: POPPY
+          amount: 9
+    '兰花':
+      seconds: 6
+      input:
+        1:
+          material: BLUE_ORCHID
+          amount: 1
+      output:
+        1:
+          material: BLUE_ORCHID
+          amount: 9
+    '绒球葱':
+      seconds: 6
+      input:
+        1:
+          material: ALLIUM
+          amount: 1
+      output:
+        1:
+          material: ALLIUM
+          amount: 9
+    '蓝花美耳草':
+      seconds: 6
+      input:
+        1:
+          material: AZURE_BLUET
+          amount: 1
+      output:
+        1:
+          material: AZURE_BLUET
+          amount: 9
+    '红色郁金香':
+      seconds: 6
+      input:
+        1:
+          material: RED_TULIP
+          amount: 1
+      output:
+        1:
+          material: RED_TULIP
+          amount: 9
+    '橙色郁金香':
+      seconds: 6
+      input:
+        1:
+          material: ORANGE_TULIP
+          amount: 1
+      output:
+        1:
+          material: ORANGE_TULIP
+          amount: 9
+    '白色郁金香':
+      seconds: 6
+      input:
+        1:
+          material: WHITE_TULIP
+          amount: 1
+      output:
+        1:
+          material: WHITE_TULIP
+          amount: 9
+    '粉色郁金香':
+      seconds: 6
+      input:
+        1:
+          material: PINK_TULIP
+          amount: 1
+      output:
+        1:
+          material: PINK_TULIP
+          amount: 9
+    '滨菊':
+      seconds: 6
+      input:
+        1:
+          material: OXEYE_DAISY
+          amount: 1
+      output:
+        1:
+          material: OXEYE_DAISY
+          amount: 9
+    '矢车菊':
+      seconds: 6
+      input:
+        1:
+          material: CORNFLOWER
+          amount: 1
+      output:
+        1:
+          material: CORNFLOWER
+          amount: 9
+    '铃兰':
+      seconds: 6
+      input:
+        1:
+          material: LILY_OF_THE_VALLEY
+          amount: 1
+      output:
+        1:
+          material: LILY_OF_THE_VALLEY
+          amount: 9
+    '凋零玫瑰':
+      seconds: 6
+      input:
+        1:
+          material: WITHER_ROSE
+          amount: 1
+      output:
+        1:
+          material: WITHER_ROSE
+          amount: 9
+    '粉红色花簇':
+      seconds: 6
+      input:
+        1:
+          material: PINK_PETALS
+          amount: 1
+      output:
+        1:
+          material: PINK_PETALS
+          amount: 9
+    '包子花':
+      seconds: 6
+      input:
+        1:
+          material: SPORE_BLOSSOM
+          amount: 1
+      output:
+        1:
+          material: SPORE_BLOSSOM
+          amount: 9
+    '竹子':
+      seconds: 6
+      input:
+        1:
+          material: BAMBOO
+          amount: 1
+      output:
+        1:
+          material: BAMBOO
+          amount: 9
+    '甘蔗':
+      seconds: 6
+      input:
+        1:
+          material: SUGAR_CANE
+          amount: 1
+      output:
+        1:
+          material: SUGAR_CANE
+          amount: 9
+
+
+MAGIC_PEIYUSHI_2:
+  item_group: magic_power_machine
+  item:
+    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}培{#FFA8AF}育{#FF9DA4}室{#FA8E99}-{#F97F8E}II{#F87083}"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU4YzQ0OWYxZGM1YzNiNTg1YzA1ZjhmZTg2NzFiMzYzYzA0NjZhYTIyM2Y5NzI4Nzg1NjRhYWFjNjYwNTQyMiJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}让植物自动生长"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: {#FDB7D4}2x"
+      - "&8⇨&e ⚡ &71024 J/s"
+      - "&a"
+      - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l电{#E9967A}&l力{#F08080}&l机{#FF69B4}&l器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe: 
+    2:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST_1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MAGIC_ANIMALS_WARM_CORE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGIC_PEIYUSHI_1
+      amount: 1
+    6:
+      material_type: slimefun
+      material: MAGIC_ANIMALS_WARM_CORE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT_1
+      amount: 1
+  capacity: 1024
+  energyPerCraft: 512
+  status: 13
+  speed: 2
+  input: [1,2,3,4,5,6,7]
+  output: [28,29,30,31,32,33,34,37,38,39,40,41,42,43,46,47,48,49,50,51,52] 
+  recipes:
+    '可可豆':
+      seconds: 6
+      input:
+        1:
+          material: COCOA_BEANS
+          amount: 1
+      output:
+        1:
+          material: COCOA_BEANS
+          amount: 9
+    '西瓜':
+      seconds: 6
+      input:
+        1:
+          material: MELON_SEEDS
+          amount: 1
+      output:
+        1:
+          material: MELON_SEEDS
+          amount: 3
+        2: 
+          material: MELON
+          amount: 3
+    '南瓜':
+      seconds: 6
+      input:
+        1:
+          material: PUMPKIN_SEEDS
+          amount: 1
+      output:
+        1:
+          material: PUMPKIN_SEEDS
+          amount: 3
+        2: 
+          material: PUMPKIN
+          amount: 3
+    '甜菜':
+      seconds: 6
+      input:
+        1:
+          material: BEETROOT_SEEDS
+          amount: 1
+      output:
+        1:
+          material: BEETROOT_SEEDS
+          amount: 6
+        2: 
+          material: BEETROOT
+          amount: 9
+    '棕色蘑菇':
+      seconds: 6
+      input:
+        1:
+          material: BROWN_MUSHROOM
+          amount: 1
+      output:
+        1:
+          material: BROWN_MUSHROOM
+          amount: 6
+        2: 
+          material: BROWN_MUSHROOM_BLOCK
+          amount: 9
+    '红色蘑菇':
+      seconds: 6
+      input:
+        1:
+          material: RED_MUSHROOM
+          amount: 1
+      output:
+        1:
+          material: RED_MUSHROOM
+          amount: 6
+        2: 
+          material: RED_MUSHROOM_BLOCK
+          amount: 9
+    '小麦':
+      seconds: 6
+      input:
+        1:
+          material: WHEAT_SEEDS
+          amount: 1
+      output:
+        1:
+          material: WHEAT_SEEDS
+          amount: 6
+        2: 
+          material: WHEAT
+          amount: 9
+    '苹果':
+      seconds: 6
+      input:
+        1:
+          material: APPLE
+          amount: 1
+      output:
+        1:
+          material: APPLE
+          amount: 9
+    '枯死的灌木':
+      seconds: 6
+      input:
+        1:
+          material: DEAD_BUSH
+          amount: 1
+      output:
+        1:
+          material: DEAD_BUSH
+          amount: 9
+        2: 
+          material: STICK 
+          amount: 6
+    '草':
+      seconds: 6
+      input:
+        1:
+          material: GRASS
+          amount: 1
+      output:
+        1:
+          material: GRASS
+          amount: 9
+    '蕨':
+      seconds: 6
+      input:
+        1:
+          material: FERN
+          amount: 1
+      output:
+        1:
+          material: FERN
+          amount: 9
+    '高丛草':
+      seconds: 6
+      input:
+        1:
+          material: TALL_GRASS
+          amount: 1
+      output:
+        1:
+          material: TALL_GRASS
+          amount: 9
+    '大型蕨':
+      seconds: 6
+      input:
+        1:
+          material: LARGE_FERN
+          amount: 1
+      output:
+        1:
+          material: LARGE_FERN
+          amount: 9
+    '藤蔓':
+      seconds: 6
+      input:
+        1:
+          material: VINE
+          amount: 1
+      output:
+        1:
+          material: VINE
+          amount: 9
+    '仙人掌':
+      seconds: 6
+      input:
+        1:
+          material: CACTUS
+          amount: 1
+      output:
+        1:
+          material: CACTUS
+          amount: 9
+    '绯红菌索':
+      seconds: 6
+      input:
+        1:
+          material: CRIMSON_ROOTS
+          amount: 1
+      output:
+        1:
+          material: CRIMSON_ROOTS
+          amount: 12
+    '诡异菌索':
+      seconds: 6
+      input:
+        1:
+          material: WARPED_ROOTS
+          amount: 1
+      output:
+        1:
+          material: WARPED_ROOTS
+          amount: 12
+    '下界苗':
+      seconds: 6
+      input:
+        1:
+          material: NETHER_SPROUTS
+          amount: 1
+      output:
+        1:
+          material: NETHER_SPROUTS
+          amount: 12
+    '垂泪藤':
+      seconds: 6
+      input:
+        1:
+          material: WEEPING_VINES
+          amount: 1
+      output:
+        1:
+          material: WEEPING_VINES
+          amount: 12
+    '缠怨藤':
+      seconds: 6
+      input:
+        1:
+          material: TWISTING_VINES
+          amount: 1
+      output:
+        1:
+          material: TWISTING_VINES
+          amount: 12
+    '向日葵':
+      seconds: 6
+      input:
+        1:
+          material: SUNFLOWER
+          amount: 1
+      output:
+        1:
+          material: SUNFLOWER
+          amount: 9
+    '丁香':
+      seconds: 6
+      input:
+        1:
+          material: LILAC
+          amount: 1
+      output:
+        1:
+          material: LILAC
+          amount: 9
+    '玫瑰丛':
+      seconds: 6
+      input:
+        1:
+          material: ROSE_BUSH
+          amount: 1
+      output:
+        1:
+          material: ROSE_BUSH
+          amount: 9
+    '牡丹':
+      seconds: 6
+      input:
+        1:
+          material: PEONY
+          amount: 1
+      output:
+        1:
+          material: PEONY
+          amount: 9
+    '大型垂滴叶':
+      seconds: 6
+      input:
+        1:
+          material: BIG_DRIPLEAF
+          amount: 1
+      output:
+        1:
+          material: BIG_DRIPLEAF
+          amount: 9
+    '小型垂滴叶':
+      seconds: 6
+      input:
+        1:
+          material: SMALL_DRIPLEAF
+          amount: 1
+      output:
+        1:
+          material: SMALL_DRIPLEAF
+          amount: 9
+    '紫颂花':
+      seconds: 6
+      input:
+        1:
+          material: CHORUS_FLOWER
+          amount: 1
+      output:
+        1:
+          material: CHORUS_FLOWER
+          amount: 6
+        2:
+          material: CHORUS_FRUIT
+          amount: 24
+    '发光地衣':
+      seconds: 6
+      input:
+        1:
+          material: GLOW_LICHEN
+          amount: 1
+      output:
+        1:
+          material: GLOW_LICHEN
+          amount: 9
+    '火把花':
+      seconds: 6
+      input:
+        1:
+          material: TORCHFLOWER_SEEDS
+          amount: 1
+      output:
+        1:
+          material: TORCHFLOWER_SEEDS
+          amount: 3
+        2:
+          material: TORCHFLOWER
+          amount: 3
+    '瓶子草':
+      seconds: 6
+      input:
+        1:
+          material: PITCHER_POD
+          amount: 1
+      output:
+        1:
+          material: PITCHER_POD
+          amount: 3
+        2:
+          material: PITCHER_PLANT
+          amount: 3
+    '甜浆果':
+      seconds: 6
+      input:
+        1:
+          material: SWEET_BERRIES
+          amount: 1
+      output:
+        1:
+          material: SWEET_BERRIES
+          amount: 9
+    '下界疣':
+      seconds: 6
+      input:
+        1:
+          material: NETHER_WART
+          amount: 1
+      output:
+        1:
+          material: NETHER_WART
+          amount: 12
+    '绯红菌':
+      seconds: 6
+      input:
+        1:
+          material: CRIMSON_FUNGUS
+          amount: 1
+      output:
+        1:
+          material: CRIMSON_FUNGUS
+          amount: 2
+        2:
+          material: CRIMSON_STEM
+          amount: 6
+        3: 
+          material: SHROOMLIGHT
+          amount: 4
+        4: 
+          material: NETHER_WART_BLOCK
+          amount: 4
+    '诡异菌':
+      seconds: 6
+      input:
+        1:
+          material: WARPED_FUNGUS
+          amount: 1
+      output:
+        1:
+          material: WARPED_FUNGUS
+          amount: 6
+        2:
+          material: WARPED_STEM
+          amount: 3
+        3: 
+          material: WARPED_WART_BLOCK
+          amount: 3
+    '睡莲':
+      seconds: 6
+      input:
+        1:
+          material: LILY_PAD
+          amount: 1
+      output:
+        1:
+          material: LILY_PAD
+          amount: 9
+    '海泡菜':
+      seconds: 6
+      input:
+        1:
+          material: SEA_PICKLE
+          amount: 1
+      output:
+        1:
+          material: SEA_PICKLE
+          amount: 9
+    '海草':
+      seconds: 6
+      input:
+        1:
+          material: SEAGRASS
+          amount: 1
+      output:
+        1:
+          material: SEAGRASS
+          amount: 9
+    '海带':
+      seconds: 6
+      input:
+        1:
+          material: KELP
+          amount: 1
+      output:
+        1:
+          material: KELP
+          amount: 9
+    '蒲公英':
+      seconds: 6
+      input:
+        1:
+          material: DANDELION
+          amount: 1
+      output:
+        1:
+          material: DANDELION
+          amount: 9
+    '虞美人':
+      seconds: 6
+      input:
+        1:
+          material: POPPY
+          amount: 1
+      output:
+        1:
+          material: POPPY
+          amount: 9
+    '兰花':
+      seconds: 6
+      input:
+        1:
+          material: BLUE_ORCHID
+          amount: 1
+      output:
+        1:
+          material: BLUE_ORCHID
+          amount: 9
+    '绒球葱':
+      seconds: 6
+      input:
+        1:
+          material: ALLIUM
+          amount: 1
+      output:
+        1:
+          material: ALLIUM
+          amount: 9
+    '蓝花美耳草':
+      seconds: 6
+      input:
+        1:
+          material: AZURE_BLUET
+          amount: 1
+      output:
+        1:
+          material: AZURE_BLUET
+          amount: 9
+    '红色郁金香':
+      seconds: 6
+      input:
+        1:
+          material: RED_TULIP
+          amount: 1
+      output:
+        1:
+          material: RED_TULIP
+          amount: 9
+    '橙色郁金香':
+      seconds: 6
+      input:
+        1:
+          material: ORANGE_TULIP
+          amount: 1
+      output:
+        1:
+          material: ORANGE_TULIP
+          amount: 9
+    '白色郁金香':
+      seconds: 6
+      input:
+        1:
+          material: WHITE_TULIP
+          amount: 1
+      output:
+        1:
+          material: WHITE_TULIP
+          amount: 9
+    '粉色郁金香':
+      seconds: 6
+      input:
+        1:
+          material: PINK_TULIP
+          amount: 1
+      output:
+        1:
+          material: PINK_TULIP
+          amount: 9
+    '滨菊':
+      seconds: 6
+      input:
+        1:
+          material: OXEYE_DAISY
+          amount: 1
+      output:
+        1:
+          material: OXEYE_DAISY
+          amount: 9
+    '矢车菊':
+      seconds: 6
+      input:
+        1:
+          material: CORNFLOWER
+          amount: 1
+      output:
+        1:
+          material: CORNFLOWER
+          amount: 9
+    '铃兰':
+      seconds: 6
+      input:
+        1:
+          material: LILY_OF_THE_VALLEY
+          amount: 1
+      output:
+        1:
+          material: LILY_OF_THE_VALLEY
+          amount: 9
+    '凋零玫瑰':
+      seconds: 6
+      input:
+        1:
+          material: WITHER_ROSE
+          amount: 1
+      output:
+        1:
+          material: WITHER_ROSE
+          amount: 9
+    '粉红色花簇':
+      seconds: 6
+      input:
+        1:
+          material: PINK_PETALS
+          amount: 1
+      output:
+        1:
+          material: PINK_PETALS
+          amount: 9
+    '包子花':
+      seconds: 6
+      input:
+        1:
+          material: SPORE_BLOSSOM
+          amount: 1
+      output:
+        1:
+          material: SPORE_BLOSSOM
+          amount: 9
+    '竹子':
+      seconds: 6
+      input:
+        1:
+          material: BAMBOO
+          amount: 1
+      output:
+        1:
+          material: BAMBOO
+          amount: 9
+    '甘蔗':
+      seconds: 6
+      input:
+        1:
+          material: SUGAR_CANE
+          amount: 1
+      output:
+        1:
+          material: SUGAR_CANE
+          amount: 9
+
+
+MAGIC_POWER_MIX_BOX_1:
+  item_group: magic_power
+  item:
+    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}矩{#FFA8AF}阵{#FF9DA4}-{#FA8E99}发{#F97F8E}电{#F87083}机{#F76178}-{#F6527D}I{#F54378}（{#F43477}矩{#F32576}阵{#F21675}台{#F10774}）"
+    material: SEA_LANTERN
+    glow: true
+    lore:
+      - "{#FDB7D4}这是用于堆放发电机的矩阵台"
+      - "{#FDB7D4}将发电机放入本机器中"
+      - "{#FDB7D4}目前支持：基础风力、无尽、虚空、超级太阳能、高级太阳能、水利涡轮、充能太阳能、为爱发电机(8种)"
+      - "{#FDB7D4}最下方一行为状态栏，仅用于显示各种指数"
+      - "{#FDB7D4}数据仅供参考，以实际放入机器为准"
+      - "{#FDB7D4}此机器用于显示数据，下方机器为发电机器"
+      - "{#FDB7D4}实验性机器"
+      - "&a"
+      - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  capacity: 512
+  energyPerCraft: 128
+  status: 53
+  speed: 2
+  input: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44]
+  output: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44] 
+  recipe: 
+    1:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    5: 
+      material_type: slimefun
+      material: NTW_CELL
+      amount: 1
+    6: 
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    8: 
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
