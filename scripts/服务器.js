@@ -1,6 +1,6 @@
-var Material = Java.type('org.bukkit.Material');
-var BlockBreakEvent = Java.type('org.bukkit.event.block.BlockBreakEvent');
-var SlimefunItem = Java.type('io.github.thebusybiscuits.slimefun4.api.items.SlimefunItem');
+// var Material = Java.type('org.bukkit.Material');
+// var BlockBreakEvent = Java.type('org.bukkit.event.block.BlockBreakEvent');
+// var SlimefunItem = Java.type('io.github.thebusybiscuits.slimefun4.api.items.SlimefunItem');
 
 
 
@@ -76,10 +76,14 @@ function onPlayerPickupItem(event){
 
     let player = event.getPlayer();
 
+    let world = player.getWorld();
+
+    let eyeLocation = player.getEyeLocation();
+
     var itemstack = item.getItemStack();
 
     // 尝试获取与 ItemStack 关联的 SlimefunItem
-    let slimefunItem = SlimefunItem.getByItem(itemstack);
+    let slimefunItem = getSfItemByItem(itemstack);
 
 
     // org.bukkit.Bukkit.broadcastMessage("物品:"+ sfid);
@@ -125,6 +129,7 @@ function onPlayerPickupItem(event){
 
         // 移除物品实体
         // item.remove();
+        playIgniteTNTSound(world, eyeLocation);
         
 
         // 广播调试信息（可选）
@@ -132,4 +137,15 @@ function onPlayerPickupItem(event){
     }
 
 
+}
+
+
+//闪电
+function playIgniteTNTSound(world, location) {
+    const TNT_IGNITE_SOUND_NAME = "item.totem.use"; // 使用完整的命名空间字符串
+    const VOLUME = 1.0; // 音量
+    const PITCH = 0.01; // 音调
+
+    // 播放点燃TNT的音效，使用声音名称字符串
+    world.playSound(location, TNT_IGNITE_SOUND_NAME, VOLUME, PITCH);
 }
