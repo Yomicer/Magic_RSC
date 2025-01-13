@@ -1,5 +1,5 @@
 # Magic
-魔法是通过RykenSlimefunCustomizer插件写成的一份配置文件，对于原版粘液以及常用附属的延续，以及自己的一些新想法。
+魔法是通过RykenSlimefunCustomizer插件写成的一份配置文件，对于原版粘液以及常用附属的延续，以及一些新的想法。
 
 ## 公告
 1、魔法使用rsc即RykenSlimefunCustomizer编写
