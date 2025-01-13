@@ -797,7 +797,7 @@ MAGIC_BEE_HOUSE_1:
       amount: 1 
     4: 
       material_type: slimefun
-      material: THERMOMETER
+      material: MAGIC_MACHINE_CORE
       amount: 1 
     5: 
       material_type: slimefun
@@ -872,7 +872,7 @@ MAGIC_MINERAL_HOUSE_1:
       amount: 1 
     4: 
       material_type: slimefun
-      material: THERMOMETER
+      material: MAGIC_MACHINE_CORE
       amount: 1 
     5: 
       material_type: slimefun
