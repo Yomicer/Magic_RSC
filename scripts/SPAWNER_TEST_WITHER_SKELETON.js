@@ -145,8 +145,8 @@ function onPlace(event) {
             // org.bukkit.Bukkit.broadcastMessage(`§7[系统] §f验证执行。`);     //测试
 
             spawner.setSpawnedType(entityType);
-            spawner.setMinSpawnDelay(800000); // 设置最小延迟（例如200刻）
-            spawner.setMaxSpawnDelay(800000); // 设置最大延迟（例如800刻）
+            spawner.setMinSpawnDelay(800); // 设置最小延迟（例如200刻）
+            spawner.setMaxSpawnDelay(800); // 设置最大延迟（例如800刻）
             spawner.setMaxNearbyEntities(0); // 设置附近实体的最大数量
             spawner.setRequiredPlayerRange(18); // 设置玩家范围要求
             spawner.setSpawnRange(0); // 设置生成范围
