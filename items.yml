@@ -2,7 +2,7 @@ MAGIC_AUTHOR:
   item_group: magic_author
   placeable: true
   item:
-    name: "&e&lmagicsolo的头"
+    name: "{#FFC1E0}&lmagicsolo的头"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkYjI1YWI5OTc2ZDg5ZDBiZDgxMThkNzJjMWMwNmJiOTA3MDYwYzFlMDJhNzI5YjY1MmQxZTg2YjFlYmJiYyJ9fX0=
     lore:
@@ -155,7 +155,7 @@ MAGIC_BLISTERING_INGOT_3:
 
 MAGIC_GCE_EXCITATION_CHAMBER_PRE:
   #魔法鼓舞室-半成品
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c魔法&7鼓舞室-半成品"
@@ -267,7 +267,7 @@ MAGIC_NEWPLAYER_COIN:
       - "&b放到增强型合成台对应位置"
       - "&b召唤出不同的福利机器"
       - "&a"
-      - "&b萌新专属材料"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
 
 MAGIC_INFINITE_UP:
   #无尽升级模块
@@ -376,7 +376,7 @@ MAGIC_MAGMA_UP:
 
 MAGIC_COPPER_DUST:
   #魔法铜粉
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -423,7 +423,7 @@ MAGIC_COPPER_DUST:
 
 MAGIC_IRON_DUST:
   #魔法铁粉
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -470,7 +470,7 @@ MAGIC_IRON_DUST:
 
 MAGIC_GOLD_DUST:
   #魔法金粉
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -517,7 +517,7 @@ MAGIC_GOLD_DUST:
 
 MAGIC_TIN_DUST:
   #魔法锡粉
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -564,7 +564,7 @@ MAGIC_TIN_DUST:
   
 MAGIC_SILVER_DUST:
   #魔法银粉
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -611,7 +611,7 @@ MAGIC_SILVER_DUST:
 
 MAGIC_LEAD_DUST:
   #魔法铅粉
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -658,7 +658,7 @@ MAGIC_LEAD_DUST:
 
 MAGIC_ALUMINUM_DUST:
   #魔法铝粉
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -705,7 +705,7 @@ MAGIC_ALUMINUM_DUST:
 
 MAGIC_ZINC_DUST:
   #魔法锌粉
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -752,7 +752,7 @@ MAGIC_ZINC_DUST:
 
 MAGIC_MAGNESIUM_DUST:
   #魔法镁粉
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -799,7 +799,7 @@ MAGIC_MAGNESIUM_DUST:
 
 MAGIC_SULFATE:
   #魔法硫酸盐
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -846,7 +846,7 @@ MAGIC_SULFATE:
 
 MAGIC_GLASS:
   #魔法玻璃
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -893,7 +893,7 @@ MAGIC_GLASS:
 
 MAGIC_COAL:
   #魔法煤炭
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -941,7 +941,7 @@ MAGIC_COAL:
 
 MAGIC_QUARTZ:
   #魔法石英
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -989,7 +989,7 @@ MAGIC_QUARTZ:
 
 MAGIC_GOLD_INGOT:
   #魔法金锭
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -1037,7 +1037,7 @@ MAGIC_GOLD_INGOT:
 
 MAGIC_DIAMOND:
   #魔法钻石
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -1085,7 +1085,7 @@ MAGIC_DIAMOND:
 
 MAGIC_IRON_INGOT:
   #魔法铁锭
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -1133,7 +1133,7 @@ MAGIC_IRON_INGOT:
 
 MAGIC_LAPIS_LAZULI:
   #魔法青金石
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -1181,7 +1181,7 @@ MAGIC_LAPIS_LAZULI:
 
 MAGIC_EMERALD:
   #魔法绿宝石
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -1229,7 +1229,7 @@ MAGIC_EMERALD:
 
 MAGIC_MAGMA_CREAM:
   #魔法岩浆膏
-  item_group: magic_gec_resource
+  item_group: magic_gec
   recipe_type: ANCIENT_ALTAR
   radiation: VERY_HIGH
   item:
@@ -1277,7 +1277,7 @@ MAGIC_MAGMA_CREAM:
 
 MAGIC_BEE_SPAWN_EGG8:
   #8只魔法蜜蜂
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&a8只魔法蜜蜂"
@@ -1287,6 +1287,8 @@ MAGIC_BEE_SPAWN_EGG8:
     lore:
       - "&a" 
       - "&7八只附有魔法力量的蜜蜂"
+      - "&7可通过蜜蜂蛋合成"
+      - "&7也可通过魔法蜂巢培育"
       - "&a" 
       - "&6魔法动物"
   recipe:
@@ -1312,7 +1314,7 @@ MAGIC_BEE_SPAWN_EGG8:
 
 MAGIC_BEE_SPAWN_EGG64:
   #64只魔法蜜蜂
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&a64只魔法蜜蜂"
@@ -1352,7 +1354,7 @@ MAGIC_BEE_SPAWN_EGG64:
 
 MAGIC_DYNATECH_APIARY_BILLON_INGOT8: 
   #重铸的银铜合金矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b银铜合金&7矿化蜂箱"
@@ -1369,34 +1371,32 @@ MAGIC_DYNATECH_APIARY_BILLON_INGOT8:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_BILLON_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_BILLON_MINERALIZED_APIARY
+      material: BILLON_INGOT
     3: 
       material_type: slimefun
-      material: DT_BILLON_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_BILLON_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_BILLON_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_BILLON_MINERALIZED_APIARY
+      material: BILLON_INGOT
     8: 
       material_type: slimefun
-      material: DT_BILLON_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_BILLON_MINERALIZED_APIARY
+      material: BILLON_INGOT
 
 MAGIC_DYNATECH_APIARY_BILLON_INGOT64: 
   #没有蜜蜂的银铜合金矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b银铜合金&7矿化蜂箱组"
@@ -1457,7 +1457,7 @@ MAGIC_REDSTONE_PRESS:
 
 MAGIC_CD_NEW_1: 
   #基础魔法卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&a基础魔法卡片"
@@ -1507,7 +1507,7 @@ MAGIC_CD_NEW_1:
 
 MAGIC_CD_NEW_2: 
   #高级魔法卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&a高级魔法卡片"
@@ -1557,7 +1557,7 @@ MAGIC_CD_NEW_2:
 
 MAGIC_CD_NEW_3: 
   #终极魔法卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&a终极魔法卡片"
@@ -1607,7 +1607,7 @@ MAGIC_CD_NEW_3:
 
 MAGIC_CD_NEW_4: 
   #起源魔法卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&a起源魔法卡片"
@@ -1657,7 +1657,7 @@ MAGIC_CD_NEW_4:
 
 MAGIC_CD_BLISTERING_INGOT_3: 
   #魔法起泡锭卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&b魔法起泡锭卡片"
@@ -1707,7 +1707,7 @@ MAGIC_CD_BLISTERING_INGOT_3:
 
 MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT: 
   #重铸的硬铝矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b硬铝&7矿化蜂箱"
@@ -1724,34 +1724,32 @@ MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_DURALUMIN_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_DURALUMIN_MINERALIZED_APIARY
+      material: DURALUMIN_INGOT
     3: 
       material_type: slimefun
-      material: DT_DURALUMIN_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_DURALUMIN_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_DURALUMIN_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_DURALUMIN_MINERALIZED_APIARY
+      material: DURALUMIN_INGOT
     8: 
       material_type: slimefun
-      material: DT_DURALUMIN_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_DURALUMIN_MINERALIZED_APIARY
+      material: DURALUMIN_INGOT
 
 MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT64: 
   #没有蜜蜂的硬铝矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b硬铝&7矿化蜂箱组"
@@ -1796,7 +1794,7 @@ MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT64:
 
 MAGIC_DYNATECH_APIARY_BRASS_INGOT: 
   #重铸的黄铜矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b黄铜&7矿化蜂箱"
@@ -1813,34 +1811,32 @@ MAGIC_DYNATECH_APIARY_BRASS_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_BRASS_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_BRASS_MINERALIZED_APIARY
+      material: BRASS_INGOT
     3: 
       material_type: slimefun
-      material: DT_BRASS_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_BRASS_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_BRASS_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_BRASS_MINERALIZED_APIARY
+      material: BRASS_INGOT
     8: 
       material_type: slimefun
-      material: DT_BRASS_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_BRASS_MINERALIZED_APIARY
+      material: BRASS_INGOT
 
 MAGIC_DYNATECH_APIARY_BRASS_INGOT64: 
   #没有蜜蜂的黄铜矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b黄铜&7矿化蜂箱组"
@@ -1883,9 +1879,96 @@ MAGIC_DYNATECH_APIARY_BRASS_INGOT64:
       material_type: slimefun
       material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
 
+MAGIC_DYNATECH_APIARY_BRONZE_INGOT: 
+  #重铸的青铜矿化蜂箱
+  item_group: magic_beehive
+  recipe_type: MAGIC_WORKBENCH
+  item:
+    name: "&c重铸的&b青铜&7矿化蜂箱"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
+    lore:
+      - "&a"
+      - "&7让蜜蜂来帮你"
+      - "&7生产材料"
+      - "&a" 
+      - "&4终极 机器"
+      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&8⇨&e ⚡ &724 J/t"
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_CAPACITOR_SMALL
+    2: 
+      material_type: slimefun
+      material: BRONZE_INGOT
+    3: 
+      material_type: slimefun
+      material: MAGIC_CAPACITOR_SMALL
+    4: 
+      material: BEEHIVE
+    5: 
+      material: BLAST_FURNACE
+    6: 
+      material: BEEHIVE
+    7: 
+      material_type: slimefun
+      material: BRONZE_INGOT
+    8: 
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    9: 
+      material_type: slimefun
+      material: BRONZE_INGOT
+
+MAGIC_DYNATECH_APIARY_BRONZE_INGOT64: 
+  #没有蜜蜂的青铜矿化蜂箱组
+  item_group: magic_beehive
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  item:
+    name: "&7没有蜜蜂的&b青铜&7矿化蜂箱组"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
+    lore:
+      - "&a"
+      - "&7让蜜蜂来帮你"
+      - "&9生产材料"
+      - "&a" 
+      - "&4终极 机器"
+      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&8⇨&e ⚡ &7999,999 J/t"
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+    2: 
+      material_type: slimefun
+      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+    3: 
+      material_type: slimefun
+      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+    4: 
+      material_type: slimefun
+      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+    5: 
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+    6: 
+      material_type: slimefun
+      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+    7: 
+      material_type: slimefun
+      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+    8: 
+      material_type: slimefun
+      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+    9: 
+      material_type: slimefun
+      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+
 MAGIC_DYNATECH_APIARY_STEEL_INGOT: 
   #重铸的钢矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b钢&7矿化蜂箱"
@@ -1902,34 +1985,32 @@ MAGIC_DYNATECH_APIARY_STEEL_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_STEEL_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_STEEL_MINERALIZED_APIARY
+      material: STEEL_INGOT
     3: 
       material_type: slimefun
-      material: DT_STEEL_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_STEEL_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_STEEL_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_STEEL_MINERALIZED_APIARY
+      material: STEEL_INGOT
     8: 
       material_type: slimefun
-      material: DT_STEEL_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_STEEL_MINERALIZED_APIARY
+      material: STEEL_INGOT
 
 MAGIC_DYNATECH_APIARY_STEEL_INGOT64: 
   #没有蜜蜂的钢矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b钢&7矿化蜂箱组"
@@ -1974,7 +2055,7 @@ MAGIC_DYNATECH_APIARY_STEEL_INGOT64:
 
 MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT: 
   #重铸的铝黄铜矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b铝黄铜&7矿化蜂箱"
@@ -1991,34 +2072,32 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRASS_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRASS_MINERALIZED_APIARY
+      material: ALUMINUM_BRASS_INGOT
     3: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRASS_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_ALUMINUM_BRASS_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_ALUMINUM_BRASS_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRASS_MINERALIZED_APIARY
+      material: ALUMINUM_BRASS_INGOT
     8: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRASS_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRASS_MINERALIZED_APIARY
+      material: ALUMINUM_BRASS_INGOT
 
 MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT64: 
   #没有蜜蜂的铝黄铜矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b铝黄铜&7矿化蜂箱组"
@@ -2061,9 +2140,11 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT64:
       material_type: slimefun
       material: MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT
 
+      
+
 MAGIC_DYNATECH_APIARY_ALUMINUM_BRONZE_INGOT: 
   #重铸的铝青铜锭矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b铝青铜锭&7矿化蜂箱"
@@ -2080,34 +2161,32 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRONZE_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRONZE_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRONZE_MINERALIZED_APIARY
+      material: ALUMINUM_BRONZE_INGOT
     3: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRONZE_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_ALUMINUM_BRONZE_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_ALUMINUM_BRONZE_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRONZE_MINERALIZED_APIARY
+      material: ALUMINUM_BRONZE_INGOT
     8: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRONZE_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_ALUMINUM_BRONZE_MINERALIZED_APIARY
+      material: ALUMINUM_BRONZE_INGOT
 
 MAGIC_DYNATECH_APIARY_ALUMINUM_BRONZE_INGOT64: 
   #没有蜜蜂的铝青铜锭矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b铝青铜锭&7矿化蜂箱组"
@@ -2152,7 +2231,7 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRONZE_INGOT64:
 
 MAGIC_DYNATECH_APIARY_CORINTHIAN_BRONZE_INGOT: 
   #重铸的科林斯青铜矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b科林斯青铜&7矿化蜂箱"
@@ -2169,34 +2248,32 @@ MAGIC_DYNATECH_APIARY_CORINTHIAN_BRONZE_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_CORINTHIAN_BRONZE_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_CORINTHIAN_BRONZE_MINERALIZED_APIARY
+      material: CORINTHIAN_BRONZE_INGOT
     3: 
       material_type: slimefun
-      material: DT_CORINTHIAN_BRONZE_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_CORINTHIAN_BRONZE_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_CORINTHIAN_BRONZE_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_CORINTHIAN_BRONZE_MINERALIZED_APIARY
+      material: CORINTHIAN_BRONZE_INGOT
     8: 
       material_type: slimefun
-      material: DT_CORINTHIAN_BRONZE_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_CORINTHIAN_BRONZE_MINERALIZED_APIARY
+      material: CORINTHIAN_BRONZE_INGOT
 
 MAGIC_DYNATECH_APIARY_CORINTHIAN_BRONZE_INGOT64: 
   #没有蜜蜂的科林斯青铜矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b科林斯青铜&7矿化蜂箱组"
@@ -2241,7 +2318,7 @@ MAGIC_DYNATECH_APIARY_CORINTHIAN_BRONZE_INGOT64:
 
 MAGIC_DYNATECH_APIARY_SOLDER_INGOT: 
   #重铸的焊锡矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b焊锡&7矿化蜂箱"
@@ -2258,34 +2335,32 @@ MAGIC_DYNATECH_APIARY_SOLDER_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_SOLDER_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_SOLDER_MINERALIZED_APIARY
+      material: SOLDER_INGOT
     3: 
       material_type: slimefun
-      material: DT_SOLDER_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_SOLDER_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_SOLDER_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_SOLDER_MINERALIZED_APIARY
+      material: SOLDER_INGOT
     8: 
       material_type: slimefun
-      material: DT_SOLDER_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_SOLDER_MINERALIZED_APIARY
+      material: SOLDER_INGOT
 
 MAGIC_DYNATECH_APIARY_SOLDER_INGOT64: 
   #没有蜜蜂的焊锡矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b焊锡&7矿化蜂箱组"
@@ -2330,7 +2405,7 @@ MAGIC_DYNATECH_APIARY_SOLDER_INGOT64:
 
 MAGIC_DYNATECH_APIARY_DAMASCUS_STEEL_INGOT: 
   #重铸的大马士革钢矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b大马士革钢&7矿化蜂箱"
@@ -2347,34 +2422,32 @@ MAGIC_DYNATECH_APIARY_DAMASCUS_STEEL_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_DAMASCUS_STEEL_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_DAMASCUS_STEEL_MINERALIZED_APIARY
+      material: DAMASCUS_STEEL_INGOT
     3: 
       material_type: slimefun
-      material: DT_DAMASCUS_STEEL_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_DAMASCUS_STEEL_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_DAMASCUS_STEEL_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_DAMASCUS_STEEL_MINERALIZED_APIARY
+      material: DAMASCUS_STEEL_INGOT
     8: 
       material_type: slimefun
-      material: DT_DAMASCUS_STEEL_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_DAMASCUS_STEEL_MINERALIZED_APIARY
+      material: DAMASCUS_STEEL_INGOT
 
 MAGIC_DYNATECH_APIARY_DAMASCUS_STEEL_INGOT64: 
   #没有蜜蜂的大马士革钢矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b大马士革钢&7矿化蜂箱组"
@@ -2419,7 +2492,7 @@ MAGIC_DYNATECH_APIARY_DAMASCUS_STEEL_INGOT64:
 
 MAGIC_DYNATECH_APIARY_HARDENED_METAL_INGOT: 
   #重铸的硬化金属矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b硬化金属&7矿化蜂箱"
@@ -2436,34 +2509,32 @@ MAGIC_DYNATECH_APIARY_HARDENED_METAL_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_HARDENED_METAL_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_HARDENED_METAL_MINERALIZED_APIARY
+      material: HARDENED_METAL_INGOT
     3: 
       material_type: slimefun
-      material: DT_HARDENED_METAL_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_HARDENED_METAL_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_HARDENED_METAL_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_HARDENED_METAL_MINERALIZED_APIARY
+      material: HARDENED_METAL_INGOT
     8: 
       material_type: slimefun
-      material: DT_HARDENED_METAL_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_HARDENED_METAL_MINERALIZED_APIARY
+      material: HARDENED_METAL_INGOT
 
 MAGIC_DYNATECH_APIARY_HARDENED_METAL_INGOT64: 
   #没有蜜蜂的硬化金属矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b硬化金属&7矿化蜂箱组"
@@ -2508,7 +2579,7 @@ MAGIC_DYNATECH_APIARY_HARDENED_METAL_INGOT64:
 
 MAGIC_DYNATECH_APIARY_REINFORCED_ALLOY_INGOT: 
   #重铸的强化合金锭矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b强化合金锭&7矿化蜂箱"
@@ -2525,34 +2596,32 @@ MAGIC_DYNATECH_APIARY_REINFORCED_ALLOY_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_REINFORCED_ALLOY_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_REINFORCED_ALLOY_MINERALIZED_APIARY
+      material: REINFORCED_ALLOY_INGOT
     3: 
       material_type: slimefun
-      material: DT_REINFORCED_ALLOY_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_REINFORCED_ALLOY_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_REINFORCED_ALLOY_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_REINFORCED_ALLOY_MINERALIZED_APIARY
+      material: REINFORCED_ALLOY_INGOT
     8: 
       material_type: slimefun
-      material: DT_REINFORCED_ALLOY_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_REINFORCED_ALLOY_MINERALIZED_APIARY
+      material: REINFORCED_ALLOY_INGOT
 
 MAGIC_DYNATECH_APIARY_REINFORCED_ALLOY_INGOT64: 
   #没有蜜蜂的强化合金锭矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b强化合金锭&7矿化蜂箱组"
@@ -2597,7 +2666,7 @@ MAGIC_DYNATECH_APIARY_REINFORCED_ALLOY_INGOT64:
 
 MAGIC_DYNATECH_APIARY_FERROSILICON: 
   #重铸的硅铁矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b硅铁&7矿化蜂箱"
@@ -2614,34 +2683,32 @@ MAGIC_DYNATECH_APIARY_FERROSILICON:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_FERROSILICON_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_FERROSILICON_MINERALIZED_APIARY
+      material: FERROSILICON
     3: 
       material_type: slimefun
-      material: DT_FERROSILICON_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_FERROSILICON_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_FERROSILICON_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_FERROSILICON_MINERALIZED_APIARY
+      material: FERROSILICON
     8: 
       material_type: slimefun
-      material: DT_FERROSILICON_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_FERROSILICON_MINERALIZED_APIARY
+      material: FERROSILICON
 
 MAGIC_DYNATECH_APIARY_FERROSILICON64: 
   #没有蜜蜂的硅铁矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b硅铁&7矿化蜂箱组"
@@ -2686,7 +2753,7 @@ MAGIC_DYNATECH_APIARY_FERROSILICON64:
 
 MAGIC_DYNATECH_APIARY_GILDED_IRON: 
   #重铸的镀金铁锭矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b镀金铁锭&7矿化蜂箱"
@@ -2703,34 +2770,32 @@ MAGIC_DYNATECH_APIARY_GILDED_IRON:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_GILDED_IRON_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_GILDED_IRON_MINERALIZED_APIARY
+      material: GILDED_IRON
     3: 
       material_type: slimefun
-      material: DT_GILDED_IRON_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_GILDED_IRON_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_GILDED_IRON_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_GILDED_IRON_MINERALIZED_APIARY
+      material: GILDED_IRON
     8: 
       material_type: slimefun
-      material: DT_GILDED_IRON_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_GILDED_IRON_MINERALIZED_APIARY
+      material: GILDED_IRON
 
 MAGIC_DYNATECH_APIARY_GILDED_IRON64: 
   #没有蜜蜂的镀金铁锭矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b镀金铁锭&7矿化蜂箱组"
@@ -2775,7 +2840,7 @@ MAGIC_DYNATECH_APIARY_GILDED_IRON64:
 
 MAGIC_DYNATECH_APIARY_NICKEL_INGOT: 
   #重铸的镍矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b镍&7矿化蜂箱"
@@ -2792,34 +2857,32 @@ MAGIC_DYNATECH_APIARY_NICKEL_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_NICKEL_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_NICKEL_MINERALIZED_APIARY
+      material: NICKEL_INGOT
     3: 
       material_type: slimefun
-      material: DT_NICKEL_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_NICKEL_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_NICKEL_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_NICKEL_MINERALIZED_APIARY
+      material: NICKEL_INGOT
     8: 
       material_type: slimefun
-      material: DT_NICKEL_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_NICKEL_MINERALIZED_APIARY
+      material: NICKEL_INGOT
 
 MAGIC_DYNATECH_APIARY_NICKEL_INGOT64: 
   #没有蜜蜂的镍矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b镍&7矿化蜂箱组"
@@ -2864,7 +2927,7 @@ MAGIC_DYNATECH_APIARY_NICKEL_INGOT64:
 
 MAGIC_DYNATECH_APIARY_COBALT_INGOT: 
   #重铸的钴矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b钴&7矿化蜂箱"
@@ -2881,34 +2944,32 @@ MAGIC_DYNATECH_APIARY_COBALT_INGOT:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_COBALT_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_COBALT_MINERALIZED_APIARY
+      material: COBALT_INGOT
     3: 
       material_type: slimefun
-      material: DT_COBALT_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_COBALT_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_COBALT_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_COBALT_MINERALIZED_APIARY
+      material: COBALT_INGOT
     8: 
       material_type: slimefun
-      material: DT_COBALT_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_COBALT_MINERALIZED_APIARY
+      material: COBALT_INGOT
 
 MAGIC_DYNATECH_APIARY_COBALT_INGOT64: 
   #没有蜜蜂的钴矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b钴&7矿化蜂箱组"
@@ -2953,7 +3014,7 @@ MAGIC_DYNATECH_APIARY_COBALT_INGOT64:
 
 MAGIC_DYNATECH_APIARY_REDSTONE_ALLOY: 
   #重铸的红石合金锭矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b红石合金锭&7矿化蜂箱"
@@ -2970,34 +3031,32 @@ MAGIC_DYNATECH_APIARY_REDSTONE_ALLOY:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_REDSTONE_ALLOY_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_REDSTONE_ALLOY_MINERALIZED_APIARY
+      material: REDSTONE_ALLOY
     3: 
       material_type: slimefun
-      material: DT_REDSTONE_ALLOY_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_REDSTONE_ALLOY_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_REDSTONE_ALLOY_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_REDSTONE_ALLOY_MINERALIZED_APIARY
+      material: REDSTONE_ALLOY
     8: 
       material_type: slimefun
-      material: DT_REDSTONE_ALLOY_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_REDSTONE_ALLOY_MINERALIZED_APIARY
+      material: REDSTONE_ALLOY
 
 MAGIC_DYNATECH_APIARY_REDSTONE_ALLOY64: 
   #没有蜜蜂的红石合金锭矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b红石合金锭&7矿化蜂箱组"
@@ -3042,7 +3101,7 @@ MAGIC_DYNATECH_APIARY_REDSTONE_ALLOY64:
 
 MAGIC_DYNATECH_APIARY_SYNTHETIC_DIAMOND: 
   #重铸的人造钻石矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b人造钻石&7矿化蜂箱"
@@ -3059,34 +3118,32 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_DIAMOND:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_SYNTHETIC_DIAMOND_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_SYNTHETIC_DIAMOND_MINERALIZED_APIARY
+      material: SYNTHETIC_DIAMOND
     3: 
       material_type: slimefun
-      material: DT_SYNTHETIC_DIAMOND_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_SYNTHETIC_DIAMOND_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_SYNTHETIC_DIAMOND_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_SYNTHETIC_DIAMOND_MINERALIZED_APIARY
+      material: SYNTHETIC_DIAMOND
     8: 
       material_type: slimefun
-      material: DT_SYNTHETIC_DIAMOND_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_SYNTHETIC_DIAMOND_MINERALIZED_APIARY
+      material: SYNTHETIC_DIAMOND
 
 MAGIC_DYNATECH_APIARY_SYNTHETIC_DIAMOND64: 
   #没有蜜蜂的人造钻石矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b人造钻石&7矿化蜂箱组"
@@ -3131,7 +3188,7 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_DIAMOND64:
 
 MAGIC_DYNATECH_APIARY_SYNTHETIC_EMERALD: 
   #重铸的人造绿宝石矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b人造绿宝石矿化蜂箱"
@@ -3148,34 +3205,32 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_EMERALD:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_SYNTHETIC_EMERALD_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_SYNTHETIC_EMERALD_MINERALIZED_APIARY
+      material: SYNTHETIC_EMERALD
     3: 
       material_type: slimefun
-      material: DT_SYNTHETIC_EMERALD_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_SYNTHETIC_EMERALD_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_SYNTHETIC_EMERALD_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_SYNTHETIC_EMERALD_MINERALIZED_APIARY
+      material: SYNTHETIC_EMERALD
     8: 
       material_type: slimefun
-      material: DT_SYNTHETIC_EMERALD_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_SYNTHETIC_EMERALD_MINERALIZED_APIARY
+      material: SYNTHETIC_EMERALD
 
 MAGIC_DYNATECH_APIARY_SYNTHETIC_EMERALD64: 
   #没有蜜蜂的人造绿宝石矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b人造绿宝石&7矿化蜂箱组"
@@ -3220,7 +3275,7 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_EMERALD64:
 
 MAGIC_DYNATECH_APIARY_SYNTHETIC_SAPPHIRE: 
   #重铸的人造蓝宝石矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b人造蓝宝石&7矿化蜂箱"
@@ -3237,34 +3292,32 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_SAPPHIRE:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_SYNTHETIC_SAPPHIRE_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_SYNTHETIC_SAPPHIRE_MINERALIZED_APIARY
+      material: SYNTHETIC_SAPPHIRE
     3: 
       material_type: slimefun
-      material: DT_SYNTHETIC_SAPPHIRE_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_SYNTHETIC_SAPPHIRE_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_SYNTHETIC_SAPPHIRE_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_SYNTHETIC_SAPPHIRE_MINERALIZED_APIARY
+      material: SYNTHETIC_SAPPHIRE
     8: 
       material_type: slimefun
-      material: DT_SYNTHETIC_SAPPHIRE_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_SYNTHETIC_SAPPHIRE_MINERALIZED_APIARY
+      material: SYNTHETIC_SAPPHIRE
 
 MAGIC_DYNATECH_APIARY_SYNTHETIC_SAPPHIRE64: 
   #没有蜜蜂的人造蓝宝石矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b人造蓝宝石&7矿化蜂箱组"
@@ -3309,7 +3362,7 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_SAPPHIRE64:
 
 MAGIC_DYNATECH_APIARY_CARBONADO: 
   #重铸的黑金刚石矿化蜂箱
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: MAGIC_WORKBENCH
   item:
     name: "&c重铸的&b黑金刚石&7矿化蜂箱"
@@ -3326,34 +3379,32 @@ MAGIC_DYNATECH_APIARY_CARBONADO:
   recipe:
     1: 
       material_type: slimefun
-      material: DT_CARBONADO_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     2: 
       material_type: slimefun
-      material: DT_CARBONADO_MINERALIZED_APIARY
+      material: CARBONADO
     3: 
       material_type: slimefun
-      material: DT_CARBONADO_MINERALIZED_APIARY
+      material: MAGIC_CAPACITOR_SMALL
     4: 
-      material_type: slimefun
-      material: DT_CARBONADO_MINERALIZED_APIARY
+      material: BEEHIVE
     5: 
       material: BLAST_FURNACE
     6: 
-      material_type: slimefun
-      material: DT_CARBONADO_MINERALIZED_APIARY
+      material: BEEHIVE
     7: 
       material_type: slimefun
-      material: DT_CARBONADO_MINERALIZED_APIARY
+      material: CARBONADO
     8: 
       material_type: slimefun
-      material: DT_CARBONADO_MINERALIZED_APIARY
+      material: MAGIC_REDSTONE
     9: 
       material_type: slimefun
-      material: DT_CARBONADO_MINERALIZED_APIARY
+      material: CARBONADO
 
 MAGIC_DYNATECH_APIARY_CARBONADO64: 
   #没有蜜蜂的黑金刚石矿化蜂箱组
-  item_group: magic_beehive_resource
+  item_group: magic_beehive
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&7没有蜜蜂的&b黑金刚石&7矿化蜂箱组"
@@ -3835,7 +3886,7 @@ MAGIC_GENSHIN_IMPACT_27:
 
 MAGIC_ZR: 
   #锆 (Zr)
-  item_group: magic_element_resources
+  item_group: magic_resource
   recipe_type: MAGIC_WAR_MACHINES_NUMERATOR
   placeable: true
   item:
@@ -3850,7 +3901,7 @@ MAGIC_ZR:
 
 MAGIC_SI: 
   #硅 (Si)
-  item_group: magic_element_resources
+  item_group: magic_resource
   recipe_type: MAGIC_WAR_MACHINES_NUMERATOR
   placeable: true
   item:
@@ -3865,7 +3916,7 @@ MAGIC_SI:
 
 MAGIC_AL: 
   #铝 (Al)
-  item_group: magic_element_resources
+  item_group: magic_resource
   recipe_type: MAGIC_WAR_MACHINES_NUMERATOR
   placeable: true
   item:
@@ -3880,7 +3931,7 @@ MAGIC_AL:
 
 MAGIC_TI: 
   #钛 (Ti)
-  item_group: magic_element_resources
+  item_group: magic_resource
   recipe_type: MAGIC_WAR_MACHINES_NUMERATOR
   placeable: true
   item:
@@ -3895,7 +3946,7 @@ MAGIC_TI:
 
 MAGIC_FE: 
   #铁 (Fe)
-  item_group: magic_element_resources
+  item_group: magic_resource
   recipe_type: MAGIC_WAR_MACHINES_NUMERATOR
   placeable: true
   item:
@@ -4306,7 +4357,7 @@ MAGIC_INFINITE_ORIGINIUM:
       amount: 1
 
 MAGIC_SNOW_CD: 
-  item_group: magic_snow
+  item_group: magic_foods
   item:
     name: "&e&l冬日菜谱"
     material: WRITTEN_BOOK
@@ -4430,7 +4481,7 @@ MAGIC_INFINITE_VOID_HARVESTER_UP:
       amount: 1
 
 MAGIC_MOB_SIMULATION_CHAMBER_UP: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&b无尽&7生物模拟室核心"
     material_type: skull_base64
@@ -4482,7 +4533,7 @@ MAGIC_MOB_SIMULATION_CHAMBER_UP:
       amount: 1
 
 ZOMBIE_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e僵尸&b生物芯片"
     material: diamond_chestplate
@@ -4496,7 +4547,7 @@ ZOMBIE_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SLIME_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e史莱姆&b生物芯片"
     material: iron_chestplate
@@ -4510,7 +4561,7 @@ SLIME_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 MAGMA_CUBE_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e岩浆怪&b生物芯片"
     material: iron_chestplate
@@ -4524,7 +4575,7 @@ MAGMA_CUBE_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 COW_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e牛&b生物芯片"
     material: iron_chestplate
@@ -4538,7 +4589,7 @@ COW_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SHEEP_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e绵羊&b生物芯片"
     material: iron_chestplate
@@ -4552,7 +4603,7 @@ SHEEP_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SPIDER_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e蜘蛛&b生物芯片"
     material: diamond_chestplate
@@ -4566,7 +4617,7 @@ SPIDER_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SKELETON_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e骷髅&b生物芯片"
     material: diamond_chestplate
@@ -4580,7 +4631,7 @@ SKELETON_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 WITHER_SKELETON_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e凋零骷髅&b生物芯片"
     material: diamond_chestplate
@@ -4594,7 +4645,7 @@ WITHER_SKELETON_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 ENDERMEN_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e末影人&b生物芯片"
     material: diamond_chestplate
@@ -4608,7 +4659,7 @@ ENDERMEN_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 CREEPER_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e苦力怕&b生物芯片"
     material: diamond_chestplate
@@ -4622,7 +4673,7 @@ CREEPER_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 GUARDIAN_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e守卫者&b生物芯片"
     material: diamond_chestplate
@@ -4636,7 +4687,7 @@ GUARDIAN_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 CHICKEN_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e鸡&b生物芯片"
     material: iron_chestplate
@@ -4650,7 +4701,7 @@ CHICKEN_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 IRON_GOLEM_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e铁傀儡&b生物芯片"
     material: diamond_chestplate
@@ -4664,7 +4715,7 @@ IRON_GOLEM_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 BLAZE_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e烈焰人&b生物芯片"
     material: diamond_chestplate
@@ -4678,7 +4729,7 @@ BLAZE_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 WITHER_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e凋零&b生物芯片"
     material: netherite_chestplate
@@ -4692,7 +4743,7 @@ WITHER_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 BEE_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e蜜蜂&b生物芯片"
     material: iron_chestplate
@@ -4706,7 +4757,7 @@ BEE_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 VILLAGER_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e村民&b生物芯片"
     material: iron_chestplate
@@ -4720,7 +4771,7 @@ VILLAGER_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 WITCH_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e女巫&b生物芯片"
     material: diamond_chestplate
@@ -4734,7 +4785,7 @@ WITCH_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 VEX_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e恼鬼&b生物芯片"
     material: diamond_chestplate
@@ -4748,7 +4799,7 @@ VEX_DATA_CARD_MAGIC:
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 PHANTOM_DATA_CARD_MAGIC: 
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&c魔法&e幻翼&b生物芯片"
     material: diamond_chestplate
@@ -4763,7 +4814,7 @@ PHANTOM_DATA_CARD_MAGIC:
 
 MAGIC_CD_REINFORCED_ALLOY_INGOT: 
   #魔法强化合金锭卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法强化合金锭卡片"
@@ -4785,7 +4836,7 @@ MAGIC_CD_REINFORCED_ALLOY_INGOT:
 
 MAGIC_CD_HARDENED_METAL_INGOT: 
   #魔法硬化金属卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法硬化金属卡片"
@@ -4807,7 +4858,7 @@ MAGIC_CD_HARDENED_METAL_INGOT:
 
 MAGIC_CD_SYNTHETIC_SAPPHIRE: 
   #魔法人造蓝宝石卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法人造蓝宝石卡片"
@@ -4829,7 +4880,7 @@ MAGIC_CD_SYNTHETIC_SAPPHIRE:
 
 MAGIC_CD_SYNTHETIC_DIAMOND: 
   #魔法人造钻石卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法人造钻石卡片"
@@ -4851,7 +4902,7 @@ MAGIC_CD_SYNTHETIC_DIAMOND:
 
 MAGIC_CD_SYNTHETIC_EMERALD: 
   #魔法人造绿宝石卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法人造绿宝石卡片"
@@ -4873,7 +4924,7 @@ MAGIC_CD_SYNTHETIC_EMERALD:
 
 MAGIC_CD_REDSTONE_ALLOY: 
   #魔法红石合金锭卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法红石合金锭卡片"
@@ -4895,7 +4946,7 @@ MAGIC_CD_REDSTONE_ALLOY:
 
 MAGIC_CD_BASIC_CIRCUIT_BOARD: 
   #魔法基础电路板卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法基础电路板卡片"
@@ -4917,7 +4968,7 @@ MAGIC_CD_BASIC_CIRCUIT_BOARD:
 
 MAGIC_CD_ADVANCED_CIRCUIT_BOARD: 
   #魔法高级电路板卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法高级电路板卡片"
@@ -4939,7 +4990,7 @@ MAGIC_CD_ADVANCED_CIRCUIT_BOARD:
 
 MAGIC_CD_SOLAR_PANEL: 
   #魔法光伏电池卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法光伏电池卡片"
@@ -4961,7 +5012,7 @@ MAGIC_CD_SOLAR_PANEL:
 
 MAGIC_CD_ELECTRO_MAGNET: 
   #魔法电磁铁卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法电磁铁卡片"
@@ -4983,7 +5034,7 @@ MAGIC_CD_ELECTRO_MAGNET:
 
 MAGIC_CD_ELECTRIC_MOTOR: 
   #魔法电动马达卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法电动马达卡片"
@@ -5005,7 +5056,7 @@ MAGIC_CD_ELECTRIC_MOTOR:
 
 MAGIC_CD_HEATING_COIL: 
   #魔法加热线圈卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法加热线圈卡片"
@@ -5027,7 +5078,7 @@ MAGIC_CD_HEATING_COIL:
 
 MAGIC_CD_ANDROID_MEMORY_CORE: 
   #魔法机器人内存核心卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法机器人内存核心卡片"
@@ -5049,7 +5100,7 @@ MAGIC_CD_ANDROID_MEMORY_CORE:
 
 MAGIC_CD_SOLAR_GENERATOR_4: 
   #魔法充能太阳能发电机卡片
-  item_group: magic_cd
+  item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
     name: "&b魔法充能太阳能发电机卡片"
@@ -6153,7 +6204,7 @@ MAGIC_NEW_PLANECUP:
       amount: 1
 
 MAGIC_SIFTED_ORE: 
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&e矿尘"
     material: GUNPOWDER
@@ -6187,7 +6238,7 @@ MAGIC_BUDDING_AMETHYST_SPIRIT:
   drop_amount: 1
 
 MAGIC_ANIMALS_CHICKEN:
-  item_group: magic_animals
+  item_group: magic_resource
   item:
     name: "&a魔法鸡"
     material_type: skull_base64
@@ -6241,7 +6292,7 @@ MAGIC_ANIMALS_CHICKEN:
       amount: 1
 
 MAGIC_BATTERY_LI_1_EMPTY:
-  item_group: magic_battery
+  item_group: magic_resource
   item:
     name: "&b魔法红石存储单元&7(empty)"
     material_type: skull_base64
@@ -6292,7 +6343,7 @@ MAGIC_BATTERY_LI_1_EMPTY:
       amount: 1
 
 MAGIC_BATTERY_LI_1_FULL:
-  item_group: magic_battery
+  item_group: magic_resource
   item:
     name: "&b魔法红石存储单元&7(full)"
     material_type: skull_base64
@@ -6309,7 +6360,7 @@ MAGIC_BATTERY_LI_1_FULL:
 
 ##材料
 MAGIC_REDSTONE_BLOCK_MIX:
-  item_group: magic_materials
+  item_group: magic_resource
   item:
     name: "&b复合红石块"
     material: redstone_block
@@ -6356,7 +6407,7 @@ MAGIC_REDSTONE_BLOCK_MIX:
       amount: 1
 
 MAGIC_MACHINE_CORE_PART:
-  item_group: magic_materials
+  item_group: magic_resource
   item:
     name: "&b机器核心组件"
     material: IRON_BLOCK
@@ -6402,7 +6453,7 @@ MAGIC_MACHINE_CORE_PART:
       amount: 1
 
 MAGIC_ADVANCE_CIRCUIT_BOARD:
-  item_group: magic_materials
+  item_group: magic_resource
   item:
     name: "&c高级魔法电路板"
     material_type: skull_base64
@@ -6446,7 +6497,7 @@ MAGIC_ADVANCE_CIRCUIT_BOARD:
       amount: 1
 
 MAGIC_VANADIUM:
-  item_group: magic_materials
+  item_group: magic_resource
   item:
     name: "{#9B4DEA}钒"
     material: IRON_INGOT
@@ -6466,7 +6517,7 @@ MAGIC_VANADIUM:
       amount: 1
 
 MAGIC_ALLOY_STEEL:
-  item_group: magic_materials
+  item_group: magic_resource
   item:
     name: "{#FF69B4}合金钢"
     material_type: slimefun
@@ -6487,7 +6538,7 @@ MAGIC_ALLOY_STEEL:
       amount: 1
 
 MAGIC_ALLOY_STEEL_WARM:
-  item_group: magic_materials
+  item_group: magic_resource
   item:
     name: "{#FF69B4}合金钢&b散热模块"
     material_type: slimefun
@@ -6532,7 +6583,7 @@ MAGIC_ALLOY_STEEL_WARM:
       amount: 1
 
 MAGIC_NIGU_ALLOY:
-  item_group: magic_materials
+  item_group: magic_resource
   item:
     name: "{#0066BB}镍钴合金"
     material_type: slimefun
@@ -6555,7 +6606,7 @@ MAGIC_NIGU_ALLOY:
       material: IRON_INGOT
 
 MAGIC_MACHINE_PART_1:
-  item_group: magic_materials
+  item_group: magic_resource
   item:
     name: "{#FF69B4}机器板块"
     material: QUARTZ_BLOCK
@@ -6602,7 +6653,7 @@ MAGIC_MACHINE_PART_1:
       amount: 1
 
 MAGIC_MACHINE_CORE_1:
-  item_group: magic_materials
+  item_group: magic_resource
   item:
     name: "{#FF69B4}机器核心"
     material: IRON_BLOCK
@@ -6649,7 +6700,7 @@ MAGIC_MACHINE_CORE_1:
       amount: 1
 
 MAGIC_MINERAL_FLOWER:
-  item_group: magic_materials
+  item_group: magic_resource
   item:
     name: "&c魔法矿物花"
     material: END_ROD
@@ -6697,7 +6748,7 @@ MAGIC_MINERAL_FLOWER:
 
 
 MAGIC_MACHINE_CORE:
-  item_group: magic_materials
+  item_group: magic_resource
   item:
     name: "&c机器核心"
     material_type: skull_base64
@@ -6747,7 +6798,7 @@ MAGIC_MACHINE_CORE:
 ##科技零件
 
 MAGIC_ANIMALS_WARM_CORE:
-  item_group: magic_science_material
+  item_group: magic_resource
   item:
     name: "&b暖房核心"
     material_type: skull_base64
@@ -6798,7 +6849,7 @@ MAGIC_ANIMALS_WARM_CORE:
       amount: 1
 
 MAGIC_STACKING_CORE:
-  item_group: magic_science_material
+  item_group: magic_resource
   item:
     name: "&b堆叠核心"
     material_type: skull_base64
@@ -6848,7 +6899,7 @@ MAGIC_STACKING_CORE:
       amount: 1
 
 MAGIC_BEE_KING:
-  item_group: magic_animals
+  item_group: magic_resource
   item:
     name: "&b魔法蜂王"
     material_type: skull_base64
@@ -6899,10 +6950,182 @@ MAGIC_BEE_KING:
       material: VEX_GEM
       amount: 1
 
+##人造生物----------------
+
+MAGIC_EGG_IRON_GOLEM:
+  item_group: magic_spawn_egg
+  item:
+    name: "&b人造铁傀儡"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY5ZDBkNDcxMTE1M2EwODljNTU2N2E3NDliMjc4NzljNzY5ZDNiZGNlYTZmZGE5ZDZmNjZlOTNkZDhjNDUxMiJ9fX0=
+    lore: 
+      - "&a"
+      - "&e该组别的第一个物品"
+      - "&a纪念该组别原名而保留的配方"
+      - "&b该组别原名：人造刷怪蛋"
+      - "&d右键放置一个铁傀儡"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
+  script: "ARTIFICIAL_SPAWN"
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material: EGG
+      amount: 1
+    2:
+      material: CARVED_PUMPKIN
+      amount: 1
+    4:
+      material: IRON_BLOCK
+      amount: 1
+    5:
+      material: IRON_BLOCK
+      amount: 1
+    6:
+      material: IRON_BLOCK
+      amount: 1
+    8:
+      material: IRON_BLOCK
+      amount: 1
+
+MAGIC_ARTIFICIAL_WITHER_SKELETON:
+  item_group: magic_spawn_egg
+  item:
+    name: "{#FFC0CB}人{#FFB6C1}造{#FFA07A}凋{#FA8072}零{#E9967A}骷{#F08080}髅"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0MzEyM2ExOWU4MDkzYjQ2NWI4NDgzOGUyOGY3ZDY0YWYwNzljNThiN2NmM2RhYzA3YzhjNTkyYTY0ZmMzMiJ9fX0=
+    lore: 
+      - "&a"
+      - "{#FDB7D4}右键任意地方"
+      - "{#FDB7D4}来放置凋零骷髅"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
+  script: "ARTIFICIAL_SPAWN"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material: CARVED_PUMPKIN
+      amount: 1
+    5:
+      material: POLISHED_BLACKSTONE
+      amount: 1
+    8:
+      material: POLISHED_BLACKSTONE
+      amount: 1
+
+MAGIC_ARTIFICIAL_SKELETON:
+  item_group: magic_spawn_egg
+  item:
+    name: "{#FFC0CB}人{#FFB6C1}造{#FFA07A}骷{#FA8072}髅"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEzNWU3NjQ5MmQ0MmQ3MmNmNTZkZmM0YjdkNTM0N2Q0OGNjODg5NDBkZmQ2YTlkNjIzNWJjNzE4ZjRjNmJhYiJ9fX0=
+    lore: 
+      - "&a"
+      - "{#FDB7D4}右键任意地方"
+      - "{#FDB7D4}来放置骷髅"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
+  script: "ARTIFICIAL_SPAWN"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material: CARVED_PUMPKIN
+      amount: 1
+    4:
+      material: ARROW
+      amount: 1
+    5:
+      material: BONE_BLOCK
+      amount: 1
+    6:
+      material: BOW
+      amount: 1
+    8:
+      material: BONE_BLOCK
+      amount: 1
+
+MAGIC_ARTIFICIAL_CREEPER:
+  item_group: magic_spawn_egg
+  item:
+    name: "{#FFC0CB}人{#FFB6C1}造{#FFA07A}苦{#FA8072}力{#F08080}怕"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTVlN2UwNzJlYWU4ZTc5OWQ5NzNjNDA4ODNhNzliZTRkZDJkNmY1ZDdkZGRiM2FjMTk1MTRlODVjZGViYTc2YSJ9fX0=
+    lore: 
+      - "&a"
+      - "{#FDB7D4}右键任意地方"
+      - "{#FDB7D4}来放置苦力怕"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
+  script: "ARTIFICIAL_SPAWN"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material: CARVED_PUMPKIN
+      amount: 1
+    4:
+      material: GUNPOWDER
+      amount: 1
+    5:
+      material: LIME_WOOL
+      amount: 1
+    6:
+      material: GUNPOWDER
+      amount: 1
+    8:
+      material: LIME_WOOL
+      amount: 1
+
+MAGIC_ARTIFICIAL_ZOMBIE:
+  item_group: magic_spawn_egg
+  item:
+    name: "{#FFC0CB}人{#FFB6C1}造{#FFA07A}僵{#FA8072}尸"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMyMzJkMDY4M2JhMWUzNjI1OTNmYTFhOTdkNzQ0YzI5MGIxNjU1ZDcyYjIyNzc5ODhhNmM4NWE5Mzg1NDI1NSJ9fX0=
+    lore: 
+      - "&a"
+      - "{#FDB7D4}右键任意地方"
+      - "{#FDB7D4}来放置僵尸"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
+  script: "ARTIFICIAL_SPAWN"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material: CARVED_PUMPKIN
+      amount: 1
+    4:
+      material: ROTTEN_FLESH
+      amount: 1
+    5:
+      material: MOSS_BLOCK
+      amount: 1
+    6:
+      material: ROTTEN_FLESH
+      amount: 1
+    8:
+      material: MOSS_BLOCK
+      amount: 1
+
+MAGIC_ARTIFICIAL_GIANT:
+  item_group: magic_spawn_egg
+  item:
+    name: "{#FFC0CB}人{#FFB6C1}造{#FFA07A}巨{#FA8072}人"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1OGFjNTdkNjAwM2I2MDJmMjBiYmUxYWQ0NWM1ZTk2ZGI2YTI0MWZhMTMyMzc3MzgxYjdmMTg0NDUwNTdhNiJ9fX0=
+    lore: 
+      - "&a"
+      - "{#FDB7D4}右键任意地方"
+      - "{#FDB7D4}来放置巨人"
+      - "&a"
+      - "{#FDB7D4}实验性物品"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
+  script: "ARTIFICIAL_SPAWN"
+  recipe_type: MAGIC_NONE
+
 #无尽起源装备I
 
 MAGIC_INFINITY_CROWN_1: 
-  item_group: magic_armors
+  item_group: magic_attribute_up
   item:
     material_type: saveditem
     material: WJTK_1
@@ -6946,7 +7169,7 @@ MAGIC_INFINITY_CROWN_1:
       amount: 1
 
 MAGIC_INFINITY_CHESTPLATE_1: 
-  item_group: magic_armors
+  item_group: magic_attribute_up
   item:
     material_type: saveditem
     material: WJXJ_1
@@ -6990,7 +7213,7 @@ MAGIC_INFINITY_CHESTPLATE_1:
       amount: 1
 
 MAGIC_INFINITY_LEGGINGS_1: 
-  item_group: magic_armors
+  item_group: magic_attribute_up
   item:
     material_type: saveditem
     material: WJKZ_1
@@ -7034,7 +7257,7 @@ MAGIC_INFINITY_LEGGINGS_1:
       amount: 1
 
 MAGIC_INFINITY_BOOTS_1: 
-  item_group: magic_armors
+  item_group: magic_attribute_up
   item:
     material_type: saveditem
     material: WJXZ_1
@@ -7078,7 +7301,7 @@ MAGIC_INFINITY_BOOTS_1:
       amount: 1
 
 MAGIC_INFINITY_BLADE_1: 
-  item_group: magic_armors
+  item_group: magic_attribute_up
   item:
     material_type: saveditem
     material: QYZJ_1
@@ -7126,7 +7349,7 @@ MAGIC_INFINITY_BLADE_1:
 #无尽起源装备II
 
 MAGIC_INFINITY_CROWN_2: 
-  item_group: magic_armors
+  item_group: magic_attribute_up
   item:
     material_type: saveditem
     material: WJTK_2
@@ -7142,7 +7365,7 @@ MAGIC_INFINITY_CROWN_2:
       amount: 1
 
 MAGIC_INFINITY_CHESTPLATE_2: 
-  item_group: magic_armors
+  item_group: magic_attribute_up
   item:
     material_type: saveditem
     material: WJXJ_2
@@ -7158,7 +7381,7 @@ MAGIC_INFINITY_CHESTPLATE_2:
       amount: 1
 
 MAGIC_INFINITY_LEGGINGS_2: 
-  item_group: magic_armors
+  item_group: magic_attribute_up
   item:
     material_type: saveditem
     material: WJKZ_2
@@ -7175,7 +7398,7 @@ MAGIC_INFINITY_LEGGINGS_2:
 
 
 MAGIC_INFINITY_BOOTS_2: 
-  item_group: magic_armors
+  item_group: magic_attribute_up
   item:
     material_type: saveditem
     material: WJXZ_2
@@ -7241,24 +7464,6 @@ MAGIC_ORIGIN_2_UP:
       material_type: slimefun
       material: MAGIC_COSMIC_DUST
       amount: 1
-
-MAGIC_STACKING_DESCRIBE: 
-  item_group: magic_stacking_machines
-  recipe_type: NULL
-  item:
-    name: "&e&l堆叠机说明"
-    material: paper
-    glow: true
-    lore:
-      - "&a" 
-      - "&7使用前请认真阅读"
-      - "&7该机器是否支持堆叠"
-      - "&7目前仅支持将产物堆叠至64个"
-      - "&7例如:一个机器每次生产2个物品"
-      - "&7那么堆叠32个就够了"
-      - "&7再多也没有效果了"
-      - "&a" 
-      - "&e使用说明"
 
 #魔法抽屉I - 魔法抽屉XIII
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_PAPER: 
@@ -9139,7 +9344,7 @@ MAGIC_NETHERITE_SPEED_CARD:
       amount: 1
 
 MAGIC_EXP_COLLECTOR:
-  item_group: magic_magic_items
+  item_group: magic_interesting_items
   item:
     name: "{#FF0000}&l魔{#FF4500}&l法{#FF6347}&l学{#FF7F50}&l识{#FFA07A}&l之{#E9967A}&l瓶"
     material: glass_bottle
@@ -9169,7 +9374,7 @@ MAGIC_EXP_COLLECTOR:
       material: MAGIC_LUMP_5
 
 MAGIC_EXP_BOTTLE:
-  item_group: magic_magic_items
+  item_group: magic_interesting_items
   item:
     name: "{#FFFF00}&l魔{#FFD700}&l法{#FFEC8B}&l学{#FFE4B5}&l识{#F0E68C}&l之{#DAA520}&l瓶"
     material: EXPERIENCE_BOTTLE
@@ -9181,7 +9386,7 @@ MAGIC_EXP_BOTTLE:
   script: MFEXPBOTTLE100
 
 MAGIC_INFINITE_STICK:
-  item_group: magic_magic_items
+  item_group: magic_interesting_items
   item:
     name: "{#00BFFF}&l无{#87CEFA}&l尽{#FFAFAF}&l拐{#FF69B4}&l杖"
     material: STICK
@@ -9206,7 +9411,7 @@ MAGIC_INFINITE_STICK:
 
 
 MAGIC_UNBREAKABLE_RUNE:
-  item_group: magic_magic_items
+  item_group: magic_interesting_items
   item:
     name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l符{#FA8072}&l文{#E9967A}&l-{#F08080}&l无{#FF69B4}&l法{#DB7093}&l破{#FF69B4}&l坏"
     material: FIREWORK_STAR
@@ -10656,7 +10861,7 @@ MAGIC_SPAWNER_DESCRIPTION:
 ##魔法-充电宝
 
 MAGIC_POWER_BANK_DESCRIPTION:
-  item_group: magic_power_bank
+  item_group: magic_interesting_items
   item:
     name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l充{#FA8072}&l电{#E9967A}&l宝{#F08080}&l-{#FF69B4}&l说{#DB7093}&l明"
     material: paper
@@ -10674,7 +10879,7 @@ MAGIC_POWER_BANK_DESCRIPTION:
   recipe_type: NULL
 
 MAGIC_POWER_BANK_ALPHA:
-  item_group: magic_power_bank
+  item_group: magic_interesting_items
   item:
     name: "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}充{#FA8072}电{#E9967A}宝{#F08080}-{#FF69B4}α"
     material_type: skull_base64
@@ -10728,7 +10933,7 @@ MAGIC_POWER_BANK_ALPHA:
       amount: 1
 
 MAGIC_POWER_BANK_BETA:
-  item_group: magic_power_bank
+  item_group: magic_interesting_items
   item:
     name: "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}充{#FA8072}电{#E9967A}宝{#F08080}-{#FF69B4}β"
     material_type: skull_base64
@@ -10783,187 +10988,6 @@ MAGIC_POWER_BANK_BETA:
       amount: 1
 
 
-##人造生物----------------
-
-
-
-
-MAGIC_EGG_IRON_GOLEM:
-  item_group: magic_artificial_creature
-  item:
-    name: "&b人造铁傀儡"
-    material_type: skull_base64
-    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY5ZDBkNDcxMTE1M2EwODljNTU2N2E3NDliMjc4NzljNzY5ZDNiZGNlYTZmZGE5ZDZmNjZlOTNkZDhjNDUxMiJ9fX0=
-    lore: 
-      - "&a"
-      - "&e该组别的第一个物品"
-      - "&a纪念该组别原名而保留的配方"
-      - "&b该组别原名：人造刷怪蛋"
-      - "&d右键放置一个铁傀儡"
-      - "&a"
-      - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l人{#E9967A}&l造{#F08080}&l生{#FF69B4}&l物"
-  script: "ARTIFICIAL_SPAWN"
-  recipe_type: MAGIC_WORKBENCH
-  recipe:
-    1:
-      material: EGG
-      amount: 1
-    2:
-      material: CARVED_PUMPKIN
-      amount: 1
-    4:
-      material: IRON_BLOCK
-      amount: 1
-    5:
-      material: IRON_BLOCK
-      amount: 1
-    6:
-      material: IRON_BLOCK
-      amount: 1
-    8:
-      material: IRON_BLOCK
-      amount: 1
-
-MAGIC_ARTIFICIAL_WITHER_SKELETON:
-  item_group: magic_artificial_creature
-  item:
-    name: "{#FFC0CB}人{#FFB6C1}造{#FFA07A}凋{#FA8072}零{#E9967A}骷{#F08080}髅"
-    material_type: skull_base64
-    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0MzEyM2ExOWU4MDkzYjQ2NWI4NDgzOGUyOGY3ZDY0YWYwNzljNThiN2NmM2RhYzA3YzhjNTkyYTY0ZmMzMiJ9fX0=
-    lore: 
-      - "&a"
-      - "{#FDB7D4}右键任意地方"
-      - "{#FDB7D4}来放置凋零骷髅"
-      - "&a"
-      - "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}-{#FA8072}人{#E9967A}造{#F08080}生{#FF69B4}物"
-  script: "ARTIFICIAL_SPAWN"
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  recipe:
-    2:
-      material: CARVED_PUMPKIN
-      amount: 1
-    5:
-      material: POLISHED_BLACKSTONE
-      amount: 1
-    8:
-      material: POLISHED_BLACKSTONE
-      amount: 1
-
-MAGIC_ARTIFICIAL_SKELETON:
-  item_group: magic_artificial_creature
-  item:
-    name: "{#FFC0CB}人{#FFB6C1}造{#FFA07A}骷{#FA8072}髅"
-    material_type: skull_base64
-    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEzNWU3NjQ5MmQ0MmQ3MmNmNTZkZmM0YjdkNTM0N2Q0OGNjODg5NDBkZmQ2YTlkNjIzNWJjNzE4ZjRjNmJhYiJ9fX0=
-    lore: 
-      - "&a"
-      - "{#FDB7D4}右键任意地方"
-      - "{#FDB7D4}来放置骷髅"
-      - "&a"
-      - "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}-{#FA8072}人{#E9967A}造{#F08080}生{#FF69B4}物"
-  script: "ARTIFICIAL_SPAWN"
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  recipe:
-    2:
-      material: CARVED_PUMPKIN
-      amount: 1
-    4:
-      material: ARROW
-      amount: 1
-    5:
-      material: BONE_BLOCK
-      amount: 1
-    6:
-      material: BOW
-      amount: 1
-    8:
-      material: BONE_BLOCK
-      amount: 1
-
-MAGIC_ARTIFICIAL_CREEPER:
-  item_group: magic_artificial_creature
-  item:
-    name: "{#FFC0CB}人{#FFB6C1}造{#FFA07A}苦{#FA8072}力{#F08080}怕"
-    material_type: skull_base64
-    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTVlN2UwNzJlYWU4ZTc5OWQ5NzNjNDA4ODNhNzliZTRkZDJkNmY1ZDdkZGRiM2FjMTk1MTRlODVjZGViYTc2YSJ9fX0=
-    lore: 
-      - "&a"
-      - "{#FDB7D4}右键任意地方"
-      - "{#FDB7D4}来放置苦力怕"
-      - "&a"
-      - "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}-{#FA8072}人{#E9967A}造{#F08080}生{#FF69B4}物"
-  script: "ARTIFICIAL_SPAWN"
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  recipe:
-    2:
-      material: CARVED_PUMPKIN
-      amount: 1
-    4:
-      material: GUNPOWDER
-      amount: 1
-    5:
-      material: LIME_WOOL
-      amount: 1
-    6:
-      material: GUNPOWDER
-      amount: 1
-    8:
-      material: LIME_WOOL
-      amount: 1
-
-MAGIC_ARTIFICIAL_ZOMBIE:
-  item_group: magic_artificial_creature
-  item:
-    name: "{#FFC0CB}人{#FFB6C1}造{#FFA07A}僵{#FA8072}尸"
-    material_type: skull_base64
-    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMyMzJkMDY4M2JhMWUzNjI1OTNmYTFhOTdkNzQ0YzI5MGIxNjU1ZDcyYjIyNzc5ODhhNmM4NWE5Mzg1NDI1NSJ9fX0=
-    lore: 
-      - "&a"
-      - "{#FDB7D4}右键任意地方"
-      - "{#FDB7D4}来放置僵尸"
-      - "&a"
-      - "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}-{#FA8072}人{#E9967A}造{#F08080}生{#FF69B4}物"
-  script: "ARTIFICIAL_SPAWN"
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  recipe:
-    2:
-      material: CARVED_PUMPKIN
-      amount: 1
-    4:
-      material: ROTTEN_FLESH
-      amount: 1
-    5:
-      material: MOSS_BLOCK
-      amount: 1
-    6:
-      material: ROTTEN_FLESH
-      amount: 1
-    8:
-      material: MOSS_BLOCK
-      amount: 1
-
-MAGIC_ARTIFICIAL_GIANT:
-  item_group: magic_artificial_creature
-  item:
-    name: "{#FFC0CB}人{#FFB6C1}造{#FFA07A}巨{#FA8072}人"
-    material_type: skull_base64
-    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1OGFjNTdkNjAwM2I2MDJmMjBiYmUxYWQ0NWM1ZTk2ZGI2YTI0MWZhMTMyMzc3MzgxYjdmMTg0NDUwNTdhNiJ9fX0=
-    lore: 
-      - "&a"
-      - "{#FDB7D4}右键任意地方"
-      - "{#FDB7D4}来放置巨人"
-      - "&a"
-      - "{#FDB7D4}实验性物品"
-      - "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}-{#FA8072}人{#E9967A}造{#F08080}生{#FF69B4}物"
-  script: "ARTIFICIAL_SPAWN"
-  recipe_type: MAGIC_NONE
-
-
-
-
-
-
-
 ####强化一项附魔
 MAGIC_ENCHANT_UP_DESCRIPTION:
   item_group: magic_attribute_up
@@ -10976,8 +11000,7 @@ MAGIC_ENCHANT_UP_DESCRIPTION:
       - "{#FDB7D4}其他大部分装备会将属性重锻"
       - "{#FDB7D4}也就是初始化"
       - "{#FDB7D4}该组别与匠魂、BUMP等兼容"
-      - "{#FDB7D4}搏一搏"
-      - "{#FDB7D4}单车变航空母舰"
+      - "{#FDB7D4}搏一搏 单车变航空母舰"
   recipe_type: NULL
 
 
@@ -11213,9 +11236,9 @@ MAGIC_ZHENFA_FIRE_1:
   recipe_type: MAGIC_NONE
 
 MAGIC_KAOGU_DESCRIPTION:
-  item_group: magic_spawn_egg
+  item_group: magic_interesting_items
   item:
-    name: "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l测{#F08080}&l试&k&ll{#FFB6C1}&l-{#FFA07A}&l简{#FA8072}&l介"
+    name: "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l考{#FA8E99}&l古{#F97F8E}&l学{#F87083}&l&kl" 
     material: paper
     lore: 
       - "{#FDB7D4}为喜欢收藏的玩家设计的一个分支"
@@ -11225,11 +11248,10 @@ MAGIC_KAOGU_DESCRIPTION:
       - "{#FDB7D4}并再次基础上，额外掉落一些矿粉"
       - "{#FDB7D4}你也想考古吗？"
       - "{#FDB7D4}让地球更加美好"
-      - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l考{#FA8E99}&l古{#F97F8E}&l学{#F87083}&l&kl" 
   recipe_type: NULL
 
 MAGIC_KAOGU_BRUSH: 
-  item_group: magic_archaeology
+  item_group: magic_interesting_items
   placeable: true
   item:
     name: "{#FFC0CB}&l考{#FFB9C3}&l古{#FFB3BA}&l小{#FFA8AF}&l刷{#FF9DA4}&l子{#FA8E99}"
@@ -11252,3 +11274,158 @@ MAGIC_KAOGU_BRUSH:
       material_type: slimefun
       material: MAGIC_COSMIC_DUST
       amount: 1
+
+# 分类占位符
+MAGIC_ZWF_1:
+  item_group: mf_zwf_1
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_2:
+  item_group: mf_zwf_2
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_3:
+  item_group: mf_zwf_3
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_4:
+  item_group: mf_zwf_4
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_5:
+  item_group: mf_zwf_5
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_6:
+  item_group: mf_zwf_6
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_7:
+  item_group: mf_zwf_7
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_8:
+  item_group: mf_zwf_8
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_9:
+  item_group: mf_zwf_9
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_10:
+  item_group: mf_zwf_10
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_11:
+  item_group: mf_zwf_11
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_12:
+  item_group: mf_zwf_12
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_13:
+  item_group: mf_zwf_13
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_14:
+  item_group: mf_zwf_14
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_15:
+  item_group: mf_zwf_15
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_16:
+  item_group: mf_zwf_16
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+MAGIC_ZWF_17:
+  item_group: mf_zwf_17
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'

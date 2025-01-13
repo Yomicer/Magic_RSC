@@ -22,7 +22,7 @@ MAGIC_CHICKEN_HEART:
       - "&7只有极少数的鸡拥有"
 
 MAGIC_BEE_1:
-  item_group: magic_animals
+  item_group: magic_resource
   entity: BEE
   chance: 20
   item:
@@ -33,6 +33,7 @@ MAGIC_BEE_1:
       - "&a"
       - "&7死而复生"
       - "&7只有魔法蜜蜂才有这样的能力"
+      - "&7被人类击杀的普通蜜蜂有概率变成魔法蜜蜂"
       - "&a"
       - "&6魔法动物"
 
@@ -99,7 +100,7 @@ MAGIC_DNF_STONE_PACKAGE:
 
 
 MAGIC_BASIC_CIRCUIT_BOARD:
-  item_group: magic_materials
+  item_group: magic_resource
   entity: IRON_GOLEM
   chance: 95
   item:

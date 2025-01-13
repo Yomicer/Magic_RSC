@@ -14,7 +14,7 @@ RSC_EXAMPLE_SOLAR_GENERATOR:
       - "&8⇨&e ⚡ &710 J/tick"
       - "&1(黑夜)"
       - "&a"
-      - "&b萌新专属机器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
   capacity: 1000
   dayEnergy: 50
   nightEnergy: 10
@@ -37,7 +37,7 @@ MAGIC_NEWPLAYER_SOLAR_GENERATOR:
       - "&8⇨&e ⚡ &710 J/tick"
       - "&1(黑夜)"
       - "&a"
-      - "&b萌新专属机器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
   capacity: 1000
   dayEnergy: 50
   nightEnergy: 10
@@ -64,7 +64,7 @@ MAGIC_SUPREME_SUPREME_GENERATOR:
       - "&8⇨&e ⚡ &740,000,000.00 J 可存储"
       - "&8⇨&b ⚡ &720,000,000.00 J/tick"
       - "&a"
-      - "&c魔法机器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   capacity: 40000000
   dayEnergy: 20000000
   nightEnergy: 20000000
@@ -111,7 +111,7 @@ MAGIC_INFINITE_PANEL:
       - "&8⇨&e ⚡ &71,000,000 J 可存储"
       - "&8⇨&e ⚡ &7600,000 J/s"
       - "&a"
-      - "&c魔法机器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   capacity: 1000000
   dayEnergy: 300000
   nightEnergy: 300000

@@ -7,7 +7,7 @@ MAGIC_NEWPLAYER_CAPACITOR:
       - "&a"
       - "&8⇨&e ⚡ &75200 J 可存储"
       - "&a"
-      - "&b萌新专属机器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY3ZDJiYzI3YzQ0YTcxMWExZTJmNDFlYjI4M2RhNTZmZWM5YTNkNmZiOTNhYWZkZmM4NWIxNWNkMThhMjY4MiJ9fX0=
   recipe_type: ENHANCED_CRAFTING_TABLE

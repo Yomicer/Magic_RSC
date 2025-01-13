@@ -47,7 +47,7 @@ MAGIC_COSMIC_DUST:
     the_end: 0
 
 MAGIC_SMALL_LEAD_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b小块铅矿石"
     material_type: skull_base64
@@ -66,7 +66,7 @@ MAGIC_SMALL_LEAD_ORE_CHUNK:
     the_end: 0
   
 MAGIC_LARGE_LEAD_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b大块铅矿石"
     material_type: skull_base64
@@ -85,7 +85,7 @@ MAGIC_LARGE_LEAD_ORE_CHUNK:
     the_end: 0
 
 MAGIC_SMALL_MAGNESIUM_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b小块镁矿石"
     material_type: skull_base64
@@ -104,7 +104,7 @@ MAGIC_SMALL_MAGNESIUM_ORE_CHUNK:
     the_end: 0
   
 MAGIC_LARGE_MAGNESIUM_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b大块铅矿石"
     material_type: skull_base64
@@ -123,7 +123,7 @@ MAGIC_LARGE_MAGNESIUM_ORE_CHUNK:
     the_end: 0
 
 MAGIC_SMALL_ZINC_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b小块锌矿石"
     material_type: skull_base64
@@ -142,7 +142,7 @@ MAGIC_SMALL_ZINC_ORE_CHUNK:
     the_end: 0
   
 MAGIC_LARGE_ZINC_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b大块锌矿石"
     material_type: skull_base64
@@ -161,7 +161,7 @@ MAGIC_LARGE_ZINC_ORE_CHUNK:
     the_end: 0
 
 MAGIC_SMALL_IRON_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b小块铁矿石"
     material_type: skull_base64
@@ -180,7 +180,7 @@ MAGIC_SMALL_IRON_ORE_CHUNK:
     the_end: 0
   
 MAGIC_LARGE_IRON_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b大块铁矿石"
     material_type: skull_base64
@@ -199,7 +199,7 @@ MAGIC_LARGE_IRON_ORE_CHUNK:
     the_end: 0
 
 MAGIC_SMALL_GOLD_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b小块金矿石"
     material_type: skull_base64
@@ -218,7 +218,7 @@ MAGIC_SMALL_GOLD_ORE_CHUNK:
     the_end: 0
   
 MAGIC_LARGE_GOLD_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b大块金矿石"
     material_type: skull_base64
@@ -237,7 +237,7 @@ MAGIC_LARGE_GOLD_ORE_CHUNK:
     the_end: 0
 
 MAGIC_SMALL_COPPER_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b小块铜矿石"
     material_type: skull_base64
@@ -256,7 +256,7 @@ MAGIC_SMALL_COPPER_ORE_CHUNK:
     the_end: 0
   
 MAGIC_LARGE_COPPER_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b大块铜矿石"
     material_type: skull_base64
@@ -275,7 +275,7 @@ MAGIC_LARGE_COPPER_ORE_CHUNK:
     the_end: 0
 
 MAGIC_SMALL_TIN_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b小块锡矿石"
     material_type: skull_base64
@@ -294,7 +294,7 @@ MAGIC_SMALL_TIN_ORE_CHUNK:
     the_end: 0
   
 MAGIC_LARGE_TIN_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b大块锡矿石"
     material_type: skull_base64
@@ -313,7 +313,7 @@ MAGIC_LARGE_TIN_ORE_CHUNK:
     the_end: 0
 
 MAGIC_SMALL_SILVER_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b小块银矿石"
     material_type: skull_base64
@@ -332,7 +332,7 @@ MAGIC_SMALL_SILVER_ORE_CHUNK:
     the_end: 0
   
 MAGIC_LARGE_SILVER_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b大块银矿石"
     material_type: skull_base64
@@ -351,7 +351,7 @@ MAGIC_LARGE_SILVER_ORE_CHUNK:
     the_end: 0
 
 MAGIC_SMALL_ALUMINUM_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b小块铝矿石"
     material_type: skull_base64
@@ -370,7 +370,7 @@ MAGIC_SMALL_ALUMINUM_ORE_CHUNK:
     the_end: 0
   
 MAGIC_LARGE_ALUMINUM_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b大块铝矿石"
     material_type: skull_base64
@@ -389,7 +389,7 @@ MAGIC_LARGE_ALUMINUM_ORE_CHUNK:
     the_end: 0
 
 MAGIC_SMALL_NICKEL_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b小块镍矿石"
     material_type: skull_base64
@@ -408,7 +408,7 @@ MAGIC_SMALL_NICKEL_ORE_CHUNK:
     the_end: 0
   
 MAGIC_LARGE_NICKEL_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b大块镍矿石"
     material_type: skull_base64
@@ -427,7 +427,7 @@ MAGIC_LARGE_NICKEL_ORE_CHUNK:
     the_end: 0
 
 MAGIC_SMALL_COBALT_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b小块钴矿石"
     material_type: skull_base64
@@ -446,7 +446,7 @@ MAGIC_SMALL_COBALT_ORE_CHUNK:
     the_end: 0
   
 MAGIC_LARGE_COBALT_ORE_CHUNK:
-  item_group: magic_newplayer_items
+  item_group: magic_origin_resources
   item:
     name: "&b大块钴矿石"
     material_type: skull_base64

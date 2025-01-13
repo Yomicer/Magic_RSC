@@ -113,7 +113,7 @@ MAGIC_NEWPLAYER_DUST_EXTRACTOR:
       - "&8⇨&e ⚡ &72 J/s"
       - "&8⇨&e ⚡ &7100 J 可存储"
       - "&a"
-      - "&b萌新专属机器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     3:
@@ -182,7 +182,7 @@ MAGIC_NEWPLAYER_INGOT_FORMER:
       - "&8⇨&e ⚡ &72 J/s"
       - "&8⇨&e ⚡ &7100 J 可存储"
       - "&a"
-      - "&b萌新专属机器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     4:
@@ -320,7 +320,7 @@ MAGIC_NEWPLAYER_GOLD_PAN2:
       - "&8⇨&e ⚡ &72 J/s"  
       - "&8⇨&e ⚡ &758 J 可存储"
       - "&a"
-      - "&b萌新专属机器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
   recipe_type: MAGIC_WORKBENCH
   recipe:
     2:
@@ -581,7 +581,7 @@ MAGIC_INFINITY_INGOT_FORMER:
           amount: 64
 
 MAGIC_ENERGY_PRESS:
-  item_group: magic_mob_machines
+  item_group: magic_power
   item:
     name: "&c魔法&8能量压缩仓"
     material_type: skull_base64
@@ -717,7 +717,7 @@ MAGIC_ENERGY_PRESS:
           amount: 1
       
 MAGIC_IMPACT:
-  item_group: magic_mob_machines
+  item_group: magic_power
   item:
     name: "&c魔法红石&8对撞机"
     material_type: skull_base64
@@ -835,7 +835,7 @@ MAGIC_NEW_CONVERT:
       - "&8⇨&e ⚡ &750 J/per"
       - "&8⇨&e ⚡ &71024 J 可存储"
       - "&a"
-      - "&b萌新专属机器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -956,7 +956,7 @@ MAGIC_CD_MACHINES_1:
           amount: 1
 
 MAGIC_GENSHIN_IMPACT_MACHINES:
-  item_group: magic_mob_machines
+  item_group: magic_power
   item:
     name: "&b盲盒拆解机"
     lore:
@@ -1131,7 +1131,7 @@ MAGIC_GENSHIN_IMPACT_MACHINES:
           amount: 1
 
 MAGIC_WAR_MACHINES_NUMERATOR:
-  item_group: magic_mob_machines
+  item_group: magic_power
   item:
     name: "&b分子互作仪"
     lore:
@@ -1224,7 +1224,7 @@ MAGIC_WAR_MACHINES_NUMERATOR:
           amount: 1
 
 MAGIC_WAR_MACHINES_CREATING_TABLE:
-  item_group: magic_mob_machines
+  item_group: magic_power
   item:
     name: "&b元素嬗变器"
     lore:
@@ -1312,7 +1312,7 @@ MAGIC_WAR_MACHINES_CREATING_TABLE:
 
 
 MAGIC_AUTHOR_MACHINE_BASIC:
-  item_group: magic_mob_machines
+  item_group: magic_power
   item:
     name: "&a&l简陋的{#FDB7D4}&l起{#FD8EB7}&l源{#FA6CA5}&l工{#E84C8A}&l厂"
     material_type: skull_base64
@@ -1523,7 +1523,7 @@ MAGIC_AUTHOR_MACHINE_BASIC:
 
 
 MAGIC_AUTHOR_MACHINE:
-  item_group: magic_mob_machines
+  item_group: magic_power
   item:
     name: "{#FFD9EC}&l终{#FDB7D4}&l极{#FD8EB7}&l起{#FA6CA5}&l源{#E84C8A}&l工{#D02C71}&l厂"
     material_type: skull_base64
@@ -1772,7 +1772,7 @@ MAGIC_CD_MACHINES_UPUP:
           amount: 1
 
 MAGIC_DATA_CARD_INSERT:
-  item_group: magic_data_card
+  item_group: magic_infinite_machines
   item:
     name: "&8魔法生物芯片注入器"
     lore:
@@ -2069,7 +2069,7 @@ MAGIC_DATA_CARD_INSERT:
           amount: 1
 
 MAGIC_ITEMX64_MACHINE:
-  item_group: magic_mob_machines
+  item_group: magic_power
   item:
     name: "&b堆叠机"
     material_type: skull_base64
@@ -2465,7 +2465,7 @@ MAGIC_URANIUM_EXTRACTOR:
           amount: 8
 
 MAGIC_BEE_MACHINE:
-  item_group: magic_mob_machines
+  item_group: magic_power
   item:
     name: "&e魔法蜂巢"
     material: BEE_NEST
@@ -2547,10 +2547,6 @@ MAGIC_BEE_MACHINE:
           material_type: slimefun
           material: MAGIC_BEE_1
           amount: 8
-        2:
-          material_type: slimefun
-          material: MAGIC_REDSTONE
-          amount: 1
       output:
         1: 
           chance: 100
@@ -2681,7 +2677,7 @@ MAGIC_DUST_WASHER:
           amount: 1
 
 MAGIC_RANDOM_ITEM_MACHINE:
-  item_group: magic_origin
+  item_group: magic_power
   item:
     name: "{#FF0000}起{#FF7F00}源{#FFFF00}演{#00FF00}化{#0000FF}机"
     material: QUARTZ_BLOCK
@@ -2879,7 +2875,7 @@ MAGIC_RANDOM_ITEM_MACHINE:
           amount: 1
 
 MAGIC_IMPROVEMENT_FORGE:
-  item_group: magic_dlc_machines
+  item_group: magic_power
   item:
     name: "&b改进锻造台-镐"
     material: SMITHING_TABLE
@@ -3008,7 +3004,7 @@ MAGIC_IMPROVEMENT_FORGE:
 
 
 MAGIC_ORE_SMELTERY:
-  item_group: magic_dlc_machines
+  item_group: magic_power
   item:
     name: "&b矿石冶炼厂"
     material: FURNACE
@@ -3321,7 +3317,7 @@ MAGIC_ORE_SMELTERY:
           amount: 5
 
 MAGIC_BATTERY_MACHINE_IN_1:
-  item_group: magic_battery
+  item_group: magic_power
   item:
     name: "&b电荷装载厂&7(魔法红石)"
     material_type: slimefun
@@ -3394,7 +3390,7 @@ MAGIC_BATTERY_MACHINE_IN_1:
           amount: 1
 
 MAGIC_SKIN_CONVERT:
-  item_group: magic_mob_machines
+  item_group: magic_power
   item:
     name: "&e&l机器皮肤转换机"
     material_type: skull_base64
@@ -3514,7 +3510,7 @@ MAGIC_SKIN_CONVERT:
           amount: 1
 
 MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR:
-  item_group: magic_origin_basic
+  item_group: magic_power
   item:
     name: "{#FFFFFF}起{#FFDD73}源{#FFBB4C}磨{#FF9926}粉{#FFA500}机"
     material: FURNACE
@@ -3617,7 +3613,7 @@ MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR:
           amount: 1
 
 MAGIC_ORIGIN_BASIC_INGOT_FORMER:
-  item_group: magic_origin_basic
+  item_group: magic_power
   item:
     name: "{#FFFFFF}起{#B3B3FF}源{#6666FF}铸{#1919E6}锭{#0000FF}机"
     material: FURNACE
@@ -3784,7 +3780,7 @@ MAGIC_ORIGIN_BASIC_INGOT_FORMER:
           amount: 1
 
 MAGIC_ORIGIN_MINERAL_DECOMPRESSOR:
-  item_group: magic_origin_basic
+  item_group: magic_power
   item:
     name: "{#FFFFFF}起{#B3B3FF}源{#6666FF}分{#1919E6}解{#0000FF}机"
     material: TARGET
@@ -4263,7 +4259,7 @@ MAGIC_ORIGIN_MINERAL_DECOMPRESSOR:
 
 
 MAGIC_ORIGIN_PRESS:
-  item_group: magic_origin_basic
+  item_group: magic_power
   item:
     name: "{#FFFFFF}起{#FFE6B3}源{#FFD480}压{#FFC14D}缩{#FFAE19}机"
     material: PISTON
@@ -4358,7 +4354,7 @@ MAGIC_ORIGIN_PRESS:
           amount: 1
 
 MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
-  item_group: magic_origin
+  item_group: magic_power
   item:
     name: "{#FF0000}起{#FF7F00}源{#FFFF00}奇{#00FF00}点{#00FF7F}构{#00FFFF}造{#007FFF}机"
     material: CHISELED_QUARTZ_BLOCK
@@ -4528,7 +4524,7 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
 
 
 MAGIC_MATERIAL_COPY:
-  item_group: magic_power_machine
+  item_group: magic_power
   item:
     name: "{#FFC0CB}建{#FFB6C1}筑{#FFA07A}材{#FA8072}料{#E9967A}复{#F08080}制{#FF69B4}机"
     material_type: slimefun
@@ -4540,7 +4536,7 @@ MAGIC_MATERIAL_COPY:
       - "&8⇨&e ⚡ &7速度: {#FDB7D4}1x"
       - "&8⇨&e ⚡ &7128 J/s"
       - "&a"
-      - "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}-{#FA8072}电{#E9967A}力{#F08080}机{#FF69B4}器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: MAGIC_NONE
   recipe:
 
@@ -5016,7 +5012,7 @@ MAGIC_MFCT_ITEM_GET:
           amount: 1
 
 MAGIC_PEIYUSHI_1:
-  item_group: magic_power_machine
+  item_group: magic_power
   item:
     name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}培{#FFA8AF}育{#FF9DA4}室{#FA8E99}-{#F97F8E}I{#F87083}"
     material_type: skull_base64
@@ -5029,7 +5025,7 @@ MAGIC_PEIYUSHI_1:
       - "&8⇨&e ⚡ &7速度: {#FDB7D4}1x"
       - "&8⇨&e ⚡ &7512 J/s"
       - "&a"
-      - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l电{#E9967A}&l力{#F08080}&l机{#FF69B4}&l器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe: 
     1: 
@@ -5673,7 +5669,7 @@ MAGIC_PEIYUSHI_1:
 
 
 MAGIC_PEIYUSHI_2:
-  item_group: magic_power_machine
+  item_group: magic_power
   item:
     name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}培{#FFA8AF}育{#FF9DA4}室{#FA8E99}-{#F97F8E}II{#F87083}"
     material_type: skull_base64
@@ -5686,7 +5682,7 @@ MAGIC_PEIYUSHI_2:
       - "&8⇨&e ⚡ &7速度: {#FDB7D4}2x"
       - "&8⇨&e ⚡ &71024 J/s"
       - "&a"
-      - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l电{#E9967A}&l力{#F08080}&l机{#FF69B4}&l器"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe: 
     2:

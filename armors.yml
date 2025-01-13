@@ -2,7 +2,7 @@ magic_armor_new1:
   protection_types:
     - 
   fullSet: true
-  item_group: magic_armors
+  item_group: magic_attribute_up
   helmet:
     id: MAGIC_EXAMPLE_HELMET
     material_type: skull_base64

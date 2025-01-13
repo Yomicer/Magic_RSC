@@ -1123,6 +1123,66 @@ MAGIC_DYNATECH_APIARY_BRASS_INGOT9:
       name: "&a" 
       material: ORANGE_STAINED_GLASS_PANE
 
+MAGIC_DYNATECH_APIARY_BRONZE_INGOT9:
+  title: "&c&l青铜&6魔法蜂箱"
+  slots:
+    0-3:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    4-8: 
+      name: "&a" 
+      material: ORANGE_STAINED_GLASS_PANE
+    9: 
+      name: "&a" 
+      material: GRAY_STAINED_GLASS_PANE
+    10-12:
+      name: "&a" 
+      material: CYAN_STAINED_GLASS_PANE
+    13:
+      name: "&a" 
+      material: ORANGE_STAINED_GLASS_PANE
+    17: 
+      name: "&a" 
+      material: ORANGE_STAINED_GLASS_PANE
+    18: 
+      name: "&a" 
+      material: GRAY_STAINED_GLASS_PANE
+    19: 
+      name: "&a" 
+      material: CYAN_STAINED_GLASS_PANE
+    20: 
+      name: "&f信息"
+      material: BEACON
+      glow: true 
+      lore: 
+        - "&f蜜蜂数量 : 192"
+        - "&f魔法加速 : 生效中"
+        - "&f生产速率 : 20秒"
+    21: 
+      name: "&a" 
+      material: CYAN_STAINED_GLASS_PANE
+    26: 
+      name: "&a" 
+      material: ORANGE_STAINED_GLASS_PANE
+    27: 
+      name: "&a" 
+      material: GRAY_STAINED_GLASS_PANE
+    28-30: 
+      name: "&a" 
+      material: CYAN_STAINED_GLASS_PANE
+    31: 
+      name: "&a" 
+      material: ORANGE_STAINED_GLASS_PANE
+    35: 
+      name: "&a" 
+      material: ORANGE_STAINED_GLASS_PANE
+    36-39: 
+      name: "&a" 
+      material: GRAY_STAINED_GLASS_PANE
+    40-44: 
+      name: "&a" 
+      material: ORANGE_STAINED_GLASS_PANE
+
 MAGIC_DYNATECH_APIARY_STEEL_INGOT9:
   title: "&c&l钢&6魔法蜂箱"
   slots:

@@ -3227,7 +3227,7 @@ MAGIC_B_SOUND_MACHINE_2:
 
 
 MAGIC_KAOGU_SAND_1:
-  item_group: magic_archaeology
+  item_group: magic_interesting_items
   item:
     name: "{#FFC0CB}&l可{#FFB9C3}&l疑{#FFB3BA}&l的{#FFA8AF}&l沙{#FF9DA4}&l子{#FA8E99}"
     material: SUSPICIOUS_SAND
@@ -3254,7 +3254,7 @@ MAGIC_KAOGU_SAND_1:
       amount: 1
 
 MAGIC_KAOGU_GRAVEL_1:
-  item_group: magic_archaeology
+  item_group: magic_interesting_items
   item:
     name: "{#FFC0CB}&l可{#FFB9C3}&l疑{#FFB3BA}&l的{#FFA8AF}&l沙{#FF9DA4}&l砾{#FA8E99}"
     material: SUSPICIOUS_GRAVEL
@@ -3302,7 +3302,7 @@ MAGIC_BLACK_ROLE:
     type: CONSUMER  
 
 MAGIC_PLAYER_ATTACT:
-  item_group: magic_power_machine
+  item_group: magic_power
   item:
     name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}屠{#FFA8AF}夫-{#FF9DA4}玩{#FA8E99}家{#F97F8E}"
     material_type: skull_base64
@@ -3427,3 +3427,63 @@ MAGIC_POWER_MIX_1:
 
 
 ##测试机器
+
+MAGIC_PLANT_1:
+  item_group: magic_grow
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l植{#FA8072}&l物{#E9967A}&l-{#F08080}&l无{#FF69B4}&l尽"
+    material: LILY_OF_THE_VALLEY
+    lore: 
+      - "&a"
+      - "{#FDB7D4}第一个测试种子"
+      - "{#FDB7D4}以下属性请忽略（懒得删）"
+      - "&8⇨ &e⚡{#FDB7D4} 10280 J 可存储"
+      - "&8⇨ &e⚡{#FDB7D4} 速度: &b15s {#FDB7D4}{采用现实时间算法}"
+      - "&8⇨ &e⚡{#FDB7D4} 4096  J 加速成长（隐藏属性可忽视）"
+      - "&8⇨ &e⚡{#FDB7D4} 64   J/s (隐藏属性可忽视)"
+      - "{#FDB7D4}实验性机器"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l植{#FA8E99}&l物{#F97F8E}&l学{#F87083}&l&kl"
+    glow: true
+  recipe: 
+    1:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT_1
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: PROGRAMMABLE_ANDROID_3_BUTCHER
+      amount: 1
+    5: 
+      material_type: slimefun
+      material: PROGRAMMABLE_ANDROID_3_BUTCHER
+      amount: 1
+    6: 
+      material_type: slimefun
+      material: PROGRAMMABLE_ANDROID_3_BUTCHER
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT_1
+      amount: 1
+    8: 
+      material_type: slimefun
+      material: MAGIC_MACHINE_PART_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+  energy:
+    capacity: 10280
+    type: CONSUMER  
+  recipe_type: MAGIC_NONE
+  script: 魔法植物1
