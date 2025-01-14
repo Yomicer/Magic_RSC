@@ -22,6 +22,8 @@ function onEat(event, player, itemStack) {
     var PotionEffect = Java.type('org.bukkit.potion.PotionEffect');
     // var PotionEffectType = Java.type('org.bukkit.potion.PotionEffectType');
 
+    var onUseItem = event.getItem();
+    var itemStack = getSfItemByItem(onUseItem);
     var sfitemid = itemStack.getId();
       // 查找匹配的配置
      let entityConfig = MAGIC_FOODS.find(entity => entity.id === sfitemid);
