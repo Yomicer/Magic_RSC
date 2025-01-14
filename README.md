@@ -27,7 +27,8 @@
   - InfinityExpansion
   - Supreme
   - GeneticChickengineering  -build 10
-
+软前置: 
+  - FNAmplifications
 ## 如何安装魔法
 1、下载最新版RykenSlimefunCustomizer，将.jar拖入plugin文件里
 
