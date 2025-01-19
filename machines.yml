@@ -132,7 +132,7 @@ MAGIC_SPAWNER_ZOMBIE_1:
 MAGIC_SPAWNER_CREEPER_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}僵{#FFCC00}尸{#FFDD00}）"
+    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}苦{#FFCC00}力怕{#FFDD00}）"
     material: SPAWNER
     lore: 
       - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
@@ -1186,7 +1186,7 @@ MAGIC_SPAWNER_ZOMBIE_2:
 MAGIC_SPAWNER_CREEPER_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}僵{#FFCC00}尸{#FFDD00}）"
+    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}苦{#FFCC00}力怕{#FFDD00}）"
     material: SPAWNER
     lore: 
       - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
@@ -2241,7 +2241,7 @@ MAGIC_SPAWNER_ZOMBIE_3:
 MAGIC_SPAWNER_CREEPER_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}僵{#FFCC00}尸{#FFDD00}）"
+    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}苦{#FFCC00}力怕{#FFDD00}）"
     material: SPAWNER
     lore: 
       - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
