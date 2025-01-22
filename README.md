@@ -27,6 +27,7 @@
   - InfinityExpansion
   - Supreme
   - GeneticChickengineering  -build 10
+
 软前置: 
   - FNAmplifications
 ## 如何安装魔法
