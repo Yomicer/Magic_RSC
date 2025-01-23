@@ -25,6 +25,23 @@ MAGIC_AUTHOR:
       material: SKELETON_SKULL
       amount: 4
 
+MAGIC_INFO:
+  lateInit: false
+  item_group: magic_author
+  item:
+    name: '{#FFC1E0}&l魔法说明书'
+    lore:
+      - '{#FFC1E0}本附属由magicsolo（Yomicer）编写而成'
+      - '{#FFC1E0}我是Yomicer，同样也是magicsolo'
+      - '{#FFC1E0}他们更多叫我：南柯梦/柯南'
+      - '{#FFC1E0}魔法——始于2024年11月17日'
+      - "&a"
+      - '&f当前魔法版本：'
+      - '&bRelease-0.0.2'
+      - '&7您在提issues的时候需要展示这个'
+    material: PAPER
+  recipe_type: 'NULL'
+
 MAGIC_GUIDE:
   item_group: magic_author
   item:
