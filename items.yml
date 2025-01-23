@@ -36,9 +36,23 @@ MAGIC_INFO:
       - '{#FFC1E0}他们更多叫我：南柯梦/柯南'
       - '{#FFC1E0}魔法——始于2024年11月17日'
       - "&a"
-      - '&f当前魔法版本：'
-      - '&bRelease-0.0.2'
-      - '&7您在提issues的时候需要展示这个'
+      - '{#FFC1E0}当前魔法版本：'
+      - '{#FFC1E0}Release-0.0.3'
+      - '{#FFC1E0}您在提issues的时候需要展示这个'
+    material: PAPER
+  recipe_type: 'NULL'
+
+MAGIC_INFO_2:
+  lateInit: false
+  item_group: magic_author
+  item:
+    name: '{#FFC1E0}&l魔法创作计划'
+    lore:
+      - '{#FFC1E0}很感谢大家能够对魔法提出建议'
+      - '{#FFC1E0}如果你有什么有趣的想法'
+      - '{#FFC1E0}非常欢迎提出'
+      - '{#FFC1E0}我会尽我所能的去复刻你的思路'
+      - "{#FFC1E0}前提是：这个想法值得被实现"
     material: PAPER
   recipe_type: 'NULL'
 
