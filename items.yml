@@ -1,6 +1,6 @@
 MAGIC_VERSION: 
   item_group: magic_author
-  placeable: true
+  placeable: false
   item:
     name: "&c&l版本号"
     material: PAPER
