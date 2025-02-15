@@ -22,7 +22,7 @@ function onUse(event) {
         org.bukkit.Bukkit.broadcastMessage("§b"+player.getName()+"§c打碎了魔法学识之瓶§f，§b大量经验喷涌而出~");
 
     } else {
-        invs.setItemInOffHand(null); // 如果只剩下一个，则移除物品
+        invs.setItemInMainHand(null); // 如果只剩下一个，则移除物品
 
         let ExperienceOrb =  world.spawn(eyeLocation, org.bukkit.entity.ExperienceOrb);
         ExperienceOrb.setCustomName("大量经验球");

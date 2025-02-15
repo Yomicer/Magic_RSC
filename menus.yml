@@ -4352,3 +4352,326 @@ MAGIC_POWER_MIX_BOX_1:
       progressbar: true
       progressBarItem:
         material: GREEN_STAINED_GLASS_PANE
+
+
+MAGIC_FLOWER_MIX_BOX_1:
+  title: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}矩{#FFA8AF}阵{#FF9DA4}-{#FA8E99}发{#F97F8E}电{#F87083}机{#F76178}-{#F6527D}I{#F54378}（{#F43477}矩{#F32576}阵{#F21675}台{#F10774}）"
+  slots:
+    9: 
+      name: "{#FDB7D4}上方请放置虞美人"
+      material: POPPY
+      glow: true
+    10: 
+      name: "{#FDB7D4}上方请放置兰花"
+      material: BLUE_ORCHID
+      glow: true
+    11: 
+      name: "{#FDB7D4}上方请放置绒球葱"
+      material: ALLIUM
+      glow: true
+    12: 
+      name: "{#FDB7D4}上方请放置雏菊"
+      material: AZURE_BLUET
+      glow: true
+    13: 
+      name: "{#FDB7D4}上方请放置红郁金香"
+      material: RED_TULIP
+      glow: true
+    14: 
+      name: "{#FDB7D4}上方请放置橙郁金香"
+      material: ORANGE_TULIP
+      glow: true
+    15: 
+      name: "{#FDB7D4}上方请放置白郁金香"
+      material: WHITE_TULIP
+      glow: true
+    16: 
+      name: "{#FDB7D4}上方请放置粉郁金香"
+      material: PINK_TULIP
+      glow: true
+    17: 
+      name: "{#FDB7D4}上方请放置滨菊"
+      material: OXEYE_DAISY
+      glow: true
+    27: 
+      name: "{#FDB7D4}上方请放置向日葵"
+      material: SUNFLOWER
+      glow: true
+    28: 
+      name: "{#FDB7D4}上方请放置丁香丛"
+      material: LILAC
+      glow: true
+    29: 
+      name: "{#FDB7D4}上方请放置玫瑰丛"
+      material: ROSE_BUSH
+      glow: true
+    30: 
+      name: "{#FDB7D4}上方请放置牡丹"
+      material: PEONY
+      glow: true
+    31: 
+      name: "{#FDB7D4}上方请放置凋零玫瑰"
+      material: WITHER_ROSE
+      glow: true
+    32: 
+      name: "{#FDB7D4}上方请放置矢车菊"
+      material: CORNFLOWER
+      glow: true
+    33: 
+      name: "{#FDB7D4}上方请放置铃兰"
+      material: LILY_OF_THE_VALLEY
+      glow: true
+    34: 
+      name: "{#FDB7D4}上方请放置蒲公英"
+      material: DANDELION
+      glow: true
+    35: 
+      name: "{#FDB7D4}上方请放置火把花"
+      material: TORCHFLOWER
+      glow: true
+    39-43: 
+      name: "{#FDB7D4}敬请期待"
+      material: BARRIER
+      glow: true
+    45: 
+      name: "{#FDB7D4}上方请放置瓶子花"
+      material: PITCHER_PLANT
+      glow: true
+    46: 
+      name: "{#FDB7D4}上方请放置粉红色花簇"
+      material: PINK_PETALS
+      glow: true
+    47: 
+      name: "{#FDB7D4}上方请放置孢子花"
+      material: SPORE_BLOSSOM
+      glow: true
+    48-52: 
+      name: "{#FDB7D4}敬请期待"
+      material: BARRIER
+      glow: true
+    53:
+      name: "&a上方放置最终培育目标"
+      material: NETHER_STAR
+      progressbar: true
+      progressBarItem:
+        material: NETHER_STAR
+
+MAGIC_CARGO_STORAGE_MAKER:
+  title: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l升{#F08080}&l级{#FF69B4}&l台"
+  slots:
+    0-9:
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    13-14: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    15-17: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    18: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    22: 
+      name: "{#FFC0CB}&l点{#FFB6C1}&l击{#FFA07A}&l合{#FA8072}&l成"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGIyZWRlYjAxY2RjZTFkMTM1MWQ5YmY3ZmI3NTNiNmY1NzNhNTZiODY0NzcyOTlhNTEwMzNjYWFjODkzOTQwOCJ9fX0=
+    23: 
+      name: "{#FFC0CB}&l产{#FFB6C1}&l物"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjczZGMxZWFhNmFjMjc1YzhhZGQxZTRjNTQzZWY5NGQ5M2ZhZTcxZGJmNmMwNDZmMDU2ZTdmMzQ0YWFhZiJ9fX0=
+    24: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    26: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    27: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    31-32: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    33-35: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-44: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    45: 
+      name: "{#FFC0CB}&l留言板I"
+      material: CHERRY_HANGING_SIGN
+      lore:
+      - "{#FFC0CB}magicsolo: 魔法抽屉是基于网络抽屉拓展出来的"
+      - "{#FFC0CB}magicsolo: 目的在于防止刷物"
+    46: 
+      name: "{#FFC0CB}&l留言板II（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    47: 
+      name: "{#FFC0CB}&l留言板III（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    48: 
+      name: "{#FFC0CB}&l留言板IV（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    49: 
+      name: "{#FFC0CB}&l留言板V（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    50: 
+      name: "{#FFC0CB}&l留言板VI（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    51: 
+      name: "{#FFC0CB}&l留言板VII（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    52: 
+      name: "{#FFC0CB}&l留言板VIII（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    53: 
+      name: "{#FFC0CB}&l留言板IX（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+
+MAGIC_FISHING_HOUSE:
+  title: "{#FFC0CB}&l垂{#FFB6C1}&l钓{#FFA07A}&l工{#FA8072}&l坊{#E9967A}&lF&c&li&a&ls&b&lh&c&li&d&ln&e&lg"
+  slots:
+    6-8:
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    15: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    16-17: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    24-25: 
+      name: "{#FFC0CB}&l产{#FFB6C1}&l物"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjczZGMxZWFhNmFjMjc1YzhhZGQxZTRjNTQzZWY5NGQ5M2ZhZTcxZGJmNmMwNDZmMDU2ZTdmMzQ0YWFhZiJ9fX0=
+    33: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    34: 
+      name: "&a"
+      material: YELLOW_STAINED_GLASS_PANE
+    35: 
+      name: "{#FFC0CB}&l点{#FFB6C1}&l击{#FFA07A}&l合{#FA8072}&l成"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGIyZWRlYjAxY2RjZTFkMTM1MWQ5YmY3ZmI3NTNiNmY1NzNhNTZiODY0NzcyOTlhNTEwMzNjYWFjODkzOTQwOCJ9fX0=
+    42: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    43-44: 
+      name: "&a"
+      material: LIME_STAINED_GLASS_PANE
+    51-53: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+
+MAGIC_INFINITY_FORGE_1: 
+  title: "&f&l简陋的{#FFC0CB}&l电{#FFB6C1}&l动{#FFA07A}&l无{#FA8072}&l尽{#E9967A}&l工{#F08080}&l作{#FF69B4}&l台"
+  slots:
+    6: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    7-8: 
+      name: "&a"
+      material: CYAN_STAINED_GLASS_PANE
+    15: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    16: 
+      name: "&a"
+      material: CYAN_STAINED_GLASS_PANE
+    17: 
+      material_type: slimefun
+      material: INFINITY_FORGE
+      progressbar: true
+      progressBarItem:
+        material_type: slimefun
+        material: INFINITY_FORGE
+    24: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    25-26: 
+      name: "&a"
+      material: CYAN_STAINED_GLASS_PANE
+    33: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    34-35: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    42: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    43: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    51: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    52-53: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+MAGIC_GEOMINER_BOX: 
+  title: "魔法资源输出箱"
+  slots:
+    0-4: 
+      name: "&a"
+      material: STRUCTURE_VOID
+    4: 
+      name: "&f&l无尽能源"
+      material_type: slimefun
+      material: INFINITY_MATRIX
+      lore: 
+        - "&b终极目标：挖掘虚空深处"
+        - "&b无法破坏"
+    5-8:  
+      name: "&a" 
+      material: STRUCTURE_BLOCK
+    9-11: 
+      name: "&a"
+      material: STRUCTURE_VOID
+    12: 
+      name: "&a" 
+      material: JIGSAW
+    13: 
+      name: "&a"
+      material: BARRIER
+      progressbar: true
+      progressBarItem:
+        name: "&a"
+        material: BARRIER
+    14: 
+      material: JIGSAW
+    15-17: 
+      name: "&a" 
+      material: STRUCTURE_BLOCK
+    18: 
+      name: "&a"
+      material: STRUCTURE_VOID
+    26: 
+      name: "&a" 
+      material: STRUCTURE_BLOCK
+    27: 
+      name: "&a"
+      material: CHAIN_COMMAND_BLOCK
+    35: 
+      name: "&a"
+      material: REPEATING_COMMAND_BLOCK 
+    36-39: 
+      name: "&a"
+      material: CHAIN_COMMAND_BLOCK 
+    40: 
+      name: "&a"
+      material: LIGHT
+    41-44: 
+      name: "&a"
+      material: REPEATING_COMMAND_BLOCK 
+    45-48: 
+      name: "&a"
+      material: CHAIN_COMMAND_BLOCK
+    49: 
+      name: "&a"
+      material: LIGHT
+    50-53: 
+      name: "&a"
+      material: REPEATING_COMMAND_BLOCK

@@ -81,7 +81,7 @@ function tick(info) {
         // org.bukkit.Bukkit.broadcastMessage("blockData: " + production);
 
 
-        let addPower = totalPower/2;
+        let addPower = Math.floor(totalPower/2);
         
         machine.addCharge(location, addPower);
         
@@ -93,6 +93,11 @@ function tick(info) {
 
 
 }
+
+function getGeneratedOutput(location, blockdata) {
+    return 1;
+}
+
 
 
 

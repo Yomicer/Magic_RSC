@@ -71,7 +71,25 @@ function tick(info) {
         let entities = world.getNearbyEntities(location, radius, radius, radius);
         
         // 随机选择一个在线玩家作为伤害来源
-        let player = getRandomOnlinePlayer();
+        // let player = getRandomOnlinePlayer();
+
+        //选择半径50格内的其中一个玩家
+
+        let radius2 = 50;
+
+        let player = getRandomPlayerInRadius(location, radius2);
+        
+
+        // org.bukkit.Bukkit.broadcastMessage("player:"+ player);
+
+
+        if (!player){
+            // org.bukkit.Bukkit.broadcastMessage("附近没有玩家");
+            lastUseTimes.put(location, currentTime);
+            return;
+        }
+
+
         // org.bukkit.Bukkit.broadcastMessage(`§7[系统] §f在 ${radius} 格范围内有 ${entities} 只生物。`);     //测试
         // 遍历所有实体并应用伤害
 
@@ -123,19 +141,46 @@ function getRandomInt(min, max) {
 
 
 // 获取所有在线玩家并随机选择一个
-function getRandomOnlinePlayer() {
-    let players = org.bukkit.Bukkit.getOnlinePlayers();
-    if (players.size() === 0) {
+// function getRandomOnlinePlayer() {
+//     let players = org.bukkit.Bukkit.getOnlinePlayers();
+//     if (players.size() === 0) {
+//         return null;
+//     }
+//     let randomIndex = Math.floor(Math.random() * players.size());
+//     return players.toArray()[randomIndex];
+// }
+
+function getRandomPlayerInRadius(center, radius) {
+    // 获取中心点所在的世界中的所有玩家
+    let players = org.bukkit.Bukkit.getOnlinePlayers().toArray();
+    let playersInRadius = [];
+
+    for (let player of players) {
+        // 计算玩家与中心点之间的距离
+        if (center.getWorld() === player.getWorld() && center.distance(player.getLocation()) <= radius) {
+            playersInRadius.push(player);
+        }
+    }
+
+    // 如果没有找到任何玩家，返回null
+    if (playersInRadius.length === 0) {
         return null;
     }
-    let randomIndex = Math.floor(Math.random() * players.size());
-    return players.toArray()[randomIndex];
+
+    // 随机选择一个玩家并返回
+    let randomIndex = Math.floor(Math.random() * playersInRadius.length);
+    return playersInRadius[randomIndex];
 }
 
+
 // 对生物应用伤害
-function applyDamage(entity) {
+function applyDamage(entity, player) {
     const DAMAGE_AMOUNT = 100; // 伤害值（半心为单位）
-    let player = getRandomOnlinePlayer();
+
+
+    // let player = getRandomOnlinePlayer();
+
+
     // player.sendMessage("你呗选中了"+ player);
     entity.damage(DAMAGE_AMOUNT, player); // 对生物造成伤害，并指定伤害来源为玩家
 

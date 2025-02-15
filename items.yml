@@ -202,38 +202,38 @@ MAGIC_GCE_EXCITATION_CHAMBER_PRE:
   recipe:
     1:
       material_type: slimefun
-      material: GCE_EXCITATION_CHAMBER_10
+      material: GCE_EXCITATION_CHAMBER_3
       amount: 1
     2:
       material_type: slimefun
-      material: GCE_EXCITATION_CHAMBER_10
+      material: GCE_EXCITATION_CHAMBER_3
       amount: 1
     3:
       material_type: slimefun
-      material: GCE_EXCITATION_CHAMBER_10
+      material: GCE_EXCITATION_CHAMBER_3
       amount: 1
     4:
       material_type: slimefun
-      material: GCE_EXCITATION_CHAMBER_10
+      material: GCE_EXCITATION_CHAMBER_3
       amount: 1
     5:
       material_type: slimefun
       material: MAGIC_REDSTONE
     6:
       material_type: slimefun
-      material: GCE_EXCITATION_CHAMBER_10
+      material: GCE_EXCITATION_CHAMBER_3
       amount: 1
     7:
       material_type: slimefun
-      material: GCE_EXCITATION_CHAMBER_10
+      material: GCE_EXCITATION_CHAMBER_3
       amount: 1
     8:
       material_type: slimefun
-      material: GCE_EXCITATION_CHAMBER_10
+      material: GCE_EXCITATION_CHAMBER_3
       amount: 1
     9:
       material_type: slimefun
-      material: GCE_EXCITATION_CHAMBER_10
+      material: GCE_EXCITATION_CHAMBER_3
       amount: 1
 MAGIC_GCE_EXCITATION_CHAMBER:
   #魔法鼓舞室
@@ -6786,7 +6786,7 @@ MAGIC_MACHINE_CORE:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTE2ZmQyNGY1N2EyOTdlNWU2NmE2NWE0YWRmYzlmZDdmMWJkZDA0NThjNzk4YTU4NmIwMGQ0ZDIxMDgxMWEzZSJ9fX0=
     lore: 
       - "&a"
-      - "&7更为坚固的一种材料"
+      - "&7科技零件的进阶材料"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -7500,16 +7500,18 @@ MAGIC_ORIGIN_2_UP:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_PAPER: 
   item_group: magic_storage
   item:
-    name: "&b&l使用説明"
+    name: "&b&l使用说明"
     material: paper
     glow: true
     lore: 
-      - "&f&l該頁僅作爲網絡抽屜刷物BUG的次選方案"
-      - "&f&l該頁物品僅作爲展示配方，無實際作用"
-      - "&f&l如果沒有BUG可以將此頁物品以及服務器监監聽全部禁用"
-      - "&f&l使用時禁用原版雕文書架的放置權限"
-      - "&f&l對原有配方進行一些合理性調整"
-  recipe_type: NULL
+      - "&a"
+      - "{#FDB7D4}如果不希望一次性机制，请在服务器监听中将对应监听注解掉"
+      - "{#FDB7D4}&l魔法抽屉的作用作为一次性抽屉"
+      - "{#FDB7D4}&l魔法抽屉在被挖掘后，需要修复才可再次放置"
+      - "{#FDB7D4}&l该页的魔法抽屉仅作为合成展示"
+      - "{#FDB7D4}&l作弊拿取无实际作用，请使用展示物品制造机"
+      - "{#FDB7D4}&l当前版本无需其他插件配合使用"
+  recipe_type: MAGIC_NONE
 
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_1: 
@@ -7518,44 +7520,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_1:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_1
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: NTW_OPTIC_CABLE
-          amount: 1
-        2:
-          material_type: slimefun
-          material: NTW_OPTIC_CABLE
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_OPTIC_CABLE
-          amount: 1
-        4:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_1
-          amount: 1
-        5:
-          material_type: slimefun
-          material: NTW_BRIDGE
-          amount: 1
-        6:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_1
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_OPTIC_CABLE
-          amount: 1
-        8:
-          material_type: slimefun
-          material: NTW_OPTIC_CABLE
-          amount: 1
-        9:
-          material_type: slimefun
-          material: NTW_OPTIC_CABLE
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_2: 
   item_group: magic_storage
@@ -7563,44 +7537,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_2:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_2
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_9
-          amount: 1
-        2:
-          material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_9
-          amount: 1
-        4:
-          material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
-          amount: 1
-        5:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_1
-          amount: 1
-        6:
-          material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_9
-          amount: 1
-        8:
-          material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
-          amount: 1
-        9:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_9
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_3: 
   item_group: magic_storage
@@ -7608,44 +7554,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_3:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} II{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_3
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_10
-          amount: 1
-        2:
-          material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_10
-          amount: 1
-        4:
-          material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
-          amount: 1
-        5:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_2
-          amount: 1
-        6:
-          material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_10
-          amount: 1
-        8:
-          material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
-          amount: 1
-        9:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_10
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_4: 
   item_group: magic_storage
@@ -7653,44 +7571,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_4:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}V{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_4
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_1
-          amount: 1
-        2:
-          material_type: slimefun
-          material: BOOSTED_URANIUM
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_1
-          amount: 1
-        4:
-          material_type: slimefun
-          material: BOOSTED_URANIUM
-          amount: 1
-        5:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_3
-          amount: 1
-        6:
-          material_type: slimefun
-          material: BOOSTED_URANIUM
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_1
-          amount: 1
-        8:
-          material_type: slimefun
-          material: BOOSTED_URANIUM
-          amount: 1
-        9:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_1
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_5: 
   item_group: magic_storage
@@ -7698,44 +7588,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_5:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}V{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_5
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_4
-          amount: 1
-        2:
-          material_type: slimefun
-          material: NETHER_ICE
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_2
-          amount: 1
-        4:
-          material_type: slimefun
-          material: NETHER_ICE
-          amount: 1
-        5:
-          material_type: slimefun
-          material: NTW_EXPANSION_STORAGE_UPGRADE_TABLE
-          amount: 1
-        6:
-          material_type: slimefun
-          material: NETHER_ICE
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_2
-          amount: 1
-        8:
-          material_type: slimefun
-          material: NETHER_ICE
-          amount: 1
-        9:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_4
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_6: 
@@ -7744,44 +7606,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_6:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} V{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_6
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_5
-          amount: 1
-        2:
-          material_type: slimefun
-          material: BUCKET_OF_FUEL
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_3
-          amount: 1
-        4:
-          material_type: slimefun
-          material: BUCKET_OF_FUEL
-          amount: 1
-        5:
-          material_type: slimefun
-          material: NTW_EXPANSION_STORAGE_UPGRADE_TABLE
-          amount: 1
-        6:
-          material_type: slimefun
-          material: BUCKET_OF_FUEL
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_3
-          amount: 1
-        8:
-          material_type: slimefun
-          material: BUCKET_OF_FUEL
-          amount: 1
-        9:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_5
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_7: 
@@ -7790,44 +7624,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_7:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} V{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_7
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_6
-          amount: 1
-        2:
-          material_type: slimefun
-          material: NTW_OPTIC_STAR
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_3
-          amount: 1
-        4:
-          material_type: slimefun
-          material: NTW_OPTIC_STAR
-          amount: 1
-        5:
-          material_type: slimefun
-          material: NTW_EXPANSION_STORAGE_UPGRADE_TABLE
-          amount: 1
-        6:
-          material_type: slimefun
-          material: NTW_OPTIC_STAR
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_3
-          amount: 1
-        8:
-          material_type: slimefun
-          material: NTW_OPTIC_STAR
-          amount: 1
-        9:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_6
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_8: 
   item_group: magic_storage
@@ -7835,44 +7641,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_8:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} VI{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_8
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_7
-          amount: 1
-        2:
-          material_type: slimefun
-          material: NTW_RADIOACTIVE_OPTIC_STAR
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_3
-          amount: 1
-        4:
-          material_type: slimefun
-          material: NTW_RADIOACTIVE_OPTIC_STAR
-          amount: 1
-        5:
-          material_type: slimefun
-          material: NTW_EXPANSION_STORAGE_UPGRADE_TABLE
-          amount: 1
-        6:
-          material_type: slimefun
-          material: NTW_RADIOACTIVE_OPTIC_STAR
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_3
-          amount: 1
-        8:
-          material_type: slimefun
-          material: NTW_RADIOACTIVE_OPTIC_STAR
-          amount: 1
-        9:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_7
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_9: 
   item_group: magic_storage
@@ -7880,44 +7658,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_9:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}X{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_9
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_8
-          amount: 1
-        2:
-          material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_4
-          amount: 1
-        4:
-          material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
-          amount: 1
-        5:
-          material_type: slimefun
-          material: NTW_EXPANSION_STORAGE_UPGRADE_TABLE
-          amount: 1
-        6:
-          material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_4
-          amount: 1
-        8:
-          material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
-          amount: 1
-        9:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_8
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_10: 
   item_group: magic_storage
@@ -7925,44 +7675,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_10:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}X{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_10
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
-        2:
-          material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
-        4:
-          material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
-          amount: 1
-        5:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_9
-          amount: 1
-        6:
-          material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
-        8:
-          material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
-          amount: 1
-        9:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_11: 
   item_group: magic_storage
@@ -7970,44 +7692,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_11:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} X{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_11
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
-        2:
-          material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
-        4:
-          material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
-          amount: 1
-        5:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_10
-          amount: 1
-        6:
-          material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
-        8:
-          material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
-          amount: 1
-        9:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_12: 
@@ -8016,44 +7710,16 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_12:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} X{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_12
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
-        2:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_8
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
-        4:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_8
-          amount: 1
-        5:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_11
-          amount: 1
-        6:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_8
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
-        8:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_8
-          amount: 1
-        9:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_6
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_13: 
   item_group: magic_storage
@@ -8061,46 +7727,387 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_13:
     name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} XI{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_13
-  recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
+  recipe_type: MAGIC_SPECIAL
   recipe:
-        1:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_7
-          amount: 1
-        2:
-          material_type: slimefun
-          material: NTW_EXPANSION_ITEM_MOVER
-          amount: 1
-        3:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_7
-          amount: 1
-        4:
-          material_type: slimefun
-          material: NTW_EXPANSION_ITEM_MOVER
-          amount: 1
-        5:
-          material_type: slimefun
-          material: MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_12
-          amount: 1
-        6:
-          material_type: slimefun
-          material: NTW_EXPANSION_ITEM_MOVER
-          amount: 1
-        7:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_7
-          amount: 1
-        8:
-          material_type: slimefun
-          material: NTW_EXPANSION_ITEM_MOVER
-          amount: 1
-        9:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_7
-          amount: 1
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
 
 ##以上为魔法抽屉,仅用于展示，并无实际作用
+
+MAGIC_MACHINE_RECIPE_DESCRIPTION:
+  item_group: magic_test
+  item:
+    name: "{#FFC0CB}&l特{#FFB6C1}&l殊{#FFA07A}&l配{#FA8072}&l方-{#E9967A}&l请{#F08080}&l前{#DB7093}&l往{#FF69B4}&l下{#FF1493}&l方{#C71585}&l机{#EE82EE}&l器{#DDA0DD}&l查{#D8BFD8}&l询"
+    material: BARRIER
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}该配方只能在魔法机器中制作"
+      - "{#FDB7D4}粘液书中显示的为错误配方"
+  recipe_type: NULL
+  hidden: true
+
+MAGIC_STORE_FIX_0:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-说明"
+    material: PAPER
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  recipe_type: MAGIC_NONE
+
+MAGIC_STORE_FIX_1:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-I"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjZGEwNWVhNWQ5Y2NhNzAyMDdhOGIyOWZkZTFjOTY5NmM3NTI3YzYyZTU5OWUzZGEyZDI3NWYyMGUwYmE5YiJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_2:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-II"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE2MjcyNTU0MzE2NjVmZTFkYmJiNDljODIxNjVkNjk5ZjMwNjYyMDg0OTVlYTM1NjliZGZlMGQwYjU3MDA3ZCJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_3:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-III"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGViZjZiZTgyZTgyM2U1ODJmZjhmNDVlMDFjZjUxNzUxNzM0ZDlhNzc2Y2ZmNTE0ZTg4ZWEyNmQ0OTczYmJmMCJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_4:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-IV"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU0ZWJlZmVmYThjYjNjNTg2MGFjODQxMjY1OWUxMjNiYTE1NGQ0YjcwOTZjM2IxMjNjMGQxZmNhNjNjOTc5OSJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_5:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-V"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU0ODA0NmRkNmZhMDc3MzBjM2ZiYjRlY2JlNWMxYTM0MDYyOTc0NDgwNmY4ODE0NjUzZDZhYTc1YTkwMzJjNCJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_6:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-VI"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdiODMyNGQxYjI5ZWZkNjY3YmZiZDY5MTM0ZTdkODkxNzExMDc5MWI4MWJhZjgwZmRiNmUyYzIwN2FmZTE4MSJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_7:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-VII"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY1NjFiODExMmI2NGZiMDFkOWI2NWViZGQzYmM5ODU1NzJkMDIzMDZiNDJhZmU4OWNjODJiOWE1YzY1YzM3ZCJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_8:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-VIII"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjk2YjZjNzdmMmMxMTMzZjZkZjczNmVmMmQ4YzUyZDQ3ZjU4NDg3YzIzZTg0ODBlZjc5ZTBkNjBhMjg5ZjU4In19fQ==
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_9:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-IX"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY1NjhkZDgwODIwNjU3NTU0ZjliNDVkYjAzMWQyMmNkOWI3ZDE2MWMxOTgyNzczYjFiMzU4NTRjOTkzOTgyNCJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_10:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-X"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDVlMTVkMTVkNjA4YTg2MzcyYmI1YzNkMTBiMDZlNjI4Yzg3ZWQzMTAwOWFkMzg5MWM1OTIyYjNmYmQ4Njc3MSJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_11:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-XI"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNhNDEzMGY2OGM3MTE3MmJlMDMyYjJmY2IyZDBhY2U3ZmZiMTQzZjM3NTcwOWE3ZjVhMmJjODRmNmY5ZmJkMyJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_12:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-XII"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU0NGIwOWQ1NTljZWJiNDA2YjcyMjcwMGYzYmQzN2NiMTZkMjhkMmY2ODE0YjU4M2M2NDI3MDA4NGJjNjhiMyJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+MAGIC_STORE_FIX_13:
+  item_group: magic_storage
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-XIII"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdiYzI1MWE2Y2IwZDZkOWYwNWM1NzExOTExYTZlYzI0YjIwOWRiZTY0MjY3OTAxYTRiMDM3NjFkZWJjZjczOCJ9fX0=
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于修复封印的魔法抽屉"
+      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+  script: MFCT_FIX
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_CARGO_STORAGE_MAKER
+      amount: 1
+
+
+##以上为魔法抽屉修复工具，正常使用
 
 MAGIC_MUSIC: 
   item_group: magic_interesting_items
@@ -11460,3 +11467,153 @@ MAGIC_ZWF_17:
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
+
+
+##以下是有关钓鱼的
+MAGIC_ROD_DESCRIPTION:
+  item_group: magic_interesting_items
+  item:
+    name: "{#FFC0CB}魔{#FFB1C1}法{#FFA3B7}系{#FF94AD}列{#FF86A3}鱼{#FF779A}杆{#FF6990}使{#FF5A86}用{#FF4C7D}说{#FF3E73}明"
+    material: paper
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}将鱼杆放置在主手的位置↓"
+      - "{#FDB7D4}即主物品栏，屏幕下方你可以看到的那9个格子"
+      - "{#FDB7D4}然后选中放置鱼杆的格子，让其在主手（右手）中出现"
+      - "{#FDB7D4}将鱼饵放置在玩家物品栏右上角↓"
+      - "{#FDB7D4}4x9，最最右上角的那个格子"
+      - "{#FDB7D4}图片说明书↓"
+      - "{#FDB7D4}下方为玩家背包示例↓"
+      - "{#FDB7D4}┌─────────────────────────────────────────────────────"
+      - "{#FDB7D4}│ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▣ │←←←鱼饵放在这个格子里"
+      - "{#FDB7D4}├─────────────────────────────────────────────────────"
+      - "{#FDB7D4}│ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │"
+      - "{#FDB7D4}├─────────────────────────────────────────────────────"
+      - "{#FDB7D4}│ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │"
+      - "{#FDB7D4}├─────────────────────────────────────────────────────"
+      - "{#FDB7D4}│ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │←←←鱼杆放在这一行的任何一格都可以"
+      - "{#FDB7D4}└─────────────────────────────────────────────────────"
+      - "{#FDB7D4}"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
+  recipe_type: MAGIC_NONE
+
+
+MAGIC_ROD_ZMZ_WWS:
+  item_group: magic_interesting_items
+  placeable: true
+  item:
+    material_type: saveditem
+    material: YG_1
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_FISHING_HOUSE
+      amount: 1
+
+MAGIC_ROD_ZMZ_WWS_YE_HSJ:
+  item_group: magic_interesting_items
+  item:
+    name: "&a&l万&b&l物&9&l生&e&l-{#E9967A}&l绘{#F08080}&l生{#FF69B4}&l机"
+    material: SLIME_BALL
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}可配合\"&4&l织&c&l梦&6&l者&e&l-&a&l万&b&l物&9&l生\"{#FDB7D4}一起使用"
+      - "{#FDB7D4}是一种特殊的饵料"
+      - "{#FDB7D4}在水中幻化成粘液物品"
+      - "{#FDB7D4}幻化成功后会像鱼一样咬钩"
+      - "{#FDB7D4}目前可幻化出所有原版粘液物品"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_FISHING_HOUSE
+      amount: 1
+
+MAGIC_ROD_YG_CL_BXM:
+  item_group: magic_resource
+  item:
+    name: "{#E9967A}&l半{#F08080}&l朽{#FF69B4}&l木"
+    material: BLAZE_ROD
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于制作鱼杆的珍贵材料"
+      - "{#FDB7D4}是一种特殊的木棍"
+      - "{#FDB7D4}轻如鸿毛"
+      - "{#FDB7D4}硬度堪比金刚石"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_FISHING_HOUSE
+      amount: 1
+
+MAGIC_ROD_YX_CL_WWFHX:
+  item_group: magic_resource
+  item:
+    name: "&a&l万&b&l物{#E9967A}&l复{#F08080}&l合{#FF69B4}&l线"
+    material: STRING
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于制作鱼鱼线的珍贵材料"
+      - "{#FDB7D4}是一种特殊的丝线"
+      - "{#FDB7D4}透明材质"
+      - "{#FDB7D4}韧性远超蜘蛛丝"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_FISHING_HOUSE
+      amount: 1
+
+MAGIC_ROD_YG_YUGOU_QHHJD:
+  item_group: magic_resource
+  item:
+    name: "&b&l强化合金{#F08080}&l鱼{#FF69B4}&l钩"
+    material: IRON_PICKAXE
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}用于制作鱼杆的珍贵材料"
+      - "{#FDB7D4}由强化合金锭制成的鱼钩"
+      - "{#FDB7D4}勉强可以抵抗幻境的侵蚀"
+      - "{#FDB7D4}是一种常用的鱼钩"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_FISHING_HOUSE
+      amount: 1

@@ -3,16 +3,12 @@ MAGIC_REDSTONE:
   item:
     name: "&c魔法红石"
     material: redstone
-  recipe_type: GEO_MINER
+  recipe_type: MAGIC_GEOMINER
   max_deviation: 18
-  obtain_from_geo_miner: true
+  obtain_from_geo_miner: false
   geo_name: "&c魔法红石"
   supply:
-    normal:
-      plains: 0
-      ocean: 0
-      snowy_plains: 18
-      others: 0
+    normal: 20
     nether: 0
     the_end: 0
 
@@ -28,21 +24,17 @@ MAGIC_COSMIC_DUST:
       - "&7自宇宙大爆炸起"
       - "&7便四散在浩翰宇宙之中"
       - "&7部分来自彗星、小行星等星体的崩解而产生"
-      - "&7在&b雪原&7中或许可以寻得它的踪迹"
+      - "&7在&b主世界&7的任何地方都有它的踪迹"
       - "&7也可在&c起源工厂&7中使用暗物质碳进行溯源"
       - "&7非可再生资源"
       - "&a"
       - "&a自然资源"
-  recipe_type: GEO_MINER
+  recipe_type: MAGIC_GEOMINER
   max_deviation: 2
-  obtain_from_geo_miner: true
+  obtain_from_geo_miner: false
   geo_name: "&b&l宇宙尘"
   supply:
-    normal:
-      plains: 0
-      ocean: 0
-      snowy_plains: 2
-      others: 0
+    normal: 1
     nether: 0
     the_end: 0
 

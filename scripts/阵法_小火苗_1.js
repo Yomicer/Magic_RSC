@@ -67,8 +67,8 @@ function onUse(event) {
   // 获取当前玩家的最后使用时间，如果不存在则初始化为0
   let lastUseTime = playerLastUseTimes.getOrDefault(playerId, 0);
   //冷却时间10秒
-  if (currentTime - lastUseTime < 10000) {
-    const remainingTime = Math.ceil((10000 - (currentTime - lastUseTime)) / 1000);
+  if (currentTime - lastUseTime < 1000) {
+    const remainingTime = Math.ceil((1000 - (currentTime - lastUseTime)) / 1000);
     player.sendTitle("§c§l你干嘛啊~哎呦！", "冷却剩余时间：" + remainingTime + "秒", 10, 40, 10);
     return; 
   }
@@ -84,7 +84,7 @@ function onUse(event) {
     let radius = 5;
     let height = 5;
     let particleType = Particle.FLAME; // 可以根据需要更改粒子类型
-    let damage = 5; // 对生物造成的伤害值
+    let damage = 100; // 对生物造成的伤害值
 
     // 播放空心圆柱粒子效果
     playHollowCylinderParticles(player, radius, height, particleType);
@@ -93,7 +93,7 @@ function onUse(event) {
     damageEntitiesInRange(player.getLocation(), radius, height, damage, player);
 
     // 发送消息给玩家确认
-    sendMessage(player, "§b对范围内的生物造成了5点伤害！");
+    sendMessage(player, "§b对范围内的生物造成了100点伤害！");
 }
 
 // 示例调用：假设你有一个 event 对象

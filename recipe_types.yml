@@ -89,12 +89,22 @@ MAGIC_CD_SINGULARITY:
     - "&a"
 
 MAGIC_NONE: 
-  name: "{#FFC0CB}&l转{#FFB6C1}&l世{#FFA07A}&l轮{#FA8072}&l回"
+  name: "{#FFC0CB}&l无{#FFB6C1}&l法{#FFA07A}&l合{#FA8072}&l成"
   material: BEACON
   lore:
     - "&a" 
     - "{#FFC0CB}&l痴{#FFB6C1}&l情{#FFA07A}&l的{#FA8072}&l人{#E9967A}&l啊{#F08080}&l!"
     - "{#FFC0CB}&l请{#FFB6C1}&l再{#FFA07A}&l等{#FA8072}&l一{#E9967A}&l世{#F08080}&l吧{#FF69B4}&l~"
+    - "&a"
+
+MAGIC_SPECIAL: 
+  name: "{#FFC0CB}&l特{#FFB6C1}&l殊{#FFA07A}&l配{#FA8072}&l方"
+  material_type: skull_base64
+  material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwNjM3NzhhYjBkNzNhMmY2MGJlMzdlMzUwNGFmMmI2NDdjZjI4NjMzZGQwNGRmYzA1ZjQ5ZjFlMDBhOTMxZCJ9fX0=
+  lore:
+    - "&a" 
+    - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l专{#FA8072}&l属{#E9967A}&l配{#F08080}&l方"
+    - "{#FFC0CB}&l点{#FFB6C1}&l击{#FFA07A}&l下{#FA8072}&l方机{#E9967A}&l器进{#F08080}&l行跳{#FF69B4}&l转~"
     - "&a"
 
 MAGIC_INFINITY_ARMOR_MACHINE: 
@@ -186,3 +196,15 @@ MAGIC_MACHINE_TYPE:
     - "{#FFC0CB}&l点{#FFB6C1}&l击{#FFA07A}&l右{#FA8072}&l侧{#E9967A}&l机{#F08080}&l器"
     - "{#FFC0CB}&l前{#FFB6C1}&l往{#FFA07A}&l查{#FA8072}&l看{#E9967A}&l合{#F08080}&l成{#FF69B4}&l配{#DB7093}&l方"
 
+MAGIC_GEOMINER:
+  name: "{#FDB7D4}魔法资源开采机"
+  material_type: skull_base64
+  material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRiZGFiNjFiMTFhYjQ4MjljMjI4YjdhNjNiMjJiOGZhYzIxYjRhM2U2NzFlYTllNTNiNjNiYzgyZGMwYTcyOCJ9fX0=
+  lore: 
+      - "&a"
+      - "{#FDB7D4}从区块深处开采出魔法资源"
+      - "{#FDB7D4}可以开采出一些神秘的魔法资源"
+      - "{#FDB7D4}该机器一旦放置就会持续抽取电力"
+      - "&4！请先对所在区块进行地形扫描"
+      - "&a"
+      - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力" 

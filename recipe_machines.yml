@@ -4899,7 +4899,7 @@ MAGIC_MFCT_ITEM_GET:
       - "&8⇨&e ⚡ &7256 J/s"
       - "&a"
       - "{#FDB7D4}实验性机器"
-      - "&a&l魔&b&l法&c&l抽&d&l屉&e&l"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   recipe_type: MAGIC_NONE
   capacity: 512
   energyPerCraft: 128
@@ -6322,6 +6322,16 @@ MAGIC_POWER_MIX_BOX_1:
       - "{#FDB7D4}最下方一行为状态栏，仅用于显示各种指数"
       - "{#FDB7D4}数据仅供参考，以实际放入机器为准"
       - "{#FDB7D4}此机器用于显示数据，下方机器为发电机器"
+      - '{#FDB7D4}+----------------------------------------+'
+      - '{#FDB7D4}|      矩阵台                  |'
+      - '{#FDB7D4}| (放置在支持的魔法矩阵上方)  |'
+      - '{#FDB7D4}+----------------------------------------+'
+      - '{#FDB7D4}|      魔法矩阵                |'
+      - '{#FDB7D4}| (放置在支持的矩阵台下方)    |'
+      - '{#FDB7D4}+----------------------------------------+'
+      - '{#FDB7D4}说明: '
+      - '{#FDB7D4}上方用于放置矩阵台(本机器)，它应该放在支持的魔法矩阵之上。'
+      - '{#FDB7D4}下方用于放置魔法矩阵，它应当位于支持的矩阵台之下。'
       - "{#FDB7D4}实验性机器"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力"
@@ -6364,6 +6374,104 @@ MAGIC_POWER_MIX_BOX_1:
     8: 
       material_type: slimefun
       material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+
+MAGIC_FLOWER_MIX_BOX_1:
+  item_group: magic_power
+  item:
+    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}花{#FFA8AF}园{#FF9DA4}小{#FA8E99}世{#F97F8E}界"
+    material: SHROOMLIGHT
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}下方请放置&e\"{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}花{#FFA8AF}园{#FF9DA4}-{#FA8E99}中{#F97F8E}控{#F87083}系{#F76178}统&e\"{#FDB7D4}来维持小世界的生态"
+      - "{#FDB7D4}把花放在这里面"
+      - "{#FDB7D4}可以培育成其他的花朵"
+      - "{#FDB7D4}机器内偶数行代表花的种类"
+      - "{#FDB7D4}在预览的上面一格放置对应花朵"
+      - "{#FDB7D4}即可以培养出后面一个预览的花朵"
+      - "{#FFA8AF}除{#FF9DA4}夕{#FA8E99}限{#F97F8E}定"
+      - "{#FDB7D4}"
+      - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
+      - "{#FDB7D4}|       输入/输出       　|         输入/输出    　　|      输入/输出   　　   |"
+      - "{#FDB7D4}|        [空位]　　　      |          [空位]   　　　　|       [空位]     　　　　| <-- 第1行（奇数行）"
+      - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
+      - "{#FDB7D4}|     　　预览　        　|      　　预览　        　|     　　预览　        　|"
+      - "{#FDB7D4}|      [结果花朵1]     　　|       [结果花朵2]     　　|      [结果花朵3]     　　| <-- 第2行（偶数行）"
+      - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
+      - "{#FDB7D4}|       输入/输出       　|         输入/输出    　　|      输入/输出   　　   |"
+      - "{#FDB7D4}|        [空位]　　　      |          [空位]   　　　　|       [空位]     　　　　| <-- 第3行（奇数行）"
+      - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
+      - "{#FDB7D4}"
+      - "&a"
+      - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力"
+  recipe_type: MAGIC_NONE
+  capacity: 512
+  energyPerCraft: 128
+  status: 53
+  speed: 2
+  input: [0,1,2,3,4,5,6,7,8,18,19,20,21,22,23,24,25,26,36,37,38,44]
+  output: [0,1,2,3,4,5,6,7,8,18,19,20,21,22,23,24,25,26,36,37,38,44] 
+  recipe: 
+    5:
+      material_type: slimefun
+      material: MAGIC_AUTHOR
+      amount: 1
+
+MAGIC_GEOMINER_BOX:
+  item_group: magic_power
+  item:
+    name: "{#FDB7D4}魔法资源输出箱"
+    material: CHEST
+    glow: true
+    lore:
+      - "{#FDB7D4}将其放在魔法资源开采机的下方时"
+      - "{#FDB7D4}会将开采到的资源输送到此箱子中"
+      - "&a"
+      - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  capacity: 1314
+  energyPerCraft: 128
+  status: 13
+  speed: 2
+  input: [19,20,21,22,23,24,25, 28,29,30,31,32,33,34]
+  output: [19,20,21,22,23,24,25, 28,29,30,31,32,33,34] 
+  recipe: 
+    1:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    5: 
+      material_type: slimefun
+      material: OUTPUT_CHEST
+      amount: 1
+    6: 
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    8: 
+      material_type: slimefun
+      material: MAGIC_REDSTONE
       amount: 1
     9:
       material_type: slimefun
