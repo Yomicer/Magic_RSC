@@ -1,3 +1,15 @@
+MAGIC_VERSION: 
+  item_group: magic_author
+  placeable: true
+  item:
+    name: "&c&l版本号"
+    material: PAPER
+    lore:
+      - '{#FFC1E0}当前魔法版本：'
+      - '&eRelease-0.1.0'
+      - '&f您在提issues的时候需要展示这个'
+  recipe_type: MAGIC_NONE
+
 MAGIC_AUTHOR:
   item_group: magic_author
   placeable: true
