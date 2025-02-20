@@ -26,7 +26,7 @@
   - FoxyMachines
   - InfinityExpansion
   - Supreme
-  - GeneticChickengineering  -build 10
+  - GeneticChickengineering
 
 软前置: 
   - FNAmplifications
