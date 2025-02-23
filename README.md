@@ -37,7 +37,7 @@
 
 3、重启服务器生成文件夹，将下载好的Magic_RSC-Release-X.X.X.zip文件拖入server\plugins\RykenSlimefunCustomizer\addons目录下，解压此压缩包并删除压缩包
 
-4、该附属提供配置文件，首次加载后，在RykenSlimeCustomizer/addon_configs/Magic目录下，在config.yml文件内，提供了一些可配置项
+4、该附属提供配置文件，首次加载后，在RykenSlimeCustomizer/addon_configs/Magic目录下，在config.yml文件内，提供了一些可配置项,若加载出现异常，建议把该文件删除，重新生成默认文件
 
 5、安装完成
 
