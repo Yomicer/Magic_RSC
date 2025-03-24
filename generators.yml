@@ -658,7 +658,7 @@ MAGIC_GENERATOR_FINAL_INFINITE:
         material_type: slimefun
         material: INFINITE_INGOT
         amount: 1
-      seconds: 1
+      seconds: 2
       output:
         material: COBBLESTONE
         amount: 0

@@ -307,6 +307,46 @@ function tick(info) {
 
     }
 
+    var key3 = Slimefun.getRegistry().getGEOResources().get(new NamespacedKey("rykenslimefuncustomizer", "magic_soul")).orElse(null);
+
+
+    var supplies2 = Slimefun.getGPSNetwork().getResourceManager().getSupplies(key3, b.getWorld(), b.getX() >> 4, b.getZ() >> 4);
+
+    // org.bukkit.Bukkit.broadcastMessage("当前区域宇宙尘数量: " + supplies2);
+
+    // org.bukkit.Bukkit.broadcastMessage("是否存在宇宙尘: " + supplies2.isPresent());
+
+    if (supplies2.isPresent()){
+    
+
+    // org.bukkit.Bukkit.broadcastMessage("剩余宇宙尘数量: " + supplies2.getAsInt());
+
+    if (supplies2.isPresent() && supplies2.getAsInt() > 0) {
+
+        Slimefun.getGPSNetwork().getResourceManager().setSupplies(key3, b.getWorld(), b.getX() >> 4, b.getZ() >> 4, supplies2.getAsInt() - 1);
+
+
+        const outputItem = getSfItemById("MAGIC_SOUL");
+        const outputItemstack = new org.bukkit.inventory.ItemStack(outputItem.getItem());
+
+        blockMenu.pushItem(outputItemstack,outslots);
+
+        // org.bukkit.Bukkit.broadcastMessage("pushItem: " + blockMenu.pushItem(outputItemstack,outslots));
+
+
+
+
+
+
+        // org.bukkit.Bukkit.broadcastMessage("成功挖掘1个宇宙尘");
+
+        return;
+
+        }
+
+
+    }
+
     let item4 = createItemLore(Material.NETHER_STAR, ChatColor.GREEN + "开采完成", [ChatColor.AQUA + "保护环境，人人有责" + ChatColor.AQUA + "切莫开采过度" + ChatColor.AQUA + "给后来人留一些资源"]);
     blockMenu.addItem(13, item13);
     blockMenu.addItem(4, item4);

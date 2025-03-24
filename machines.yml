@@ -14,30 +14,6 @@ MAGIC_TEST_WHITE_WOOL:
       material: WHITE_WOOL
       amount: 1
 
-MAGIC_TEST_WITHER_SKELETON:
-  item_group: magic_test
-  item:
-    name: "{#FFC0CB}测{#FFB9C3}试{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}凋{#FFDD00}零{#FFCC00}骷{#FFBB00}髅{#FFAA00}）[已弃用]"
-    material: SPAWNER
-    lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
-      - "&a"
-      - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
-    glow: true
-  energy:
-    capacity: 1314
-    type: CONSUMER  
-  recipe_type: MAGIC_NONE
-  script: SPAWNER_TEST_WITHER_SKELETON
-
-
 ##魔法刷怪笼-一级
 MAGIC_SPAWNER_1_START:
   item_group: magic_spawner
@@ -3317,10 +3293,10 @@ MAGIC_PLAYER_ATTACT:
       - "{#FDB7D4}唯一的不同仅在于无法使用附魔武器"
       - "{#FDB7D4}该功能可能会在后续版本中完善"
       - "{#FDB7D4}玩家原型: magicsolo"
-      - "{#FDB7D4}攻击半径：5（半径为5的正方体）"
+      - "{#FDB7D4}攻击半径：5（半径约为5的正方体）"
       - "&8⇨ &e⚡{#FDB7D4} 10280 J 可存储"
       - "&8⇨ &e⚡{#FDB7D4} 速度: &b7.5s {#FDB7D4}{采用现实时间算法}"
-      - "&8⇨ &e⚡{#FDB7D4} 4096  J 每次斩杀"
+      - "&8⇨ &e⚡{#FDB7D4} 4096  J 每次攻击"
       - "&8⇨ &e⚡{#FDB7D4} 64   J/s "
       - "{#FDB7D4}实验性机器"
       - "&a"
@@ -3390,7 +3366,7 @@ MAGIC_POWER_MIX_1:
       - '{#FDB7D4}说明: '
       - '{#FDB7D4}上方用于放置矩阵台，它应该放在支持的魔法矩阵之上。'
       - '{#FDB7D4}下方用于放置魔法矩阵(本机器)，它应当位于支持的矩阵台之下。'
-      - "&8⇨ &e⚡{#FDB7D4} 50M J 可存储"
+      - "&8⇨ &e⚡{#FDB7D4} 1008888888 J 可存储"
       - "&8⇨ &e⚡{#FDB7D4} ??? J/s "
       - "{#FDB7D4}实验性机器"
       - "&a"
@@ -3434,7 +3410,7 @@ MAGIC_POWER_MIX_1:
       material: MAGIC_CAPACITOR_MIDDLE
       amount: 1
   energy:
-    capacity: 50000000
+    capacity: 1008888888
     type: GENERATOR  
     energyOutput: 1 
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -3603,3 +3579,78 @@ MAGIC_GEOMINER:
       material_type: slimefun
       material: MAGIC_RESOURCES_STAR
       amount: 1
+
+MAGIC_INFINITY_MIX_1:
+  item_group: magic_power
+  item:
+    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}无{#FFA8AF}尽{#FF9DA4}矩{#FA8E99}阵"
+    material: WHITE_GLAZED_TERRACOTTA
+    lore: 
+      - "&a"
+      - "{#FDB7D4}上方请使用配套机器进行生产"
+      - "{#FDB7D4}解放魔法无尽系列机器的生产力"
+      - "{#FDB7D4}并且增强其转换率"
+      - "{#FDB7D4}让其能够以更高速率生产，并且实现一体化工艺"
+      - "{#FDB7D4}这也意味着会消耗更多的电力"
+      - "{#FDB7D4}此机器是一个控制机器生产"
+      - "{#FDB7D4}魔法圆石生成机处理速度：384个/s === 比例1:1 3200J/Per"
+      - "{#FDB7D4}魔法磨粉机处理速度：384个/s === 比例1:1 28800J/Per"
+      - "{#FDB7D4}魔法圆石生成机处理速度：384个/s === 比例1:1 28800J/Per"
+      - '{#FDB7D4}+----------------------------------------+'
+      - '{#FDB7D4}|      矩阵台                  |'
+      - '{#FDB7D4}| (放置在支持的魔法矩阵上方)  |'
+      - '{#FDB7D4}+----------------------------------------+'
+      - '{#FDB7D4}|      魔法矩阵                |'
+      - '{#FDB7D4}| (放置在支持的矩阵台下方)    |'
+      - '{#FDB7D4}+----------------------------------------+'
+      - '{#FDB7D4}说明: '
+      - '{#FDB7D4}上方用于放置矩阵台，它应该放在支持的魔法矩阵之上。'
+      - '{#FDB7D4}下方用于放置魔法矩阵(本机器)，它应当位于支持的矩阵台之下。'
+      - "&8⇨ &e⚡{#FDB7D4} 2147483647 J 可存储"
+      - "&8⇨ &e⚡{#FDB7D4} ？？？ J/s "
+      - "{#FDB7D4}矩阵机器"
+      - "&a"
+      - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力"
+    glow: true
+  recipe: 
+    1:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_INFINITE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: MAGIC_INFINITY_FORGE_1
+      amount: 1
+    5: 
+      material_type: slimefun
+      material: MAGIC_POWER_MIX_1
+      amount: 1
+    6: 
+      material_type: slimefun
+      material: MAGIC_INFINITY_FORGE_1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    8: 
+      material_type: slimefun
+      material: MAGIC_INFINITE_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+  energy:
+    capacity: 2147483647
+    type: CONSUMER  
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: 魔法无尽一体化

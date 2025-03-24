@@ -6,7 +6,7 @@ MAGIC_VERSION:
     material: PAPER
     lore:
       - '{#FFC1E0}当前魔法版本：'
-      - '&eRelease-0.1.0'
+      - '&eRelease-0.1.1'
       - '&f您在提issues的时候需要展示这个'
   recipe_type: MAGIC_NONE
 
@@ -45,12 +45,8 @@ MAGIC_INFO:
     lore:
       - '{#FFC1E0}本附属由magicsolo（Yomicer）编写而成'
       - '{#FFC1E0}我是Yomicer，同样也是magicsolo'
-      - '{#FFC1E0}他们更多叫我：南柯梦/柯南'
+      - '{#FFC1E0}我也是：南柯梦'
       - '{#FFC1E0}魔法——始于2024年11月17日'
-      - "&a"
-      - '{#FFC1E0}当前魔法版本：'
-      - '{#FFC1E0}Release-0.0.3'
-      - '{#FFC1E0}您在提issues的时候需要展示这个'
     material: PAPER
   recipe_type: 'NULL'
 
@@ -2044,31 +2040,31 @@ MAGIC_DYNATECH_APIARY_BRONZE_INGOT64:
   recipe:
     1: 
       material_type: slimefun
-      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+      material: MAGIC_DYNATECH_APIARY_BRONZE_INGOT
     2: 
       material_type: slimefun
-      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+      material: MAGIC_DYNATECH_APIARY_BRONZE_INGOT
     3: 
       material_type: slimefun
-      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+      material: MAGIC_DYNATECH_APIARY_BRONZE_INGOT
     4: 
       material_type: slimefun
-      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+      material: MAGIC_DYNATECH_APIARY_BRONZE_INGOT
     5: 
       material_type: slimefun
       material: MAGIC_REDSTONE_BLOCK
     6: 
       material_type: slimefun
-      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+      material: MAGIC_DYNATECH_APIARY_BRONZE_INGOT
     7: 
       material_type: slimefun
-      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+      material: MAGIC_DYNATECH_APIARY_BRONZE_INGOT
     8: 
       material_type: slimefun
-      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+      material: MAGIC_DYNATECH_APIARY_BRONZE_INGOT
     9: 
       material_type: slimefun
-      material: MAGIC_DYNATECH_APIARY_BRASS_INGOT
+      material: MAGIC_DYNATECH_APIARY_BRONZE_INGOT
 
 MAGIC_DYNATECH_APIARY_STEEL_INGOT: 
   #重铸的钢矿化蜂箱
@@ -7578,7 +7574,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_PAPER:
     glow: true
     lore: 
       - "&a"
-      - "{#FDB7D4}如果不希望一次性机制，请在服务器监听中将对应监听注解掉"
+      - "{#FDB7D4}&l如果不希望一次性机制，请在配置文件中将对应属性设置为false"
       - "{#FDB7D4}&l魔法抽屉的作用作为一次性抽屉"
       - "{#FDB7D4}&l魔法抽屉在被挖掘后，需要修复才可再次放置"
       - "{#FDB7D4}&l该页的魔法抽屉仅作为合成展示"
@@ -10960,11 +10956,9 @@ MAGIC_SPAWNER_DESCRIPTION:
       - "{#FDB7D4}未设置合成方式"
       - "{#FDB7D4}与刷怪笼之镐兼容度较低"
       - "{#FDB7D4}该刷怪笼速率与粘液刻无关"
-      - "{#FDB7D4}为了防止恶意卡服，设置了范围内生物上限"
-      - "{#FDB7D4}当前生物数量限制 → 当前刷怪笼所刷的生物的数量限制"
-      - "{#FDB7D4}↑此项设置有助于多种刷怪笼一起使用"
+      - "{#FDB7D4}此后不再对周围生物数量进行检测"
+      - "{#FDB7D4}换言之，生物上限不再由本附属控制"
       - "{#FDB7D4}该机器采用生成一次怪物消耗一次电量"
-      - "{#FDB7D4}注意：范围内生物数量包括刷怪笼及玩家"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
   recipe_type: NULL
@@ -11690,3 +11684,75 @@ MAGIC_ROD_YG_YUGOU_QHHJD:
       material_type: slimefun 
       material: MAGIC_FISHING_HOUSE
       amount: 1
+
+
+#旗帜类武器
+
+MAGIC_BANNER_SOUL:
+  item_group: magic_attribute_up
+  item:
+    name: "{#FFC0CB}&l灵{#FFB6C1}&l魂"
+    material: SOUL_LANTERN
+    glow: true
+    lore:
+      - "{#FDB7D4}========================="
+      - "{#FDB7D4}主手放置此物"
+      - "{#FDB7D4}副手放置带有灵魂的物品"
+      - "{#FDB7D4}即可将灵魂注入"
+      - "§c当前灵魂数量: §e100"
+      - "{#FDB7D4}========================="
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l材{#DB7093}&l料{#FFC0CB}&l&kl"
+  script: BANNER_INSERT
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe: 
+    1: 
+      material_type: slimefun 
+      material: MAGIC_SOUL
+      amount: 1
+    2: 
+      material: ENDER_PEARL
+      amount: 1
+
+MAGIC_BANNER_LIANHUN:
+  item_group: magic_attribute_up
+  item:
+    name: "{#FFC0CB}&l炼{#FFB6C1}&l魂{#FFA07A}&l幡"
+    material: WHITE_BANNER
+    glow: true
+    lore:
+      - "{#FDB7D4}===================================================================================================="
+      - "{#FDB7D4}在遥远的古老时代"
+      - "{#FDB7D4}当星辰与命运交织之时"
+      - "{#FDB7D4}诞生了这件传说中的神器——炼魂幡"
+      - "§c当前灵魂数量: §e0"
+      - "{#FDB7D4}===================================================================================================="
+      - "{#FDB7D4}右键释放小范围攻击，并且强化自身状态，伤害=灵魂数量x0.01，随机消耗0~3个灵魂"
+      - "{#FDB7D4}在它的庇护下，黑夜如同白昼，"
+      - "{#FDB7D4}你的速度如风一般迅捷，力量无穷。"
+      - "{#FDB7D4}持有者将获得超凡的夜视能力，"
+      - "{#FDB7D4}移动速度大幅提升，攻击更加致命。"
+      - "{#FDB7D4}它是战场上的圣泉！"
+      - "{#FDB7D4}===================================================================================================="
+      - "{#FDB7D4}蹲下右键释放大范围群体攻击，自身进入虚弱状态，伤害=灵魂数量x8，并且消耗三分之一的灵魂数量"
+      - "{#FDB7D4}效果：当它被挥动时，黑暗笼罩四周，"
+      - "{#FDB7D4}使敌人陷入无尽的恐惧与无力之中。"
+      - "{#FDB7D4}持有者将暂时失去视觉，行动变得迟缓，"
+      - "{#FDB7D4}并感受到一股无法抗拒的虚弱感。"
+      - "{#FDB7D4}使用需谨慎..."
+      - "{#FDB7D4}===================================================================================================="
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l&kl"
+  script: BANNER_LIST
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_GOD_WORKBENCH
+      amount: 1
+
+

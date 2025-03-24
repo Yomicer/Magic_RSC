@@ -641,6 +641,12 @@ function onPlayerFish(event) {
 
 function onBlockPlace(event) {
 
+    let config = getAddonConfig();
+    let magicStoreIf = config.getBoolean("options.magic.storage", true);
+    if(!magicStoreIf){
+        return;
+    }
+
     let item = event.getItemInHand();
     let can = event.canBuild();
     let sfitem = getSfItemByItem(item);
@@ -688,6 +694,13 @@ function onBlockPlace(event) {
 
 
 function onPlayerPickupItem(event){
+
+    let config = getAddonConfig();
+    let magicStoreIf = config.getBoolean("options.magic.storage", true);
+    if(!magicStoreIf){
+        return;
+    }
+
 
     // 定义需要检查的 Slimefun 物品 ID 范围
     const CARGO_STORAGE_UNITS = [

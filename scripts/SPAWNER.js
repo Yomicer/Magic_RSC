@@ -69,94 +69,94 @@ const SPAWNER_TYPE = [
     { id: "MAGIC_SPAWNER_WARDEN_1", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WARDEN, SpawnEntitytick: 30, SpawnEntityms: 15000, speed: 1 },
     { id: "MAGIC_SPAWNER_VINDICATOR_1", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').VINDICATOR, SpawnEntitytick: 30, SpawnEntityms: 15000, speed: 1 },
     { id: "MAGIC_SPAWNER_EVOKER_1", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').EVOKER, SpawnEntitytick: 30, SpawnEntityms: 15000, speed: 1 },
-    { id: "MAGIC_SPAWNER_WITHER_SKELETON_2",LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WITHER_SKELETON,SpawnEntitytick: 20,SpawnEntityms: 10000, speed: 2},
-    { id: "MAGIC_SPAWNER_SKELETON_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SKELETON, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_ZOMBIE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_CREEPER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CREEPER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_ENDERMAN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ENDERMAN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_BLAZE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').BLAZE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_CAVE_SPIDER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CAVE_SPIDER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_GHAST_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GHAST, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_ENDERMITE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ENDERMITE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_SILVERFISH_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SILVERFISH, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_IRON_GOLEM_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').IRON_GOLEM, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_GUARDIAN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GUARDIAN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_SLIME_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SLIME, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_MAGMA_CUBE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').MAGMA_CUBE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_SPIDER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SPIDER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_WITCH_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WITCH, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_CHICKEN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CHICKEN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_COW_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').COW, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_SHEEP_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SHEEP, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_HORSE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').HORSE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_MUSHROOM_COW_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').MUSHROOM_COW, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_CAT_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CAT, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_OCELOT_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').OCELOT, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_PIG_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIG, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_RABBIT_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').RABBIT, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_SQUID_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SQUID, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_GLOW_SQUID_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GLOW_SQUID, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_WOLF_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WOLF, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_VILLAGER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').VILLAGER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_ZOMBIE_VILLAGER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIE_VILLAGER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_PIGLIN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIGLIN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_PIGLIN_BRUTE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIGLIN_BRUTE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIFIED_PIGLIN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_DROWNED_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').DROWNED, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_HUSK_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').HUSK, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_ELDER_GUARDIAN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ELDER_GUARDIAN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_PANDA_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PANDA, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_PHANTOM_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PHANTOM, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_POLAR_BEAR_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').POLAR_BEAR, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_SHULKER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SHULKER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_STRAY_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').STRAY, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_WARDEN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WARDEN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_VINDICATOR_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').VINDICATOR, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_EVOKER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').EVOKER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 2 },
-    { id: "MAGIC_SPAWNER_WITHER_SKELETON_3",LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WITHER_SKELETON,SpawnEntitytick: 10,SpawnEntityms: 5000, speed: 3},
-    { id: "MAGIC_SPAWNER_SKELETON_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SKELETON, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_ZOMBIE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_CREEPER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CREEPER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_ENDERMAN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ENDERMAN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_BLAZE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').BLAZE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_CAVE_SPIDER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CAVE_SPIDER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_GHAST_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GHAST, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_ENDERMITE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ENDERMITE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_SILVERFISH_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SILVERFISH, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_IRON_GOLEM_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').IRON_GOLEM, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_GUARDIAN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GUARDIAN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_SLIME_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SLIME, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_MAGMA_CUBE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').MAGMA_CUBE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_SPIDER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SPIDER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_WITCH_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WITCH, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_CHICKEN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CHICKEN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_COW_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').COW, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_SHEEP_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SHEEP, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_HORSE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').HORSE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_MUSHROOM_COW_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').MUSHROOM_COW, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_CAT_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CAT, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_OCELOT_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').OCELOT, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_PIG_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIG, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_RABBIT_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').RABBIT, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_SQUID_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SQUID, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_GLOW_SQUID_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GLOW_SQUID, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_WOLF_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WOLF, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_VILLAGER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').VILLAGER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_ZOMBIE_VILLAGER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIE_VILLAGER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_PIGLIN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIGLIN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_PIGLIN_BRUTE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIGLIN_BRUTE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIFIED_PIGLIN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_DROWNED_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').DROWNED, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_HUSK_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').HUSK, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_ELDER_GUARDIAN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ELDER_GUARDIAN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_PANDA_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PANDA, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_PHANTOM_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PHANTOM, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_POLAR_BEAR_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').POLAR_BEAR, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_SHULKER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SHULKER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_STRAY_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').STRAY, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_WARDEN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WARDEN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_VINDICATOR_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').VINDICATOR, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },
-    { id: "MAGIC_SPAWNER_EVOKER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').EVOKER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 3 },  
+    { id: "MAGIC_SPAWNER_WITHER_SKELETON_2",LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WITHER_SKELETON,SpawnEntitytick: 20,SpawnEntityms: 10000, speed: 3},
+    { id: "MAGIC_SPAWNER_SKELETON_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SKELETON, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_ZOMBIE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_CREEPER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CREEPER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_ENDERMAN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ENDERMAN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_BLAZE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').BLAZE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_CAVE_SPIDER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CAVE_SPIDER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_GHAST_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GHAST, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_ENDERMITE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ENDERMITE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_SILVERFISH_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SILVERFISH, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_IRON_GOLEM_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').IRON_GOLEM, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_GUARDIAN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GUARDIAN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_SLIME_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SLIME, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_MAGMA_CUBE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').MAGMA_CUBE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_SPIDER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SPIDER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_WITCH_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WITCH, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_CHICKEN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CHICKEN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_COW_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').COW, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_SHEEP_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SHEEP, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_HORSE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').HORSE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_MUSHROOM_COW_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').MUSHROOM_COW, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_CAT_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CAT, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_OCELOT_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').OCELOT, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_PIG_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIG, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_RABBIT_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').RABBIT, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_SQUID_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SQUID, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_GLOW_SQUID_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GLOW_SQUID, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_WOLF_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WOLF, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_VILLAGER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').VILLAGER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_ZOMBIE_VILLAGER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIE_VILLAGER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_PIGLIN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIGLIN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_PIGLIN_BRUTE_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIGLIN_BRUTE, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIFIED_PIGLIN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_DROWNED_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').DROWNED, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_HUSK_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').HUSK, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_ELDER_GUARDIAN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ELDER_GUARDIAN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_PANDA_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PANDA, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_PHANTOM_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PHANTOM, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_POLAR_BEAR_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').POLAR_BEAR, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_SHULKER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SHULKER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_STRAY_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').STRAY, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_WARDEN_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WARDEN, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_VINDICATOR_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').VINDICATOR, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_EVOKER_2", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').EVOKER, SpawnEntitytick: 20, SpawnEntityms: 10000, speed: 3 },
+    { id: "MAGIC_SPAWNER_WITHER_SKELETON_3",LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WITHER_SKELETON,SpawnEntitytick: 10,SpawnEntityms: 5000, speed: 5},
+    { id: "MAGIC_SPAWNER_SKELETON_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SKELETON, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_ZOMBIE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_CREEPER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CREEPER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_ENDERMAN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ENDERMAN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_BLAZE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').BLAZE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_CAVE_SPIDER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CAVE_SPIDER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_GHAST_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GHAST, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_ENDERMITE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ENDERMITE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_SILVERFISH_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SILVERFISH, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_IRON_GOLEM_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').IRON_GOLEM, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_GUARDIAN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GUARDIAN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_SLIME_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SLIME, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_MAGMA_CUBE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').MAGMA_CUBE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_SPIDER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SPIDER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_WITCH_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WITCH, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_CHICKEN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CHICKEN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_COW_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').COW, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_SHEEP_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SHEEP, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_HORSE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').HORSE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_MUSHROOM_COW_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').MUSHROOM_COW, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_CAT_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').CAT, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_OCELOT_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').OCELOT, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_PIG_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIG, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_RABBIT_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').RABBIT, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_SQUID_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SQUID, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_GLOW_SQUID_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').GLOW_SQUID, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_WOLF_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WOLF, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_VILLAGER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').VILLAGER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_ZOMBIE_VILLAGER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIE_VILLAGER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_PIGLIN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIGLIN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_PIGLIN_BRUTE_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PIGLIN_BRUTE, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ZOMBIFIED_PIGLIN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_DROWNED_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').DROWNED, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_HUSK_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').HUSK, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_ELDER_GUARDIAN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').ELDER_GUARDIAN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_PANDA_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PANDA, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_PHANTOM_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').PHANTOM, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_POLAR_BEAR_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').POLAR_BEAR, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_SHULKER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').SHULKER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_STRAY_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').STRAY, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_WARDEN_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').WARDEN, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_VINDICATOR_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').VINDICATOR, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },
+    { id: "MAGIC_SPAWNER_EVOKER_3", LatestSpawnEntity: Java.type('org.bukkit.entity.EntityType').EVOKER, SpawnEntitytick: 10, SpawnEntityms: 5000, speed: 5 },  
 ];
 
 
@@ -227,22 +227,22 @@ if (spawnerConfig) {
 
     if (currentTime - lastUseTime > SpawnEntityms) {
 
-        let numWitherSkeletons = countWitherSkeletonsInRange(world, location, radius, LatestSpawnEntity);
-        let numLivingEntities = countLivingEntitiesInRange(world, location, radius);
+        // let numWitherSkeletons = countWitherSkeletonsInRange(world, location, radius);
+        // let numLivingEntities = countLivingEntitiesInRange(world, location, radius);
         // org.bukkit.Bukkit.broadcastMessage(`§7[系统] §f在 ${radius} 格范围内有 ${numWitherSkeletons} 只凋零骷髅。`);        //测试
         // org.bukkit.Bukkit.broadcastMessage(`§7[系统] §f在 ${radius} 格范围内有 ${numLivingEntities} 只生物。`);     //测试
 
-        if (numLivingEntities >= MaxEntity) {
-            // org.bukkit.Bukkit.broadcastMessage("周围生物达到"+ MaxEntity +"只，无法生成");       //测试
-            lastUseTimes.put(location, currentTime);        //重置计时  防止卡机器
-            return;
-        }
+        // if (numLivingEntities >= MaxEntity) {
+        //     // org.bukkit.Bukkit.broadcastMessage("周围生物达到"+ MaxEntity +"只，无法生成");       //测试
+        //     lastUseTimes.put(location, currentTime);        //重置计时  防止卡机器
+        //     return;
+        // }
 
-        if (numWitherSkeletons >= SpawnMaxEntity) {
-            // org.bukkit.Bukkit.broadcastMessage("周围凋零骷髅达到"+ SpawnMaxEntity +"只，无法生成");        //测试
-            lastUseTimes.put(location, currentTime);        //重置计时  防止卡机器
-            return;
-        }
+        // if (numWitherSkeletons >= SpawnMaxEntity) {
+        //     // org.bukkit.Bukkit.broadcastMessage("周围凋零骷髅达到"+ SpawnMaxEntity +"只，无法生成");        //测试
+        //     lastUseTimes.put(location, currentTime);        //重置计时  防止卡机器
+        //     return;
+        // }
         if (NowCharge < NeedperSpawnerCharge) {
             // org.bukkit.Bukkit.broadcastMessage("电量不足，无法生成!");      //测试
             lastUseTimes.put(location, currentTime);        //重置计时  防止卡机器
@@ -250,15 +250,18 @@ if (spawnerConfig) {
         }
         machine.removeCharge(location, NeedperSpawnerCharge);
         lastUseTimes.put(location, currentTime);
-        
-        let i = 0; 
-        for (; i < speed; i++) {
 
         // 生成一个新位置，在原始位置的Y坐标上加1
         let randomNum1 = getRandomInt(-XYDistance, XYDistance);
         let randomNum2 = getRandomInt(YDECREASEDistance, YPLUSDistance);
         let spawnLocation = location.clone().add(randomNum1, randomNum2, randomNum1);
-        
+
+        let i = 0; 
+        for (; i < speed; i++) {
+            // 生成一个新位置，在原始位置的Y坐标上加1
+        let randomNum1 = getRandomInt(-XYDistance, XYDistance);
+        let randomNum2 = getRandomInt(YDECREASEDistance, YPLUSDistance);
+        let spawnLocation = location.clone().add(randomNum1, randomNum2, randomNum1);
         world.spawnEntity(spawnLocation, LatestSpawnEntity);
         }
     }
@@ -330,7 +333,7 @@ function onBreak(event, itemStack, drops) {
     machineTickCounters.remove(location);
 }
 
-function countWitherSkeletonsInRange(world, location, radius, LatestSpawnEntity) {
+function countWitherSkeletonsInRange(world, location, radius) {
     // 使用 getNearbyEntities 获取指定半径内的所有实体
     let entities = world.getNearbyEntities(location,radius, radius, radius);
     let count = 0;

@@ -38,6 +38,28 @@ MAGIC_COSMIC_DUST:
     nether: 0
     the_end: 0
 
+MAGIC_SOUL:
+  item_group: magic_resource
+  item:
+    name: "&c&l灵魂"
+    material: SOUL_LANTERN
+    lore: 
+      - "&a"
+      - "&7自然中的灵魂"
+      - "&7将其拿在主手"
+      - "&7可以为一些物品补充灵魂"
+      - "&7非可再生资源"
+      - "&a"
+      - "&a自然资源"
+  recipe_type: MAGIC_GEOMINER
+  max_deviation: 2
+  obtain_from_geo_miner: false
+  geo_name: "&c&l灵魂"
+  supply:
+    normal: 2
+    nether: 0
+    the_end: 0
+
 MAGIC_SMALL_LEAD_ORE_CHUNK:
   item_group: magic_origin_resources
   item:

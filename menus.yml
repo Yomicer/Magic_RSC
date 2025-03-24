@@ -4498,11 +4498,8 @@ MAGIC_CARGO_STORAGE_MAKER:
       name: "&a"
       material: PINK_STAINED_GLASS_PANE
     45: 
-      name: "{#FFC0CB}&l留言板I"
+      name: "{#FFC0CB}&l留言板I（可以把想留下的话编辑私信给我）"
       material: CHERRY_HANGING_SIGN
-      lore:
-      - "{#FFC0CB}magicsolo: 魔法抽屉是基于网络抽屉拓展出来的"
-      - "{#FFC0CB}magicsolo: 目的在于防止刷物"
     46: 
       name: "{#FFC0CB}&l留言板II（可以把想留下的话编辑私信给我）"
       material: CHERRY_HANGING_SIGN
@@ -4611,6 +4608,54 @@ MAGIC_INFINITY_FORGE_1:
       name: "&a"
       material: ORANGE_STAINED_GLASS_PANE
 
+MAGIC_INFINITY_FORGE_ULTRA: 
+  title: "&f&l简陋的{#FFC0CB}&l电{#FFB6C1}&l动{#FFA07A}&l无{#FA8072}&l尽{#E9967A}&l工{#F08080}&l作{#FF69B4}&l台"
+  slots:
+    6: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    7-8: 
+      name: "&a"
+      material: CYAN_STAINED_GLASS_PANE
+    15: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    16: 
+      name: "&a"
+      material: CYAN_STAINED_GLASS_PANE
+    17: 
+      material_type: slimefun
+      material: INFINITY_FORGE
+      progressbar: true
+      progressBarItem:
+        material_type: slimefun
+        material: INFINITY_FORGE
+    24: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    25-26: 
+      name: "&a"
+      material: CYAN_STAINED_GLASS_PANE
+    33: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    34-35: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    42: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    43: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    51: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    52-53: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+
+
 MAGIC_GEOMINER_BOX: 
   title: "魔法资源输出箱"
   slots:
@@ -4675,3 +4720,350 @@ MAGIC_GEOMINER_BOX:
     50-53: 
       name: "&a"
       material: REPEATING_COMMAND_BLOCK
+
+MAGIC_GOD_WORKBENCH:
+  title: "{#FFC0CB}&l创{#FFB6C1}&l世{#FFA07A}&l工{#FA8072}&l作{#E9967A}&l台"
+  slots:
+    6-8:
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    15: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    16-17: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    24-25: 
+      name: "{#FFC0CB}&l产{#FFB6C1}&l物"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjczZGMxZWFhNmFjMjc1YzhhZGQxZTRjNTQzZWY5NGQ5M2ZhZTcxZGJmNmMwNDZmMDU2ZTdmMzQ0YWFhZiJ9fX0=
+    33: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    34: 
+      name: "&a"
+      material: YELLOW_STAINED_GLASS_PANE
+    35: 
+      name: "{#FFC0CB}&l点{#FFB6C1}&l击{#FFA07A}&l合{#FA8072}&l成"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGIyZWRlYjAxY2RjZTFkMTM1MWQ5YmY3ZmI3NTNiNmY1NzNhNTZiODY0NzcyOTlhNTEwMzNjYWFjODkzOTQwOCJ9fX0=
+    42: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    43-44: 
+      name: "&a"
+      material: LIME_STAINED_GLASS_PANE
+    51-53: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+
+MAGIC_INFINITY_COBBLE_GEN:
+  title: "魔法圆石生成机"
+  slots:
+    0:
+      name: "&f提示"
+      material_type: mc
+      material: CHERRY_HANGING_SIGN
+      glow: true
+      lore:
+      - "&7右侧为输出槽"
+    18:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    27:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    36:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    45:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+
+MAGIC_INFINITY_MIX_BOX_1:
+  title: "魔法无尽一体化盒子"
+  slots:
+    36-44: 
+      name: "&f提示信息"
+      lore:
+      - "&a"
+      - "&e上方为材料输出口"
+      - "&b下方放入无尽魔法系列机器"
+      material: BARRIER
+    53:
+      name: "&f信息"
+      material_type: mc
+      material: CHERRY_HANGING_SIGN
+      glow: true
+      lore:
+      - "&f机器数据"
+      progressbar: true
+      progressBarItem:
+        name: "&a"
+        material: CHERRY_HANGING_SIGN
+        glow: true
+        lore:
+        - "&f机器数据"
+
+
+MAGIC_SUPREME_WORKBENCH:
+  title: "{#FFC0CB}&l至{#FFB6C1}&l尊{#FFA07A}&l机{#FA8072}&l器{#E9967A}&l组{#F08080}&l装{#FF69B4}&l台"
+  slots:
+    0-9:
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    13-14: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    15-17: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    18: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    22: 
+      name: "{#FFC0CB}&l点{#FFB6C1}&l击{#FFA07A}&l合{#FA8072}&l成"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGIyZWRlYjAxY2RjZTFkMTM1MWQ5YmY3ZmI3NTNiNmY1NzNhNTZiODY0NzcyOTlhNTEwMzNjYWFjODkzOTQwOCJ9fX0=
+    23: 
+      name: "{#FFC0CB}&l产{#FFB6C1}&l物"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjczZGMxZWFhNmFjMjc1YzhhZGQxZTRjNTQzZWY5NGQ5M2ZhZTcxZGJmNmMwNDZmMDU2ZTdmMzQ0YWFhZiJ9fX0=
+    24: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    26: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    27: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    31-32: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    33-35: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-44: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    45: 
+      name: "{#FFC0CB}&l留言板I（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    46: 
+      name: "{#FFC0CB}&l留言板II（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    47: 
+      name: "{#FFC0CB}&l留言板III（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    48: 
+      name: "{#FFC0CB}&l留言板IV（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    49: 
+      name: "{#FFC0CB}&l留言板V（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    50: 
+      name: "{#FFC0CB}&l留言板VI（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    51: 
+      name: "{#FFC0CB}&l留言板VII（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    52: 
+      name: "{#FFC0CB}&l留言板VIII（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+    53: 
+      name: "{#FFC0CB}&l留言板IX（可以把想留下的话编辑私信给我）"
+      material: CHERRY_HANGING_SIGN
+
+
+MAGIC_SUPREME_ELECTRIC_MAGICAL_I:
+  title: "{#FFC0CB}电力魔法工厂-I"
+  slots:
+    0-9:
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    13-14: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    15-17: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    18: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    22: 
+      name: "&a"
+      material: RED_STAINED_GLASS_PANE
+      progressbar: true
+      progressBarItem:
+        name: "正在合成中---"
+        material: ELYTRA
+    23: 
+      name: "{#FFC0CB}&l产{#FFB6C1}&l物"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjczZGMxZWFhNmFjMjc1YzhhZGQxZTRjNTQzZWY5NGQ5M2ZhZTcxZGJmNmMwNDZmMDU2ZTdmMzQ0YWFhZiJ9fX0=
+    24: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    26: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    27: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    31-32: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    33-35: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-44: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    45-53: 
+      name: "&a"
+      material: LIGHT
+
+MAGIC_SUPREME_ELECTRIC_MAGICAL_II:
+  title: "{#FFC0CB}电力魔法工厂-I"
+  slots:
+    0-9:
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    13-14: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    15-17: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    18: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    22: 
+      name: "&a"
+      material: RED_STAINED_GLASS_PANE
+      progressbar: true
+      progressBarItem:
+        name: "正在合成中---"
+        material: ELYTRA
+    23: 
+      name: "{#FFC0CB}&l产{#FFB6C1}&l物"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjczZGMxZWFhNmFjMjc1YzhhZGQxZTRjNTQzZWY5NGQ5M2ZhZTcxZGJmNmMwNDZmMDU2ZTdmMzQ0YWFhZiJ9fX0=
+    24: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    26: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    27: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    31-32: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    33-35: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-44: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    45-53: 
+      name: "&a"
+      material: LIGHT
+
+MAGIC_SUPREME_ELECTRIC_MAGICAL_III:
+  title: "{#FFC0CB}电力魔法工厂-I"
+  slots:
+    0-9:
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    13-14: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    15-17: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    18: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    22: 
+      name: "&a"
+      material: RED_STAINED_GLASS_PANE
+      progressbar: true
+      progressBarItem:
+        name: "正在合成中---"
+        material: ELYTRA
+    23: 
+      name: "{#FFC0CB}&l产{#FFB6C1}&l物"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjczZGMxZWFhNmFjMjc1YzhhZGQxZTRjNTQzZWY5NGQ5M2ZhZTcxZGJmNmMwNDZmMDU2ZTdmMzQ0YWFhZiJ9fX0=
+    24: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    26: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    27: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    31-32: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    33-35: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-44: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    45-53: 
+      name: "&a"
+      material: LIGHT
+
+MAGIC_SUPREME_ELECTRIC_MAGICAL:
+  title: "{#FFC0CB}终极电力魔法工厂"
+  slots:
+    0-9:
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    13-14: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    15-17: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    18: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    22: 
+      name: "&a"
+      material: RED_STAINED_GLASS_PANE
+      progressbar: true
+      progressBarItem:
+        name: "正在合成中---"
+        material: ELYTRA
+    23: 
+      name: "{#FFC0CB}&l产{#FFB6C1}&l物"
+      material_type: skull_base64
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjczZGMxZWFhNmFjMjc1YzhhZGQxZTRjNTQzZWY5NGQ5M2ZhZTcxZGJmNmMwNDZmMDU2ZTdmMzQ0YWFhZiJ9fX0=
+    24: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    26: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    27: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    31-32: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    33-35: 
+      name: "&a"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-44: 
+      name: "&a"
+      material: PINK_STAINED_GLASS_PANE
+    45-53: 
+      name: "&a"
+      material: LIGHT

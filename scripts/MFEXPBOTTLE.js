@@ -39,7 +39,7 @@ function onUse(event) {
     
 
     } else {
-        invs.setItemInOffHand(null); // 如果只剩下一个，则移除物品
+        invs.setItemInMainHand(null); // 如果只剩下一个，则移除物品
 
         player.setLevel(player.getLevel() - 100);
 

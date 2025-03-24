@@ -2148,3 +2148,422 @@ MAGIC_FISHING_HOUSE:
           material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
           amount: 11
           slot: 26
+
+
+#创世工作台
+MAGIC_GOD_WORKBENCH:
+  item_group: magic_attribute_up
+  item:
+    name: "{#FFC0CB}&l创{#FFB6C1}&l世{#FFA07A}&l工{#FA8072}&l作{#E9967A}&l台"
+    material: CRAFTING_TABLE
+    lore:
+      - "&a"
+      - "{#FDB7D4}&l用于制作强大的魔法装备"
+      - "&a"
+      - "&8⇨&e ⚡ &71  J/per"
+      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+    2:
+      material_type: slimefun
+      material: MAGIC_AUTHOR
+    3: 
+      material_type: slimefun
+      material: MAGIC_RESOURCES_STAR
+    4:
+      material_type: slimefun
+      material: AUTO_ENCHANTER_2
+    5:
+      material_type: slimefun
+      material: MAGIC_ATTRIBUTE_CHAOS_FORGE
+    6:
+      material_type: slimefun
+      material: AUTO_DISENCHANTER_2
+    7:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    8:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+    9:
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+  input: [0,1,2,3,4,5, 9,10,11,12,13,14, 18,19,20,21,22,23, 27,28,29,30,31,32, 36,37,38,39,40,41, 45,46,47,48,49,50]
+  output: [26]
+  capacity: 100
+  energyPerCraft: 1
+  click: 22
+  recipes:
+    '炼魂幡':
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_EXP_BOTTLE
+          amount: 1
+          slot: 3
+        2:
+          material: WHITE_BANNER
+          amount: 1
+          slot: 4
+        3:
+          material_type: slimefun
+          material: MAGIC_INFINITE_STICK
+          amount: 1
+          slot: 5
+        4:
+          material_type: slimefun
+          material: MAGIC_UNBREAKABLE_RUNE
+          amount: 1
+          slot: 11
+        5:
+          material_type: slimefun
+          material: MAGIC_EXP_BOTTLE
+          amount: 1
+          slot: 12
+        6:
+          material_type: slimefun
+          material: MAGIC_INFINITE_STICK
+          amount: 1
+          slot: 13
+        7:
+          material: WHITE_BANNER
+          amount: 1
+          slot: 14
+        8:
+          material_type: slimefun
+          material: MAGIC_EXP_BOTTLE
+          amount: 1
+          slot: 19
+        9:
+          material_type: slimefun
+          material: MAGIC_EXP_BOTTLE
+          amount: 1
+          slot: 20
+        10: 
+          material_type: slimefun
+          material: MAGIC_COSMIC_DUST
+          amount: 1
+          slot: 21
+        11:
+          material_type: slimefun
+          material: MAGIC_EXP_BOTTLE
+          amount: 1
+          slot: 22
+        12:
+          material_type: slimefun
+          material: MAGIC_EXP_BOTTLE
+          amount: 1
+          slot: 23
+        13:
+          material: WHITE_BANNER
+          amount: 1
+          slot: 28
+        14: 
+          material_type: slimefun
+          material: MAGIC_INFINITE_STICK
+          amount: 1
+          slot: 29
+        15:
+          material_type: slimefun
+          material: MAGIC_EXP_BOTTLE
+          amount: 1
+          slot: 30
+        16: 
+          material_type: slimefun
+          material: MAGIC_UNBREAKABLE_RUNE
+          amount: 1
+          slot: 31
+        17: 
+          material_type: slimefun
+          material: MAGIC_INFINITE_STICK
+          amount: 1
+          slot: 37
+        18: 
+          material: WHITE_BANNER
+          amount: 1
+          slot: 38
+        19: 
+          material_type: slimefun
+          material: MAGIC_EXP_BOTTLE
+          amount: 1
+          slot: 39
+        20: 
+          material_type: slimefun
+          material: MAGIC_INFINITE_STICK
+          amount: 1
+          slot: 45
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_BANNER_LIANHUN
+          amount: 1
+          slot: 26
+
+
+
+MAGIC_SUPREME_WORKBENCH:
+  item_group: magic_plant
+  item:
+    name: "{#FFC0CB}&l至{#FFB6C1}&l尊{#FFA07A}&l机{#FA8072}&l器{#E9967A}&l组{#F08080}&l装{#FF69B4}&l台"
+    material: REDSTONE_LAMP
+    lore:
+      - "&a"
+      - "{#FDB7D4}&l用于制作至尊机器"
+      - "{#FDB7D4}&l配方与速率一致"
+      - "{#FDB7D4}&l没有刷物bug"
+      - "&a"
+      - "&8⇨&e ⚡ &710000  J/per"
+      - "&8⇨&e ⚡ &7100000 J 可存储"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SUPREME_ALLOY_ZIRCONIUM
+    2:
+      material_type: slimefun
+      material: SUPREME_SYNTHETIC_RUBY
+    3:
+      material_type: slimefun
+      material: SUPREME_ALLOY_MANGANESE
+    4:
+      material_type: slimefun
+      material: SUPREME_ALLOY_IRIDIUM
+    5:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    6:
+      material_type: slimefun
+      material: SUPREME_ALLOY_AURUM
+    7:
+      material_type: slimefun
+      material: SUPREME_ALLOY_TITANIUM
+    8:
+      material_type: slimefun
+      material: SUPREME_ALLOY_ADAMANTIUM
+    9:
+      material_type: slimefun
+      material: SUPREME_ALLOY_PLATINUM
+  input: [10, 11, 12, 19, 20, 21, 28, 29, 30]
+  output: [25]
+  capacity: 1000
+  energyPerCraft: 100
+  click: 22
+  recipes:
+    "电力魔法工厂I":
+      input:
+        1:
+          material_type: slimefun
+          material: SUPREME_CORE_NETHERITE
+          amount: 1
+          slot: 10
+        2:
+          material: CRYING_OBSIDIAN
+          amount: 1
+          slot: 11
+        3:
+          material_type: slimefun
+          material: SUPREME_CORE_NETHERITE
+          amount: 1
+          slot: 12
+        4:
+          material_type: slimefun
+          material: SUPREME_INDUCTIVE_MACHINE
+          amount: 1
+          slot: 19
+        5:
+          material_type: slimefun
+          material: SUPREME_SYNTHETIC_RUBY
+          amount: 1
+          slot: 20
+        6:
+          material_type: slimefun
+          material: SUPREME_INDUCTIVE_MACHINE
+          amount: 1
+          slot: 21
+        7:
+          material_type: slimefun
+          material: ELECTRIC_MOTOR
+          amount: 1
+          slot: 28
+        8:
+          material_type: slimefun
+          material: CARBONADO_EDGED_CAPACITOR
+          amount: 1
+          slot: 29
+        9:
+          material_type: slimefun
+          material: ELECTRIC_MOTOR
+          amount: 1
+          slot: 30
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_SUPREME_ELECTRIC_MAGICAL_I
+          amount: 1
+          slot: 25
+    "电力魔法工厂II":
+      input:
+        1:
+          material_type: slimefun
+          material: SUPREME_CONVEYANCE_MACHINE
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: SUPREME_CETRUS_LUX
+          amount: 1
+          slot: 11
+        3:
+          material_type: slimefun
+          material: SUPREME_CONVEYANCE_MACHINE
+          amount: 1
+          slot: 12
+        4:
+          material_type: slimefun
+          material: SUPREME_INDUCTOR_MACHINE
+          amount: 1
+          slot: 19
+        5:
+          material_type: slimefun
+          material: MAGIC_SUPREME_ELECTRIC_MAGICAL_I
+          amount: 1
+          slot: 20
+        6:
+          material_type: slimefun
+          material: SUPREME_INDUCTOR_MACHINE
+          amount: 1
+          slot: 21
+        7:
+          material_type: slimefun
+          material: SUPREME_BLEND_MACHINE
+          amount: 1
+          slot: 28
+        8:
+          material_type: slimefun
+          material: SUPREME_CETRUS_IGNIS
+          amount: 1
+          slot: 29
+        9:
+          material_type: slimefun
+          material: SUPREME_BLEND_MACHINE
+          amount: 1
+          slot: 30
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_SUPREME_ELECTRIC_MAGICAL_II
+          amount: 1
+          slot: 25
+    "电力魔法工厂III":
+      input:
+        1:
+          material_type: slimefun
+          material: SUPREME_THORNERITE
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: SUPREME_CETRUS_LUX
+          amount: 1
+          slot: 11
+        3:
+          material_type: slimefun
+          material: SUPREME_THORNERITE
+          amount: 1
+          slot: 12
+        4:
+          material_type: slimefun
+          material: SUPREME_SUPREME
+          amount: 1
+          slot: 19
+        5:
+          material_type: slimefun
+          material: MAGIC_SUPREME_ELECTRIC_MAGICAL_II
+          amount: 1
+          slot: 20
+        6:
+          material_type: slimefun
+          material: SUPREME_SUPREME
+          amount: 1
+          slot: 21
+        7:
+          material_type: slimefun
+          material: SUPREME_CRYSTALLIZER_MACHINE
+          amount: 1
+          slot: 28
+        8:
+          material_type: slimefun
+          material: SUPREME_CETRUS_LUMIUM
+          amount: 1
+          slot: 29
+        9:
+          material_type: slimefun
+          material: SUPREME_CRYSTALLIZER_MACHINE
+          amount: 1
+          slot: 30
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_SUPREME_ELECTRIC_MAGICAL_III
+          amount: 1
+          slot: 25
+    "终极电力魔法工厂":
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_MAGIC_INGOT
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: MAGIC_SOUL
+          amount: 1
+          slot: 11
+        3:
+          material_type: slimefun
+          material: MAGIC_COSMIC_DUST
+          amount: 1
+          slot: 12
+        4:
+          material_type: slimefun
+          material: MAGIC_REDSTONE_BLOCK
+          amount: 1
+          slot: 19
+        5:
+          material_type: slimefun
+          material: MAGIC_SUPREME_ELECTRIC_MAGICAL_III
+          amount: 1
+          slot: 20
+        6:
+          material_type: slimefun
+          material: MAGIC_REDSTONE_BLOCK
+          amount: 1
+          slot: 21
+        7:
+          material_type: slimefun
+          material: MAGIC_COSMIC_DUST
+          amount: 1
+          slot: 28
+        8:
+          material_type: slimefun
+          material: MAGIC_AUTHOR_INGOT
+          amount: 1
+          slot: 29
+        9:
+          material_type: slimefun
+          material: MAGIC_MAGIC_INGOT
+          amount: 1
+          slot: 30
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_SUPREME_ELECTRIC_MAGICAL
+          amount: 1
+          slot: 25

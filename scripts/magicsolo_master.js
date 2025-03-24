@@ -8,7 +8,7 @@ var SpawnEntityms = 7500;           //斩杀间隔,单位毫秒   如30000ms=30s
 
 var NeedperSpawnerCharge = 4096;         //每次击杀生物耗电
 
-var radius = 4;                    //设置检测范围大小      如16,以自身为中心,33格边长的立方体内的数量
+var radius = 8;                    //设置检测范围大小      如16,以自身为中心,33格边长的立方体内的数量
 
 var NeedperCraftCharge = 64;            //每秒耗电      默认去除
 
@@ -23,7 +23,7 @@ function tick(info) {
     // 获取该机器的计数器，如果不存在则初始化为0
     let tickCounter = machineTickCounters.getOrDefault(location, 0);
 
-    
+
     if (tickCounter < SpawnEntitytick) {
         // 更新该机器的计数器
         machineTickCounters.put(location, tickCounter + 1);
@@ -31,7 +31,7 @@ function tick(info) {
         // org.bukkit.Bukkit.broadcastMessage(`§7[系统] §f在 ${tickCounter} 计数测试`);   //测试
         return;
     }
-    
+
 
     let NowCharge = machine.getCharge(location);
 
@@ -68,8 +68,8 @@ function tick(info) {
         }
 
         // 获取半径范围内的所有实体
-        let entities = world.getNearbyEntities(location, radius, radius, radius);
-        
+        // let entities = world.getNearbyEntities(location, radius, radius, radius);
+
         // 随机选择一个在线玩家作为伤害来源
         // let player = getRandomOnlinePlayer();
 
@@ -78,12 +78,12 @@ function tick(info) {
         let radius2 = 50;
 
         let player = getRandomPlayerInRadius(location, radius2);
-        
+
 
         // org.bukkit.Bukkit.broadcastMessage("player:"+ player);
 
 
-        if (!player){
+        if (!player) {
             // org.bukkit.Bukkit.broadcastMessage("附近没有玩家");
             lastUseTimes.put(location, currentTime);
             return;
@@ -93,15 +93,21 @@ function tick(info) {
         // org.bukkit.Bukkit.broadcastMessage(`§7[系统] §f在 ${radius} 格范围内有 ${entities} 只生物。`);     //测试
         // 遍历所有实体并应用伤害
 
-        // 过滤出非玩家的 LivingEntity 实体
-        let livingEntities = entities.filter(entity => 
-            entity instanceof org.bukkit.entity.LivingEntity && !(entity instanceof org.bukkit.entity.Player)
-        );
-        for (let i = 0; i < livingEntities.length; i++) {
-            let entity = livingEntities[i];
-            // org.bukkit.Bukkit.broadcastMessage("生物为:"+ entity);     //测试
-            applyDamage(entity, player);
-        }
+        // // 过滤出非玩家的 LivingEntity 实体
+        // let livingEntities = entities.filter(entity => 
+        //     entity instanceof org.bukkit.entity.LivingEntity && !(entity instanceof org.bukkit.entity.Player)
+        // );
+        // for (let i = 0; i < livingEntities.length; i++) {
+        //     let entity = livingEntities[i];
+        //     // org.bukkit.Bukkit.broadcastMessage("生物为:"+ entity);     //测试
+        //     applyDamage(entity, player);
+        // }
+
+        explodeAtPlayerLocation(player, 4.0, false, false, location, world); // 创建一次爆炸，强度为4.0，不引起火焰，破坏方块，来源为玩家
+
+        // let success = applyAreaDamage(world, location, player);
+
+
 
         machine.removeCharge(location, NeedperSpawnerCharge);
         lastUseTimes.put(location, currentTime);
@@ -109,6 +115,69 @@ function tick(info) {
 
     }
 }
+
+const explodeAtPlayerLocation = (player, power, setFire, breakBlocks, location, world) => {
+    // 在玩家位置创建爆炸，指定爆炸强度、是否引起火焰、是否破坏方块，并将玩家作为爆炸源。
+    world.createExplosion(location, power, setFire, breakBlocks, player);
+}
+
+// ★ 核心优化：批量伤害方法
+function applyAreaDamage(world, center, player) {
+    const DAMAGE = 100;
+    let success = false;
+    let config = getAddonConfig();
+    let entitiesDamaged = 0;
+    let maxEntitiesToDamageStr = config.getString("options.magic.kill-amount");
+
+    // 尝试将字符串转换为整数
+    let maxEntitiesToDamage = parseInt(maxEntitiesToDamageStr, 10);
+
+    // 校验转换后的值是否为有效整数，并且大于0
+    if (isNaN(maxEntitiesToDamage) || !Number.isInteger(maxEntitiesToDamage) || maxEntitiesToDamage <= 0) {
+        // console.error("配置项 'options.magic.kill-amount' 必须是一个大于0的整数。当前设置: " + maxEntitiesToDamageStr);
+        // 使用默认值或其他处理方式
+        maxEntitiesToDamage = 5; // 示例：如果验证失败，使用默认值5
+    } else {
+        // console.log("最大伤害数量设置为: " + maxEntitiesToDamage);
+    }
+
+    // 获取附近的实体并转换为列表
+    let nearbyEntities = world.getNearbyEntities(center, radius, radius, radius);
+
+
+
+    let filteredEntities = [];
+    for (let entity of nearbyEntities) {
+        if (entity instanceof org.bukkit.entity.LivingEntity &&
+            !(entity instanceof org.bukkit.entity.Player) &&
+            entity.isValid() &&
+            !entity.isDead()) {
+            filteredEntities.push(entity);
+            if (filteredEntities.length >= maxEntitiesToDamage) break;
+        }
+    }
+    // org.bukkit.Bukkit.broadcastMessage("filteredEntities:" + filteredEntities);
+
+    // 遍历过滤后的实体列表，最多处理5个实体
+    for (let i = 0; i < filteredEntities.length; i++) {
+        let entity = filteredEntities[i];
+        entitiesDamaged++;
+        // org.bukkit.Bukkit.broadcastMessage("处理的个数为:" + entitiesDamaged);
+        entity.damage(DAMAGE, player);
+        success = true; // 只要有一个实体被处理就标记成功
+    }
+    // runAsync(() => {
+    //     for (let i = 0; i < filteredEntities.length; i++) {
+    //     let entity = filteredEntities[i];
+    //     org.bukkit.Bukkit.broadcastMessage("处理的个数为:"+ entitiesDamaged); 
+    //     entity.damage(DAMAGE, player);
+    // }
+    // });
+
+    return success;
+}
+
+
 
 function onPlace(event) {
     var player = event.getPlayer();
