@@ -256,7 +256,7 @@ MAGIC_GCE_EXCITATION_CHAMBER_PRE_CN:
   register:
     warn: false
     conditions:
-      - 'config.boolean gec-cn'
+      - 'config.boolean fix.gec-cn'
   item:
     name: "&c魔法&7鼓舞室-半成品"
     material: blast_furnace
