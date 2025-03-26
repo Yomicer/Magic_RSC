@@ -4,13 +4,13 @@ MAGIC_REDSTONE:
     name: "&c魔法红石"
     material: redstone
   recipe_type: MAGIC_GEOMINER
-  max_deviation: 18
+  max_deviation: 32
   obtain_from_geo_miner: false
   geo_name: "&c魔法红石"
   supply:
-    normal: 20
-    nether: 0
-    the_end: 0
+    normal: 64
+    nether: 12
+    the_end: 12
 
 MAGIC_COSMIC_DUST:
   item_group: magic_resource
@@ -30,13 +30,13 @@ MAGIC_COSMIC_DUST:
       - "&a"
       - "&a自然资源"
   recipe_type: MAGIC_GEOMINER
-  max_deviation: 2
+  max_deviation: 3
   obtain_from_geo_miner: false
   geo_name: "&b&l宇宙尘"
   supply:
-    normal: 1
-    nether: 0
-    the_end: 0
+    normal: 3
+    nether: 1
+    the_end: 1
 
 MAGIC_SOUL:
   item_group: magic_resource
