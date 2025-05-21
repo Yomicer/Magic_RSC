@@ -2598,3 +2598,13 @@ MAGIC_GRINDING_STONE:
           material_type: slimefun
           material: MAGIC_COSMIC_DUST_1
           amount: 8
+    '破损的传送卷轴':
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_TP_PAPER
+          amount: 1
+      output:
+          material_type: slimefun
+          material: MAGIC_RANDOM_TP_PAPER
+          amount: 1

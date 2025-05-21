@@ -10,7 +10,7 @@ MAGIC_TEST_WHITE_WOOL:
   recipe_type: ENHANCED_CRAFTING_TABLE
   script: "NO_DROP"
   recipe:
-    1: 
+    9: 
       material: WHITE_WOOL
       amount: 1
 
