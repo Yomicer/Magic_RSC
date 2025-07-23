@@ -609,7 +609,11 @@ function onPlayerFish(event) {
         const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
         itemstack.setAmount(1);
 
-        var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
+        // 转换为 CraftItemStack
+        const CraftItemStack = Java.type('org.bukkit.craftbukkit.inventory.CraftItemStack');
+        const craftStack = CraftItemStack.asCraftCopy(itemstack);
+
+        var itemEntity = hook.getWorld().dropItem(hook.getLocation(), craftStack);
         
         // 设置物品不会被立即捡起（10 ticks = 0.5秒）
         itemEntity.setPickupDelay(2);
