@@ -31,6 +31,11 @@ const mainHandItem = (player) => {
 
 const modifyItemLore = (item) => {
 
+    let itemNum = item.getAmount();
+    if(itemNum!=1){
+        return;
+    }
+
     let itemMeta = item.getItemMeta();
     // 获取物品的Lore
     let lore = itemMeta.getLore() ? itemMeta.getLore() : [];

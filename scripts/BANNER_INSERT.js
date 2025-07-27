@@ -14,6 +14,10 @@ const MainHandIf = (hand) => {
 
 const modifyItemLore = (item, num) => {
 
+    let itemNum = item.getAmount();
+    if(itemNum!=1){
+        return;
+    }
     let itemMeta = item.getItemMeta();
     // 获取物品的Lore
     let lore = itemMeta.getLore() ? itemMeta.getLore() : [];
