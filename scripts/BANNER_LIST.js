@@ -7,7 +7,7 @@ const sfIdGetter = (itemStack) => {
 }
 
 const MAGIC_BANNER = [
-    { id: 1, sfId: "MAGIC_BANNER_LIANHUN", particleType1: Particle.SOUL_FIRE_FLAME, particleType2: Particle.SOUL, radius1: 10, height1: 10, radius2: 30, height2: 30, damage1: 0.01, damage2: 8, soulConsume1: 10, soulConsume2: 0.5, particleNum1: 1, particleNum2: 10, reduce1: 4, reduce2: 1 / 3, knock1: 2, knock2: 15, description: "炼魂幡,reduce1向下取整，0-3，reduce2，固定值1/3" },
+    { id: 1, sfId: "MAGIC_BANNER_LIANHUN", particleType1: Particle.SOUL_FIRE_FLAME, particleType2: Particle.SOUL, radius1: 10, height1: 10, radius2: 30, height2: 30, damage1: 0.003, damage2: 8, soulConsume1: 10, soulConsume2: 0.5, particleNum1: 1, particleNum2: 10, reduce1: 7, reduce2: 1 / 3, knock1: 2, knock2: 15, description: "炼魂幡,reduce1向下取整，0-3，reduce2，固定值1/3" },
 ];
 
 const bannerConfigGetter = (MainHandItemSfId) => {
@@ -44,6 +44,7 @@ const modifyItemLore = (item) => {
         let originnumber = parseInt(matchResult[2], 10);
         //灵魂数量+1
         let number = parseInt(matchResult[2], 10) + 1;
+        if(number>10000)number=18888;
         let suffix = matchResult[3] || "";
         let updatedKillNumLine = `${prefix}${number}${suffix}`;
         newLore.push(updatedKillNumLine);
@@ -288,7 +289,7 @@ const ultreEffect = (id, player) => {
         );
 
         let slownessEffect = new org.bukkit.potion.PotionEffect(
-            org.bukkit.potion.PotionEffectType.SLOW, // 效果类型：缓慢
+            org.bukkit.potion.PotionEffectType.LUCK, // 效果类型：缓慢
             100, // 持续时间(ticks)，5秒=100 ticks
             255 // 等级(强度)-最大值
         );
@@ -309,9 +310,21 @@ const ultreEffect = (id, player) => {
         messages.forEach(msg => player.sendMessage(msg));
 
         // 给予玩家效果
+        if(blindnessEffect!=null){
         player.addPotionEffect(blindnessEffect);
+        }else{
+
+        }
+        if(slownessEffect!=null){
         player.addPotionEffect(slownessEffect);
+        }else{
+
+        }
+        if(weaknessEffect!=null){
         player.addPotionEffect(weaknessEffect);
+        }else{
+
+        }
     }
 
 }
@@ -332,7 +345,7 @@ const littleEffect = (id, player) => {
         );
 
         let strengthEffect = new org.bukkit.potion.PotionEffect(
-            org.bukkit.potion.PotionEffectType.INCREASE_DAMAGE, // 效果类型：力量（在API中名为INCREASE_DAMAGE）
+            org.bukkit.potion.PotionEffectType.LUCK, // 效果类型：力量（在API中名为INCREASE_DAMAGE）
             600, // 持续时间(ticks)，30秒=600 ticks
             4 // 等级(强度)-等级值为实际等级减1，因此5级对应值为4
         );
@@ -347,9 +360,21 @@ const littleEffect = (id, player) => {
         messages.forEach(msg => player.sendMessage(msg));
 
         // 给予玩家效果
-        player.addPotionEffect(nightVisionEffect);
-        player.addPotionEffect(speedEffect);
-        player.addPotionEffect(strengthEffect);
+        if(nightVisionEffect!=null){
+            player.addPotionEffect(nightVisionEffect);
+        }else{
+            // console.log("1");
+        }
+        if(speedEffect!=null){
+            player.addPotionEffect(speedEffect);
+        }else{
+            // console.log("2");
+        }  
+        if(strengthEffect!=null){
+            player.addPotionEffect(strengthEffect);
+        }else{
+            // console.log("3");
+        }
     }
 
 }
