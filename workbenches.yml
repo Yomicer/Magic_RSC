@@ -2148,6 +2148,194 @@ MAGIC_FISHING_HOUSE:
           material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
           amount: 11
           slot: 26
+    '万物生-衍万物':
+      input:
+        1:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 0
+        2:
+          material_type: slimefun 
+          material: MAGIC_AUTHOR_INGOT_1
+          amount: 1
+          slot: 1
+        3:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 2
+        4:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 3
+        5:
+          material_type: slimefun 
+          material: MAGIC_AUTHOR_INGOT_1
+          amount: 1
+          slot: 4
+        6:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 5
+        7:
+          material_type: slimefun 
+          material: MAGIC_SUGAR
+          amount: 1
+          slot: 9
+        8:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 10
+        9:
+          material_type: slimefun 
+          material: MAGIC_COSMIC_DUST_1
+          amount: 1
+          slot: 11
+        10:
+          material_type: slimefun 
+          material: FORTUNE_COOKIE
+          amount: 1
+          slot: 12
+        11:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 13
+        12:
+          material_type: slimefun 
+          material: MAGIC_REDSTONE
+          amount: 1
+          slot: 14
+        13:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 18
+        14:
+          material_type: slimefun 
+          material: FORTUNE_COOKIE
+          amount: 1
+          slot: 19
+        15:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 20
+        16:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 21
+        17:
+          material_type: slimefun 
+          material: MAGIC_COSMIC_DUST_1
+          amount: 1
+          slot: 22
+        18:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 23
+        19:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 27
+        20:
+          material_type: slimefun 
+          material: MAGIC_COSMIC_DUST_1
+          amount: 1
+          slot: 28
+        21:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 29
+        22:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 30
+        23:
+          material_type: slimefun 
+          material: FORTUNE_COOKIE
+          amount: 1
+          slot: 31
+        24:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 32
+        25:
+          material_type: slimefun 
+          material: MAGIC_SUGAR
+          amount: 1
+          slot: 36
+        26:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 37
+        27:
+          material_type: slimefun 
+          material: FORTUNE_COOKIE
+          amount: 1
+          slot: 38
+        28:
+          material_type: slimefun 
+          material: MAGIC_COSMIC_DUST_1
+          amount: 1
+          slot: 39
+        29:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 40
+        30:
+          material_type: slimefun 
+          material: MAGIC_REDSTONE
+          amount: 1
+          slot: 41
+        31:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 45
+        32:
+          material_type: slimefun 
+          material: ANCIENT_RUNE_RAINBOW
+          amount: 1
+          slot: 46
+        33:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 47
+        34:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 48
+        35:
+          material_type: slimefun 
+          material: ANCIENT_RUNE_RAINBOW
+          amount: 1
+          slot: 49
+        36:
+          material_type: slimefun 
+          material: MAGIC_ROD_ZMZ_WWS_YE_HSJ
+          amount: 1
+          slot: 50
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_ROD_ZMZ_WWS_YE_YWD
+          amount: 32
+          slot: 26
 
 
 #创世工作台

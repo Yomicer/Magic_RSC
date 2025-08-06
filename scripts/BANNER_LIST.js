@@ -49,7 +49,7 @@ const modifyItemLore = (item) => {
         let originnumber = parseInt(matchResult[2], 10);
         //灵魂数量+1
         let number = parseInt(matchResult[2], 10) + 1;
-        if(number>10000)number=18888;
+        if(number>1888888)number=1888888;
         let suffix = matchResult[3] || "";
         let updatedKillNumLine = `${prefix}${number}${suffix}`;
         newLore.push(updatedKillNumLine);

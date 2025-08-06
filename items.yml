@@ -11561,6 +11561,9 @@ MAGIC_ROD_DESCRIPTION:
       - "{#FDB7D4}│ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │←←←鱼杆放在这一行的任何一格都可以"
       - "{#FDB7D4}└─────────────────────────────────────────────────────"
       - "{#FDB7D4}"
+      - "{#FDB7D4}从第二代鱼饵开始，没有特别规范的使用说明"
+      - "{#FDB7D4}主手拿鱼杆，背包中有饵料即可正常触发魔法钓鱼"
+      - "{#FDB7D4}特别说明，越往后的鱼饵，优先级越高"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
   recipe_type: MAGIC_NONE
@@ -11588,6 +11591,32 @@ MAGIC_ROD_ZMZ_WWS_YE_HSJ:
   item:
     name: "&a&l万&b&l物&9&l生&e&l-{#E9967A}&l绘{#F08080}&l生{#FF69B4}&l机"
     material: SLIME_BALL
+    glow: true
+    lore:
+      - "&a"
+      - "{#FDB7D4}可配合\"&4&l织&c&l梦&6&l者&e&l-&a&l万&b&l物&9&l生\"{#FDB7D4}一起使用"
+      - "{#FDB7D4}是一种特殊的饵料"
+      - "{#FDB7D4}在水中幻化成粘液物品"
+      - "{#FDB7D4}幻化成功后会像鱼一样咬钩"
+      - "{#FDB7D4}目前可幻化出所有原版粘液物品"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
+  recipe_type: MAGIC_SPECIAL
+  recipe: 
+    2: 
+      material_type: slimefun 
+      material: MAGIC_MACHINE_RECIPE_DESCRIPTION
+      amount: 1
+    5: 
+      material_type: slimefun 
+      material: MAGIC_FISHING_HOUSE
+      amount: 1
+
+MAGIC_ROD_ZMZ_WWS_YE_YWD:
+  item_group: magic_interesting_items
+  item:
+    name: "&a&l万&b&l物&9&l生&e&l-{#00BFFF}&l衍{#FFAFAF}&l万{#FF69B4}&l道"
+    material: GHAST_TEAR
     glow: true
     lore:
       - "&a"
@@ -11723,7 +11752,7 @@ MAGIC_BANNER_LIANHUN:
       - "{#FDB7D4}===================================================================================================="
       - "{#FDB7D4}在遥远的古老时代"
       - "{#FDB7D4}当星辰与命运交织之时"
-      - "{#FDB7D4}诞生了这件传说中的神器——炼魂幡（至多承载18888个灵魂）"
+      - "{#FDB7D4}诞生了这件传说中的神器——炼魂幡（至多承载1888888个灵魂）"
       - "§c当前灵魂数量: §e0"
       - "{#FDB7D4}===================================================================================================="
       - "{#FDB7D4}右键释放小范围攻击，并且强化自身状态，伤害=灵魂数量x0.003，随机消耗0~6个灵魂"

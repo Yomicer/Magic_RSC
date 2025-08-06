@@ -2,6 +2,9 @@
 
 function onPlayerFish(event) {
 
+    let ifDone = allSlimefunItemFish(event);
+    if(ifDone)return;
+
     var caught = event.getCaught();
     var player = event.getPlayer();
     var hook = event.getHook();
@@ -638,7 +641,99 @@ function onPlayerFish(event) {
 
 
 
+const allSlimefunItemFish = (e) => {
 
+    var caught = e.getCaught();
+    var player = e.getPlayer();
+    var hook = e.getHook();
+    var State = e.getState()
+
+    const itemList = Slimefun.getRegistry().getAllSlimefunItems().toArray().map(item => item.getId());;
+
+    var itemInMainHand = player.getInventory().getItemInMainHand();
+    var sfItem_Main_Id = getSfItemByItem(itemInMainHand).getId();
+    if(sfItem_Main_Id != "MAGIC_ROD_ZMZ_WWS"){
+        return false;
+    }
+
+    // 检查背包中是否有指定粘液物品，并记录位置以便后续移除
+    var targetItemId = "MAGIC_ROD_ZMZ_WWS_YE_YWD";
+    var foundSlot = -1;
+    var inventory = player.getInventory();
+    var contents = inventory.getContents(); // 获取背包所有物品
+
+    for (var i = 0; i < contents.length; i++) {
+        var item = contents[i];
+        if (item !== null) {
+            var sfItem = getSfItemByItem(item);
+            if (sfItem !== null && sfItem.getId() === targetItemId) {
+                foundSlot = i;
+                break; // 找到第一个就停止
+            }
+        }
+    }
+
+    if (State == "CAUGHT_FISH" && foundSlot >= 0) {
+        var itemInSlot = inventory.getItem(foundSlot);
+        if (itemInSlot.getAmount() > 1) {
+            itemInSlot.setAmount(itemInSlot.getAmount() - 1);
+        } else {
+            inventory.clear(foundSlot); 
+        }
+        caught.remove();
+        // 钓鱼逻辑
+        const selectedItem = itemList[Math.floor(Math.random() * itemList.length)];
+
+        // org.bukkit.Bukkit.broadcastMessage("selectedItem:"+ selectedItem);
+
+        const slimefunItem = getSfItemById(selectedItem);
+
+        if (slimefunItem == null) {
+            // org.bukkit.Bukkit.broadcastMessage("未找到对应的 SlimefunItem");
+            return false;
+        }
+
+
+        
+        const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
+        itemstack.setAmount(1);
+
+        // 转换为 CraftItemStack
+        const CraftItemStack = Java.type('org.bukkit.craftbukkit.inventory.CraftItemStack');
+        const craftStack = CraftItemStack.asCraftCopy(itemstack);
+
+        var itemEntity = hook.getWorld().dropItem(hook.getLocation(), craftStack);
+        
+        // 设置物品不会被立即捡起（10 ticks = 0.5秒）
+        itemEntity.setPickupDelay(2);
+        
+        // 将物品拉向玩家（可选增强效果）
+        var playerLocation = player.getLocation().add(0, 1, 0);
+        var itemLocation = itemEntity.getLocation();
+        var direction = playerLocation.subtract(itemLocation.toVector()).toVector();
+        itemEntity.setVelocity(direction.normalize().multiply(1.7));
+
+        sendMessage(player, "§b恭喜你钓到了 " + itemstack.getItemMeta().getDisplayName() + " §b*1");
+
+        player.playSound(player.getLocation(), "entity.experience_orb.pickup", 2.0, 2.0);
+        return true;
+
+    }
+    return false;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
