@@ -3528,6 +3528,9 @@ MAGIC_GEOMINER:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRiZGFiNjFiMTFhYjQ4MjljMjI4YjdhNjNiMjJiOGZhYzIxYjRhM2U2NzFlYTllNTNiNjNiYzgyZGMwYTcyOCJ9fX0=
     lore: 
       - "&a"
+      - "{#FDB7D4}1.21+版本请使用魔法拓展的资源开采机"
+      - "{#FDB7D4}其实是屎山代码，导致有点懒得修，直接重写了一份"
+      - "{#FDB7D4}1.20版本可正常运行"
       - "{#FDB7D4}从区块深处开采出魔法资源"
       - "{#FDB7D4}可以开采出一些神秘的魔法资源"
       - "{#FDB7D4}该机器一旦放置就会持续抽取电力"
