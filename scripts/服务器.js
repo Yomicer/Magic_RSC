@@ -612,11 +612,15 @@ function onPlayerFish(event) {
         const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
         itemstack.setAmount(1);
 
+        if(isMC1_21Plus){
         // 转换为 CraftItemStack
         const CraftItemStack = Java.type('org.bukkit.craftbukkit.inventory.CraftItemStack');
         const craftStack = CraftItemStack.asCraftCopy(itemstack);
 
         var itemEntity = hook.getWorld().dropItem(hook.getLocation(), craftStack);
+        }else{
+            var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
+        }
         
         // 设置物品不会被立即捡起（10 ticks = 0.5秒）
         itemEntity.setPickupDelay(2);
@@ -638,6 +642,12 @@ function onPlayerFish(event) {
 
 
 }
+
+const isMC1_21Plus = () => {
+    const ver = org.bukkit.Bukkit.getVersion();
+    const m = ver.match(/\(MC:\s*(\d+)\.(\d+)/);
+    return m ? (parseInt(m[1]) === 1 ? parseInt(m[2]) >= 21 : parseInt(m[1]) > 1) : false;
+};
 
 
 
@@ -698,12 +708,15 @@ const allSlimefunItemFish = (e) => {
         const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
         itemstack.setAmount(1);
 
+        if(isMC1_21Plus){
         // 转换为 CraftItemStack
         const CraftItemStack = Java.type('org.bukkit.craftbukkit.inventory.CraftItemStack');
         const craftStack = CraftItemStack.asCraftCopy(itemstack);
 
         var itemEntity = hook.getWorld().dropItem(hook.getLocation(), craftStack);
-        
+        }else{
+            var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
+        }
         // 设置物品不会被立即捡起（10 ticks = 0.5秒）
         itemEntity.setPickupDelay(2);
         
