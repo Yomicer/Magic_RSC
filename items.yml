@@ -6,7 +6,7 @@ MAGIC_VERSION:
     material: PAPER
     lore:
       - '{#FFC1E0}当前魔法版本：'
-      - '&eRelease-0.1.12'
+      - '&eRelease-0.1.13'
       - '&f您在提issues的时候需要展示这个'
   recipe_type: MAGIC_NONE
 
@@ -11563,7 +11563,7 @@ MAGIC_ROD_DESCRIPTION:
       - "{#FDB7D4}"
       - "{#FDB7D4}从第二代鱼饵开始，没有特别规范的使用说明"
       - "{#FDB7D4}主手拿鱼杆，背包中有饵料即可正常触发魔法钓鱼"
-      - "{#FDB7D4}特别说明，越往后的鱼饵，优先级越高"
+      - "{#FDB7D4}特别说明，越先进的鱼饵，优先级越高"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
   recipe_type: MAGIC_NONE
@@ -11624,7 +11624,16 @@ MAGIC_ROD_ZMZ_WWS_YE_YWD:
       - "{#FDB7D4}是一种特殊的饵料"
       - "{#FDB7D4}在水中幻化成粘液物品"
       - "{#FDB7D4}幻化成功后会像鱼一样咬钩"
-      - "{#FDB7D4}目前可幻化出所有原版粘液物品"
+      - "{#FDB7D4}可幻化出所有粘液物品"
+      - "{#FDB7D4}若装有JEG还可幻化出所有原版物品"
+      - "{#FDB7D4}为了能够让该物品活着走出ban位，概率只能设置这么高了"
+      - "{#FDB7D4}公开透明的概率："
+      - "{#FDB7D4}Origin Slimefun Items 90% "
+      - "{#FDB7D4}All Slimefun Guide Group's Items 10% "
+      - "{#FDB7D4}钓鱼佬永不空军！"
+      - "{#FDB7D4}天空属于哈夫克！"
+      - "{#FDB7D4}大地属于尼罗鳄！"
+      - "{#FDB7D4}海洋属于钓鱼佬！"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
   recipe_type: MAGIC_SPECIAL

@@ -1,41 +1,4 @@
-
-
-function onPlayerFish(event) {
-
-    let ifDone = allSlimefunItemFish(event);
-    if(ifDone)return;
-
-    var caught = event.getCaught();
-    var player = event.getPlayer();
-    var hook = event.getHook();
-    var State = event.getState()
-
-
-    //获取双手itemstack
-    var itemInOffHand = player.getInventory().getItem(17);;
-    var itemInMainHand = player.getInventory().getItemInMainHand();
-    var sfItem_Main = getSfItemByItem(itemInMainHand);
-    var sfItem_Off = getSfItemByItem(itemInOffHand);
-
-
-    // org.bukkit.Bukkit.broadcastMessage("caught:"+ caught);
-    // org.bukkit.Bukkit.broadcastMessage("State:"+ State);
-
-    if (caught !== null && sfItem_Main !== null && sfItem_Off !== null){
-
-        var sfItem_Main_id = sfItem_Main.getId();
-        var sfItem_Off_id = sfItem_Off.getId(); 
-    
-    if (State == "CAUGHT_FISH" && sfItem_Main_id == "MAGIC_ROD_ZMZ_WWS" && sfItem_Off_id == "MAGIC_ROD_ZMZ_WWS_YE_HSJ"){
-           
-        // //取消事件防止默认行为
-        // event.setCancelled(true);
-        //删除被捕获的实体
-        let amount = 1;
-        decreaseItemInWhichHand(itemInOffHand, amount);
-        caught.remove();
-        
-        const Slimefun = [
+const SlimefunOrigin = [
             "ADVANCED_CIRCUIT_BOARD",
             "ADVANCED_INDUSTRIAL_MINER",
             "ALUMINUM_BRASS_INGOT",
@@ -594,9 +557,45 @@ function onPlayerFish(event) {
             "ZINC_INGOT",
         ];
 
+function onPlayerFish(event) {
+
+    let ifDone = allSlimefunItemFish(event);
+    if(ifDone)return;
+
+    var caught = event.getCaught();
+    var player = event.getPlayer();
+    var hook = event.getHook();
+    var State = event.getState()
 
 
-        const selectedItem = Slimefun[Math.floor(Math.random() * Slimefun.length)];
+    //获取双手itemstack
+    var itemInOffHand = player.getInventory().getItem(17);;
+    var itemInMainHand = player.getInventory().getItemInMainHand();
+    var sfItem_Main = getSfItemByItem(itemInMainHand);
+    var sfItem_Off = getSfItemByItem(itemInOffHand);
+
+
+    // org.bukkit.Bukkit.broadcastMessage("caught:"+ caught);
+    // org.bukkit.Bukkit.broadcastMessage("State:"+ State);
+
+    if (caught !== null && sfItem_Main !== null && sfItem_Off !== null){
+
+        var sfItem_Main_id = sfItem_Main.getId();
+        var sfItem_Off_id = sfItem_Off.getId(); 
+    
+    if (State == "CAUGHT_FISH" && sfItem_Main_id == "MAGIC_ROD_ZMZ_WWS" && sfItem_Off_id == "MAGIC_ROD_ZMZ_WWS_YE_HSJ"){
+           
+        // //取消事件防止默认行为
+        // event.setCancelled(true);
+        //删除被捕获的实体
+        let amount = 1;
+        decreaseItemInWhichHand(itemInOffHand, amount);
+        caught.remove();
+        
+
+
+
+        const selectedItem = SlimefunOrigin[Math.floor(Math.random() * SlimefunOrigin.length)];
 
         // org.bukkit.Bukkit.broadcastMessage("selectedItem:"+ selectedItem);
 
@@ -691,8 +690,19 @@ const allSlimefunItemFish = (e) => {
             inventory.clear(foundSlot); 
         }
         caught.remove();
+        // 生成 1-100 的随机数
+        const randomChance = Math.floor(Math.random() * 100) + 1;
+
+        let selectedItem;
         // 钓鱼逻辑
-        const selectedItem = itemList[Math.floor(Math.random() * itemList.length)];
+        if (randomChance <= 10) {
+            // 10% 
+            selectedItem = itemList[Math.floor(Math.random() * itemList.length)];
+        } else {
+            // 90% 
+            selectedItem = SlimefunOrigin[Math.floor(Math.random() * SlimefunOrigin.length)];
+        }
+        
 
         // org.bukkit.Bukkit.broadcastMessage("selectedItem:"+ selectedItem);
 
