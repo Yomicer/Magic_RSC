@@ -6,7 +6,7 @@ MAGIC_VERSION:
     material: PAPER
     lore:
       - '{#FFC1E0}当前魔法版本：'
-      - '&eRelease-0.1.13'
+      - '&eRelease-0.1.14'
       - '&f您在提issues的时候需要展示这个'
   recipe_type: MAGIC_NONE
 
@@ -367,6 +367,39 @@ MAGIC_NEWPLAYER_COIN:
       - "&b召唤出不同的福利机器"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    2:
+      material: apple
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    4:
+      material: apple
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    6:
+      material: apple
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
+    8:
+      material: apple
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1
 
 MAGIC_INFINITE_UP:
   #无尽升级模块
@@ -11630,6 +11663,7 @@ MAGIC_ROD_ZMZ_WWS_YE_YWD:
       - "{#FDB7D4}公开透明的概率："
       - "{#FDB7D4}Origin Slimefun Items 90% "
       - "{#FDB7D4}All Slimefun Guide Group's Items 10% "
+      - "{#FDB7D4}Graduation Items 3%-Extra "
       - "{#FDB7D4}钓鱼佬永不空军！"
       - "{#FDB7D4}天空属于哈夫克！"
       - "{#FDB7D4}大地属于尼罗鳄！"

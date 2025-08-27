@@ -605,8 +605,6 @@ function onPlayerFish(event) {
             // org.bukkit.Bukkit.broadcastMessage("未找到对应的 SlimefunItem");
             return ;
         }
-
-
         
         const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
         itemstack.setAmount(1);
@@ -649,6 +647,10 @@ const isMC1_21Plus = () => {
 };
 
 
+function getDisplayNameMag(item) {
+    return ("" + (item?.getItemMeta()?.getDisplayName() || item?.getType().name())).replace(/§[a-zA-Z0-9]|\\u00a7[a-zA-Z0-9]/g, "").trim();
+}
+
 
 const allSlimefunItemFish = (e) => {
 
@@ -690,32 +692,42 @@ const allSlimefunItemFish = (e) => {
             inventory.clear(foundSlot); 
         }
         caught.remove();
-        // 生成 1-100 的随机数
         const randomChance = Math.floor(Math.random() * 100) + 1;
-
         let selectedItem;
         // 钓鱼逻辑
         if (randomChance <= 10) {
-            // 10% 
             selectedItem = itemList[Math.floor(Math.random() * itemList.length)];
         } else {
-            // 90% 
             selectedItem = SlimefunOrigin[Math.floor(Math.random() * SlimefunOrigin.length)];
         }
-        
 
-        // org.bukkit.Bukkit.broadcastMessage("selectedItem:"+ selectedItem);
-
-        const slimefunItem = getSfItemById(selectedItem);
+        var slimefunItem = getSfItemById(selectedItem);
 
         if (slimefunItem == null) {
-            // org.bukkit.Bukkit.broadcastMessage("未找到对应的 SlimefunItem");
             return false;
         }
 
+        //特殊处理
+        var itemstack1 = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
+        const sfItemName = getDisplayNameMag(itemstack1).toLowerCase();
+        const keywords = ["伪物", "矩阵", "创造者", "创世","腐竹","不可控空生成器","50重压缩原石生成器","过载加速器","刷怪笼","压缩基岩","贪婪矩阵","至尊"];
 
+        const hasKeyword = keywords.some(word => sfItemName.includes(word.toLowerCase()));
+
+        if (hasKeyword) {
+            var ifUltra = 1;
+        }
+
+        if (ifUltra==1){
+            const randomChance2 = Math.floor(Math.random() * 100) + 1;
+            if (randomChance2 <= 97){
+            slimefunItem = getSfItemById("MAGIC_ROD_ZMZ_WWS_YE_YWD");
+            }
+        }
+
+        const itemstackOrigin = new org.bukkit.inventory.ItemStack(getSfItemById(selectedItem).getItem());
         
-        const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
+        var itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
         itemstack.setAmount(1);
 
         if(isMC1_21Plus){
@@ -724,8 +736,16 @@ const allSlimefunItemFish = (e) => {
         const craftStack = CraftItemStack.asCraftCopy(itemstack);
 
         var itemEntity = hook.getWorld().dropItem(hook.getLocation(), craftStack);
+        if (hasKeyword) {
+            player.sendMessage("§e鱼饵幻化为了 "+ itemstackOrigin.getItemMeta().getDisplayName());
+            player.sendMessage("§b你钓到了不该钓的东西，鱼饵变回了原来的样子");
+        }
         }else{
             var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
+            if (hasKeyword) {
+            player.sendMessage("§e鱼饵幻化为了 "+ itemstackOrigin.getItemMeta().getDisplayName());
+            player.sendMessage("§b你钓到了不该钓的东西，鱼饵变回了原来的样子");
+        }
         }
         // 设置物品不会被立即捡起（10 ticks = 0.5秒）
         itemEntity.setPickupDelay(2);
