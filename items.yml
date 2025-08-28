@@ -6,7 +6,7 @@ MAGIC_VERSION:
     material: PAPER
     lore:
       - '{#FFC1E0}当前魔法版本：'
-      - '&eRelease-1.1.1'
+      - '&eRelease-1.1.2'
       - '&f您在提issues的时候需要展示这个'
   recipe_type: MAGIC_NONE
 
@@ -12202,4 +12202,27 @@ GROWTH_CHAMBER_OCEAN_MK2:
     9:
       material_type: slimefun
       material: STEEL_PLATE
+      amount: 1
+
+BEE:
+  item_group: magic_resource
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  register:
+    warn: false
+    conditions:
+      - '!hasplugin DynaTech'
+  item:
+    name: "&e蜜蜂（仅作为合成材料）"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIzNjkwYjY0YjQwM2Y0MzYwZDVkNTEwYTE1Mjg2NjJmMjQyZjI5ZDlmOWI0MmExYTVhNGU1NmY5M2ZmYjc4ZiJ9fX0=
+    lore:
+      - "&4魔法材料"
+  recipe:
+    4:
+      material: YELLOW_WOOL
+      amount: 1
+    5:
+      material: CHICKEN
+    6:
+      material: BLACK_WOOL
       amount: 1
