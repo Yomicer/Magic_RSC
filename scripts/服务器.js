@@ -590,6 +590,7 @@ function onPlayerFish(event) {
         //删除被捕获的实体
         let amount = 1;
         decreaseItemInWhichHand(itemInOffHand, amount);
+        caught.setPickupDelay(20);
         caught.remove();
         
 
@@ -609,15 +610,17 @@ function onPlayerFish(event) {
         const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
         itemstack.setAmount(1);
 
-        if(isMC1_21Plus){
+        try {
         // 转换为 CraftItemStack
         const CraftItemStack = Java.type('org.bukkit.craftbukkit.inventory.CraftItemStack');
         const craftStack = CraftItemStack.asCraftCopy(itemstack);
 
         var itemEntity = hook.getWorld().dropItem(hook.getLocation(), craftStack);
-        }else{
+        }catch (e){
+            // 回退到 itemstack 原始方式
             var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
         }
+    
         
         // 设置物品不会被立即捡起（10 ticks = 0.5秒）
         itemEntity.setPickupDelay(2);
@@ -691,6 +694,7 @@ const allSlimefunItemFish = (e) => {
         } else {
             inventory.clear(foundSlot); 
         }
+        caught.setPickupDelay(20);
         caught.remove();
         const randomChance = Math.floor(Math.random() * 100) + 1;
         let selectedItem;
@@ -730,23 +734,23 @@ const allSlimefunItemFish = (e) => {
         var itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
         itemstack.setAmount(1);
 
-        if(isMC1_21Plus){
+
+        try {
         // 转换为 CraftItemStack
         const CraftItemStack = Java.type('org.bukkit.craftbukkit.inventory.CraftItemStack');
         const craftStack = CraftItemStack.asCraftCopy(itemstack);
 
         var itemEntity = hook.getWorld().dropItem(hook.getLocation(), craftStack);
+        }catch (e){
+            // 回退到 itemstack 原始方式
+            var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
+        }
+
         if (hasKeyword) {
             player.sendMessage("§e鱼饵幻化为了 "+ itemstackOrigin.getItemMeta().getDisplayName());
             player.sendMessage("§b你钓到了不该钓的东西，鱼饵变回了原来的样子");
         }
-        }else{
-            var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
-            if (hasKeyword) {
-            player.sendMessage("§e鱼饵幻化为了 "+ itemstackOrigin.getItemMeta().getDisplayName());
-            player.sendMessage("§b你钓到了不该钓的东西，鱼饵变回了原来的样子");
-        }
-        }
+
         // 设置物品不会被立即捡起（10 ticks = 0.5秒）
         itemEntity.setPickupDelay(2);
         
