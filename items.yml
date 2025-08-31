@@ -6,7 +6,7 @@ MAGIC_VERSION:
     material: PAPER
     lore:
       - '{#FFC1E0}当前魔法版本：'
-      - '&eRelease-1.1.2'
+      - '&eRelease-1.1.3'
       - '&f您在提issues的时候需要展示这个'
   recipe_type: MAGIC_NONE
 

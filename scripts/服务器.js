@@ -710,7 +710,7 @@ const allSlimefunItemFish = (e) => {
         //特殊处理
         var itemstack1 = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
         const sfItemName = getDisplayNameMag(itemstack1).toLowerCase();
-        const keywords = ["伪物", "矩阵", "创造者", "创世","腐竹","不可控空生成器","50重压缩原石生成器","过载加速器","刷怪笼","压缩基岩","贪婪矩阵-III","至尊","熵","壳","螺旋体","奇点","终焉"];
+        const keywords = ["伪物", "矩阵", "创造者", "创世","腐竹","不可控空生成器","50重压缩原石生成器","过载加速器","刷怪笼","压缩基岩","贪婪矩阵-III","至尊","熵","壳","螺旋体","奇点","终焉","魔法糖"];
 
         const hasKeyword = keywords.some(word => sfItemName.includes(word.toLowerCase()));
 
