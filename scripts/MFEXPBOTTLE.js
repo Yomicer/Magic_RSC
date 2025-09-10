@@ -17,7 +17,8 @@ function onUse(event) {
     const selectedItem = "MAGIC_EXP_BOTTLE"
 
     const slimefunItem = getSfItemById(selectedItem);
-    const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
+    const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem().getType());
+    itemstack.setItemMeta(slimefunItem.getItem().getItemMeta());
     itemstack.setAmount(1);
 
     

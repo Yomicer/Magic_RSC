@@ -111,7 +111,7 @@ function spawnSpiralParticle(world, location, offsetVector, particleType) {
 function spawnExplosionParticles(world, location) {
     const EXPLOSION_PARTICLE_COUNT = 8; // 爆炸粒子的数量
     const PARTICLE_OFFSET = 0.2; // 粒子的随机偏移范围
-    const EXPLOSION_PARTICLE_TYPE = Particle.EXPLOSION_NORMAL; // 使用正常爆炸粒子作为示例
+    const EXPLOSION_PARTICLE_TYPE = Particle.CLOUD; 
 
     for (let i = 0; i < EXPLOSION_PARTICLE_COUNT; i++) {
         // 随机生成每个粒子的位置偏移
