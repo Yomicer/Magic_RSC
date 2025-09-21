@@ -246,7 +246,10 @@ function tick(info) {
     
     
             const outputItem = getSfItemById("MAGIC_REDSTONE");
-            const outputItemstack = new org.bukkit.inventory.ItemStack(outputItem.getItem());
+            const outputItemstack = new org.bukkit.inventory.ItemStack(outputItem.getItem().getType());
+            outputItemstack.setItemMeta(outputItem.getItem().getItemMeta());
+            outputItemstack.setAmount(1);
+
     
             blockMenu.pushItem(outputItemstack,outslots);
     
@@ -287,7 +290,10 @@ function tick(info) {
 
 
         const outputItem = getSfItemById("MAGIC_COSMIC_DUST");
-        const outputItemstack = new org.bukkit.inventory.ItemStack(outputItem.getItem());
+        const outputItemstack = new org.bukkit.inventory.ItemStack(outputItem.getItem().getType());
+        outputItemstack.setItemMeta(outputItem.getItem().getItemMeta());
+        outputItemstack.setAmount(1);
+
 
         blockMenu.pushItem(outputItemstack,outslots);
 
@@ -327,7 +333,10 @@ function tick(info) {
 
 
         const outputItem = getSfItemById("MAGIC_SOUL");
-        const outputItemstack = new org.bukkit.inventory.ItemStack(outputItem.getItem());
+        const outputItemstack = new org.bukkit.inventory.ItemStack(outputItem.getItem().getType());
+        outputItemstack.setItemMeta(outputItem.getItem().getItemMeta());
+        outputItemstack.setAmount(1);
+
 
         blockMenu.pushItem(outputItemstack,outslots);
 

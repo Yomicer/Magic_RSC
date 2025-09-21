@@ -6627,3 +6627,73 @@ MAGIC_INFINITY_MIX_BOX_1:
       material_type: slimefun
       material: MAGIC_INFINITE_INGOT
       amount: 1
+
+
+
+MAGIC_TWO_TO_RSC_MAGIC_GEO_MACHINE:
+  item_group: magic_power
+  register:
+    warn: false
+    conditions:
+      - 'itemexist MAGIC_EXPANSION_RSC_MAGIC_REDSTONE'
+  item:
+    name: "{#FFC0CB}魔法2.0 To rsc魔法 geo资源转换器"
+    material: FURNACE
+    lore:
+      - "&7资源转换"
+      - "&a"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &72 J/s"
+      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&a"
+      - "&c魔法机"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    4:
+      material_type: slimefun
+      material: MAGIC_SUGAR
+    2:
+      material: SUGAR
+  capacity: 100
+  input: [19,20]
+  output: [24,25]
+  energyPerCraft: 1
+  status: 22
+  speed: 2
+  recipes:
+    '1':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_EXPANSION_RSC_MAGIC_REDSTONE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_REDSTONE
+          amount: 1
+    '2':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_EXPANSION_RSC_MAGIC_COSMIC_DUST
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_COSMIC_DUST
+          amount: 1
+    '3':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_EXPANSION_RSC_MAGIC_SOUL
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: MAGIC_SOUL
+          amount: 1
