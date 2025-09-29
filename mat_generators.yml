@@ -3242,7 +3242,7 @@ MAGIC_LAVA_BUCKET_MACHINE:
       amount: 1
     4:
       material_type: slimefun
-      material: OMC_ADVANCED_OBSIDIAN_GEN
+      material: MAGIC_REDSTONE
       amount: 1
     5:
       material_type: slimefun
@@ -3250,7 +3250,7 @@ MAGIC_LAVA_BUCKET_MACHINE:
       amount: 1
     6:
       material_type: slimefun
-      material: OMC_ADVANCED_OBSIDIAN_GEN
+      material: MAGIC_REDSTONE
       amount: 1
     7:
       material_type: slimefun
