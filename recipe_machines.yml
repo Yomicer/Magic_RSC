@@ -1307,7 +1307,7 @@ MAGIC_WAR_MACHINES_CREATING_TABLE:
       output:
         1:
           material_type: slimefun
-          material: MONAZITE
+          material: MONAZITE|MAGIC_REDSTONE
           amount: 1
 
 
