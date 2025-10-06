@@ -607,19 +607,25 @@ function onPlayerFish(event) {
             return ;
         }
         
-        const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
-        itemstack.setAmount(1);
 
-        try {
-        // 转换为 CraftItemStack
-        const CraftItemStack = Java.type('org.bukkit.craftbukkit.inventory.CraftItemStack');
-        const craftStack = CraftItemStack.asCraftCopy(itemstack);
+        const itemStack = slimefunItem.getItem().clone();
+        itemStack.setAmount(1);
+        var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemStack);
 
-        var itemEntity = hook.getWorld().dropItem(hook.getLocation(), craftStack);
-        }catch (e){
-            // 回退到 itemstack 原始方式
-            var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
-        }
+
+        // const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
+        // itemstack.setAmount(1);
+
+        // try {
+        // // 转换为 CraftItemStack
+        // const CraftItemStack = Java.type('org.bukkit.craftbukkit.inventory.CraftItemStack');
+        // const craftStack = CraftItemStack.asCraftCopy(itemstack);
+
+        // var itemEntity = hook.getWorld().dropItem(hook.getLocation(), craftStack);
+        // }catch (e){
+        //     // 回退到 itemstack 原始方式
+        //     var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
+        // }
     
         
         // 设置物品不会被立即捡起（10 ticks = 0.5秒）
@@ -631,7 +637,7 @@ function onPlayerFish(event) {
         var direction = playerLocation.subtract(itemLocation.toVector()).toVector();
         itemEntity.setVelocity(direction.normalize().multiply(1.7));
 
-        sendMessage(player, "§b恭喜你钓到了 " + itemstack.getItemMeta().getDisplayName() + " §b*1");
+        sendMessage(player, "§b恭喜你钓到了 " + itemStack.getItemMeta().getDisplayName() + " §b*1");
         
         //发送音效反馈
         player.playSound(player.getLocation(), "entity.experience_orb.pickup", 1.0, 1.0);
@@ -731,20 +737,25 @@ const allSlimefunItemFish = (e) => {
 
         const itemstackOrigin = new org.bukkit.inventory.ItemStack(getSfItemById(selectedItem).getItem());
         
-        var itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
-        itemstack.setAmount(1);
+
+        const itemStack = slimefunItem.getItem().clone();
+        itemStack.setAmount(1);
+        var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemStack);
+
+        // var itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
+        // itemstack.setAmount(1);
 
 
-        try {
-        // 转换为 CraftItemStack
-        const CraftItemStack = Java.type('org.bukkit.craftbukkit.inventory.CraftItemStack');
-        const craftStack = CraftItemStack.asCraftCopy(itemstack);
+        // try {
+        // // 转换为 CraftItemStack
+        // const CraftItemStack = Java.type('org.bukkit.craftbukkit.inventory.CraftItemStack');
+        // const craftStack = CraftItemStack.asCraftCopy(itemstack);
 
-        var itemEntity = hook.getWorld().dropItem(hook.getLocation(), craftStack);
-        }catch (e){
-            // 回退到 itemstack 原始方式
-            var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
-        }
+        // var itemEntity = hook.getWorld().dropItem(hook.getLocation(), craftStack);
+        // }catch (e){
+        //     // 回退到 itemstack 原始方式
+        //     var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
+        // }
 
         if (hasKeyword) {
             player.sendMessage("§e鱼饵幻化为了 "+ itemstackOrigin.getItemMeta().getDisplayName());
@@ -760,7 +771,7 @@ const allSlimefunItemFish = (e) => {
         var direction = playerLocation.subtract(itemLocation.toVector()).toVector();
         itemEntity.setVelocity(direction.normalize().multiply(1.7));
 
-        sendMessage(player, "§b恭喜你钓到了 " + itemstack.getItemMeta().getDisplayName() + " §b*1");
+        sendMessage(player, "§b恭喜你钓到了 " + itemStack.getItemMeta().getDisplayName() + " §b*1");
 
         player.playSound(player.getLocation(), "entity.experience_orb.pickup", 2.0, 2.0);
         return true;
