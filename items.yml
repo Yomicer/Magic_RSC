@@ -6,7 +6,7 @@ MAGIC_VERSION:
     material: PAPER
     lore:
       - '{#FFC1E0}当前魔法版本：'
-      - '&eRelease-1.1.11'
+      - '&eRelease-1.1.12'
       - '&f您在提issues的时候需要展示这个'
   recipe_type: MAGIC_NONE
 
@@ -5597,10 +5597,6 @@ MAGIC_INFINITY_TREE_GROWER8:
 MAGIC_GROWTH_CHAMBER_MK2_8: 
   #9个培育仓 MK2
   item_group: magic_plant
-  register:
-    warn: false
-    conditions:
-      - 'hasplugin DYNATECH'
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&69个培育仓 MK2"
@@ -5614,94 +5610,39 @@ MAGIC_GROWTH_CHAMBER_MK2_8:
   recipe:
     1: 
       material_type: slimefun
-      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2
+      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2 | MAGIC_GROWTH_CHAMBER_MK2
       amount: 1
     2: 
       material_type: slimefun
-      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2
+      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2 | MAGIC_GROWTH_CHAMBER_MK2
       amount: 1
     3: 
       material_type: slimefun
-      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2
+      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2 | MAGIC_GROWTH_CHAMBER_MK2
       amount: 1
     4: 
       material_type: slimefun
-      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2
+      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2 | MAGIC_GROWTH_CHAMBER_MK2
       amount: 1
     5: 
       material_type: slimefun
-      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2
+      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2 | MAGIC_GROWTH_CHAMBER_MK2
       amount: 
     6: 
       material_type: slimefun
-      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2
+      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2 | MAGIC_GROWTH_CHAMBER_MK2
       amount: 1
     7: 
       material_type: slimefun
-      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2
+      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2 | MAGIC_GROWTH_CHAMBER_MK2
       amount: 1
     8: 
       material_type: slimefun
-      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2
+      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2 | MAGIC_GROWTH_CHAMBER_MK2
       amount: 1
     9: 
       material_type: slimefun
-      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2
-      amount: 1
-
-MAGIC_GROWTH_CHAMBER_MK2_8: 
-  #9个培育仓 MK2
-  item_group: magic_plant
-  register:
-    warn: false
-    conditions:
-      - '!hasplugin DYNATECH'
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  item:
-    name: "&69个培育仓 MK2"
-    material: LIME_STAINED_GLASS
-    glow: true
-    lore:
-      - "&a" 
-      - "&79个培育仓 MK2"
-      - "&a" 
-      - "&c魔法材料"
-  recipe:
-    1: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_MK2
-      amount: 1
-    2: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_MK2
-      amount: 1
-    3: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_MK2
-      amount: 1
-    4: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_MK2
-      amount: 1
-    5: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_MK2
-      amount: 
-    6: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_MK2
-      amount: 1
-    7: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_MK2
-      amount: 1
-    8: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_MK2
-      amount: 1
-    9: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_MK2
+      material: GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MK2 | DT_GROWTH_CHAMBER_MK2 | MAGIC_GROWTH_CHAMBER_MK2
       amount: 1
 
 MAGIC_GROWTH_CHAMBER_MK2_81: 
@@ -5758,10 +5699,6 @@ MAGIC_GROWTH_CHAMBER_MK2_81:
 MAGIC_GROWTH_CHAMBER_END_MK2_8: 
   #9个末影培育仓 MK2
   item_group: magic_plant
-  register:
-    warn: false
-    conditions:
-      - 'hasplugin DYNATECH'
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&d9个末影培育仓 MK2"
@@ -5775,95 +5712,41 @@ MAGIC_GROWTH_CHAMBER_END_MK2_8:
   recipe:
     1: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2
+      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2 | MAGIC_GROWTH_CHAMBER_END_MK2
       amount: 1
     2: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2
+      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2 | MAGIC_GROWTH_CHAMBER_END_MK2
       amount: 1
     3: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2
+      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2 | MAGIC_GROWTH_CHAMBER_END_MK2
       amount: 1
     4: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2
+      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2 | MAGIC_GROWTH_CHAMBER_END_MK2
       amount: 1
     5: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2
+      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2 | MAGIC_GROWTH_CHAMBER_END_MK2
       amount: 
     6: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2
+      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2 | MAGIC_GROWTH_CHAMBER_END_MK2
       amount: 1
     7: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2
+      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2 | MAGIC_GROWTH_CHAMBER_END_MK2
       amount: 1
     8: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2
+      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2 | MAGIC_GROWTH_CHAMBER_END_MK2
       amount: 1
     9: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2
+      material: DYNATECH_GROWTH_CHAMBER_END_MK2 | GROWTH_CHAMBER_END_MK2 | DT_GROWTH_CHAMBER_END_MK2 | MAGIC_GROWTH_CHAMBER_END_MK2
       amount: 1
 
-MAGIC_GROWTH_CHAMBER_END_MK2_8: 
-  #9个末影培育仓 MK2
-  item_group: magic_plant
-  register:
-    warn: false
-    conditions:
-      - '!hasplugin DYNATECH'
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  item:
-    name: "&d9个末影培育仓 MK2"
-    material: PURPLE_STAINED_GLASS
-    glow: true
-    lore:
-      - "&a" 
-      - "&79个培育仓 MK2"
-      - "&a" 
-      - "&c魔法材料"
-  recipe:
-    1: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_END_MK2
-      amount: 1
-    2: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_END_MK2
-      amount: 1
-    3: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_END_MK2
-      amount: 1
-    4: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_END_MK2
-      amount: 1
-    5: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_END_MK2
-      amount: 
-    6: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_END_MK2
-      amount: 1
-    7: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_END_MK2
-      amount: 1
-    8: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_END_MK2
-      amount: 1
-    9: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_END_MK2
-      amount: 1
 
 MAGIC_MAGIC_GROWTH_CHAMBER_END_MK2_81: 
   #81个末影培育仓 MK2
@@ -5919,10 +5802,6 @@ MAGIC_MAGIC_GROWTH_CHAMBER_END_MK2_81:
 MAGIC_GROWTH_CHAMBER_NETHER_MK2_8: 
   #9个下届培育仓 MK2
   item_group: magic_plant
-  register:
-    warn: false
-    conditions:
-      - 'hasplugin DYNATECH'
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&c9个下届培育仓 MK2"
@@ -5936,95 +5815,41 @@ MAGIC_GROWTH_CHAMBER_NETHER_MK2_8:
   recipe:
     1: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2
+      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2 | MAGIC_GROWTH_CHAMBER_NETHER_MK2
       amount: 1
     2: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2
+      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2 | MAGIC_GROWTH_CHAMBER_NETHER_MK2
       amount: 1
     3: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2
+      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2 | MAGIC_GROWTH_CHAMBER_NETHER_MK2
       amount: 1
     4: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2
+      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2 | MAGIC_GROWTH_CHAMBER_NETHER_MK2
       amount: 1
     5: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2
+      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2 | MAGIC_GROWTH_CHAMBER_NETHER_MK2
       amount: 
     6: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2
+      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2 | MAGIC_GROWTH_CHAMBER_NETHER_MK2
       amount: 1
     7: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2
+      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2 | MAGIC_GROWTH_CHAMBER_NETHER_MK2
       amount: 1
     8: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2
+      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2 | MAGIC_GROWTH_CHAMBER_NETHER_MK2
       amount: 1
     9: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2
+      material: DYNATECH_GROWTH_CHAMBER_NETHER_MK2 | DT_GROWTH_CHAMBER_NETHER_MK2 | GROWTH_CHAMBER_NETHER_MK2 | MAGIC_GROWTH_CHAMBER_NETHER_MK2
       amount: 1
 
-MAGIC_GROWTH_CHAMBER_NETHER_MK2_8: 
-  #9个下届培育仓 MK2
-  item_group: magic_plant
-  register:
-    warn: false
-    conditions:
-      - '!hasplugin DYNATECH'
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  item:
-    name: "&c9个下届培育仓 MK2"
-    material: RED_STAINED_GLASS
-    glow: true
-    lore:
-      - "&a" 
-      - "&79个下届培育仓 MK2"
-      - "&a" 
-      - "&c魔法材料"
-  recipe:
-    1: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_NETHER_MK2_81
-      amount: 1
-    2: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_NETHER_MK2_81
-      amount: 1
-    3: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_NETHER_MK2_81
-      amount: 1
-    4: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_NETHER_MK2_81
-      amount: 1
-    5: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_NETHER_MK2_81
-      amount: 
-    6: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_NETHER_MK2_81
-      amount: 1
-    7: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_NETHER_MK2_81
-      amount: 1
-    8: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_NETHER_MK2_81
-      amount: 1
-    9: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_NETHER_MK2_81
-      amount: 1
 
 MAGIC_GROWTH_CHAMBER_NETHER_MK2_81: 
   #81个下届培育仓 MK2
@@ -6080,10 +5905,6 @@ MAGIC_GROWTH_CHAMBER_NETHER_MK2_81:
 MAGIC_GROWTH_CHAMBER_OCEAN_MK2_8: 
   #9个海洋培育仓 MK2
   item_group: magic_plant
-  register:
-    warn: false
-    conditions:
-      - 'hasplugin DYNATECH'
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
     name: "&b9个海洋培育仓 MK2"
@@ -6097,94 +5918,39 @@ MAGIC_GROWTH_CHAMBER_OCEAN_MK2_8:
   recipe:
     1: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2
+      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2 | MAGIC_GROWTH_CHAMBER_OCEAN_MK2
       amount: 1
     2: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2
+      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2 | MAGIC_GROWTH_CHAMBER_OCEAN_MK2
       amount: 1
     3: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2
+      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2 | MAGIC_GROWTH_CHAMBER_OCEAN_MK2
       amount: 1
     4: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2
+      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2 | MAGIC_GROWTH_CHAMBER_OCEAN_MK2
       amount: 1
     5: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2
+      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2 | MAGIC_GROWTH_CHAMBER_OCEAN_MK2
       amount: 
     6: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2
+      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2 | MAGIC_GROWTH_CHAMBER_OCEAN_MK2
       amount: 1
     7: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2
+      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2 | MAGIC_GROWTH_CHAMBER_OCEAN_MK2
       amount: 1
     8: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2
+      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2 | MAGIC_GROWTH_CHAMBER_OCEAN_MK2
       amount: 1
     9: 
       material_type: slimefun
-      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2
-      amount: 1
-
-MAGIC_GROWTH_CHAMBER_OCEAN_MK2_8: 
-  #9个海洋培育仓 MK2
-  item_group: magic_plant
-  register:
-    warn: false
-    conditions:
-      - '!hasplugin DYNATECH'
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  item:
-    name: "&b9个海洋培育仓 MK2"
-    material: LIGHT_BLUE_STAINED_GLASS
-    glow: true
-    lore:
-      - "&a" 
-      - "&79个培育仓 MK2"
-      - "&a" 
-      - "&c魔法材料"
-  recipe:
-    1: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_OCEAN_MK2
-      amount: 1
-    2: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_OCEAN_MK2
-      amount: 1
-    3: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_OCEAN_MK2
-      amount: 1
-    4: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_OCEAN_MK2
-      amount: 1
-    5: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_OCEAN_MK2
-      amount: 
-    6: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_OCEAN_MK2
-      amount: 1
-    7: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_OCEAN_MK2
-      amount: 1
-    8: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_OCEAN_MK2
-      amount: 1
-    9: 
-      material_type: slimefun
-      material: MAGIC_GROWTH_CHAMBER_OCEAN_MK2
+      material: DYNATECH_GROWTH_CHAMBER_OCEAN_MK2 | DT_GROWTH_CHAMBER_OCEAN_MK2 | CHAMBER_OCEAN_MK2 | MAGIC_GROWTH_CHAMBER_OCEAN_MK2
       amount: 1
 
 MAGIC_GROWTH_CHAMBER_OCEAN_MK2_81: 
