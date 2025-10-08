@@ -546,7 +546,7 @@ MAGIC_MOB_SIMULATION_CHAMBER:
         output:
           1: 
             material_type: slimefun
-            material: VEX_GEM
+            material: VEX_GEM | DYNATECH_VEX_GEM
             amount: 1
     PHANTOM_DATA_CARD_MAGIC:
       '1':
