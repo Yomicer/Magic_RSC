@@ -6,7 +6,7 @@ MAGIC_VERSION:
     material: PAPER
     lore:
       - '{#FFC1E0}当前魔法版本：'
-      - '&eRelease-1.1.14'
+      - '&eRelease-1.1.15'
       - '&f您在提issues的时候需要展示这个'
   recipe_type: MAGIC_NONE
 
@@ -6331,7 +6331,7 @@ MAGIC_NEW_PLANECUP:
   recipe:
     1:
       material_type: slimefun
-      material: BEE
+      material: BEE | DT_BEE | DYNATECH_BEE | MAGIC_BEE
       amount: 1
     2:
       material: MILK_BUCKET
@@ -12229,13 +12229,13 @@ BEE:
       material: BLACK_WOOL
       amount: 1
 
-BEE:
+MAGIC_BEE:
   item_group: magic_resource
   recipe_type: ENHANCED_CRAFTING_TABLE
   register:
     warn: false
     conditions:
-      - '!itemexist BEE'
+      - '!hasplugin DynaTech'
   item:
     name: "&e蜜蜂（仅作为合成材料）"
     material_type: skull_base64
